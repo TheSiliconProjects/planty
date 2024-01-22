@@ -1,0 +1,109 @@
+# Translation of Plugins - Tumblr Importer - Stable (latest release) in Portuguese (Portugal)
+# This file is distributed under the same license as the Plugins - Tumblr Importer - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-10-29 15:46:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: pt\n"
+"Project-Id-Version: Plugins - Tumblr Importer - Stable (latest release)\n"
+
+#. Author of the plugin
+msgid "wordpressdotorg"
+msgstr "wordpressdotorg"
+
+#. Author URI of the plugin
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: tumblr-importer.php:416 tumblr-importer.php:488 tumblr-importer.php:533
+msgid "Problem communicating with Tumblr, retrying later"
+msgstr "Problema ao comunicar com o Tumblr, tentando mais tarde"
+
+#: tumblr-importer.php:339
+msgid "This blog is currently being imported."
+msgstr "Este blog está de momento a ser importado."
+
+#: tumblr-importer.php:334
+msgid "The specified blog cannot be found."
+msgstr "Não foi possível encontrar o site especificado."
+
+#: tumblr-importer.php:276
+msgid "In Progress"
+msgstr "Em curso"
+
+#: tumblr-importer.php:274
+msgid "Finished!"
+msgstr "Terminado!"
+
+#: tumblr-importer.php:272
+msgid "Import this blog"
+msgstr "Importar este blog"
+
+#: tumblr-importer.php:249
+msgid "Pages Imported"
+msgstr "Páginas importadas"
+
+#: tumblr-importer.php:245
+msgid "URL"
+msgstr "URL"
+
+#: tumblr-importer.php:244
+msgid "Tumblr Blog"
+msgstr "Blog Tumblr"
+
+#: tumblr-importer.php:150
+msgid "Connect to Tumblr"
+msgstr "Conectar ao Tumblr"
+
+#: tumblr-importer.php:248
+msgid "Queued Imported"
+msgstr "Fila importada"
+
+#: tumblr-importer.php:247
+msgid "Drafts Imported"
+msgstr "Rascunhos importados"
+
+#: tumblr-importer.php:246
+msgid "Posts Imported"
+msgstr "Artigos importados"
+
+#: tumblr-importer.php:250
+msgid "Author"
+msgstr "Autor"
+
+#: class-wp-importer-cron.php:51
+msgid "Every Minute"
+msgstr "Todos os minutos"
+
+#. Description of the plugin
+#: tumblr-importer.php:33
+msgid "Import posts from a Tumblr blog."
+msgstr "Importar artigos de um blog no Tumblr."
+
+#: tumblr-importer.php:124
+msgid "Howdy! This importer allows you to import posts from your Tumblr account into your WordPress site."
+msgstr "Olá! Este importador permite-lhe importar artigos a partir da sua conta no Tumblr para o seu site WordPress."
+
+#: tumblr-importer.php:122 tumblr-importer.php:236
+msgid "Import Tumblr"
+msgstr "Importar Tumblr"
+
+#: tumblr-importer.php:104
+msgid "Clear account information"
+msgstr "Limpar informação de conta"
+
+#: tumblr-importer.php:100
+msgid "Note: This will stop any import currently in progress."
+msgstr "Nota: Esta operação terminará qualquer importação que esteja de momento em curso."
+
+#: tumblr-importer.php:33
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: tumblr-importer.php:99
+msgid "We have saved some information about your Tumblr account in your WordPress database. Clearing this information will allow you to start over. Restarting will not affect any posts you have already imported. If you attempt to re-import a blog, duplicate posts will be skipped."
+msgstr "Gravamos alguma informação sobre a sua conta no Tumblr na base de dados do WordPress. Se limpar este informação, ser-lhe-á possível começar de novo. Reiniciar não afectará nenhum artigo que já tenha sido importado. Se tentar re-importar um blog, os artigos duplicados serão ignorados."

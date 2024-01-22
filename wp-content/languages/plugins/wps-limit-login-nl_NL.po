@@ -1,0 +1,362 @@
+# Translation of Plugins - WPS Limit Login - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - WPS Limit Login - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-06-15 07:38:17+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - WPS Limit Login - Stable (latest release)\n"
+
+#. Author of the plugin
+msgid "WPServeur, NicolasKulka, wpformation"
+msgstr "WPServeur, NicolasKulka, wpformation"
+
+#: blocks/pub.php:45
+msgid "Enable"
+msgstr "Inschakelen"
+
+#: blocks/pub.php:33
+msgid "Install"
+msgstr "Installeren"
+
+#: classes/plugin.php:1468
+msgid "Thanks :)"
+msgstr "Bedankt :)"
+
+#: classes/plugin.php:1466
+msgid "If you like %1$s please leave us a %2$s rating. A huge thanks in advance!"
+msgstr "Als je %1$s leuk vindt, geef ons dan een beoordeling van %2$s. Bij voorbaat hartelijk dank!"
+
+#: blocks/pub-wpserveur.php:71 blocks/pub.php:71
+msgid "More about %s"
+msgstr "Meer over %s"
+
+#: classes/plugin.php:1424
+msgid "See all lockouts"
+msgstr "Bekijk alle uitsluitingen"
+
+#: classes/plugin.php:1408
+msgid "List of the last 5 lockouts:"
+msgstr "Lijst van de laatste 5 uitsluitingen:"
+
+#: classes/plugin.php:1390 classes/plugin.php:1392
+msgid "Settings"
+msgstr "Instellingen"
+
+#. Author URI of the plugin
+msgid "https://wpserveur.net"
+msgstr "https://wpserveur.net"
+
+#. Description of the plugin
+msgid "Limit connection attempts by IP address"
+msgstr "Beperk verbindingspogingen op IP-adres"
+
+#. Plugin Name of the plugin
+#: classes/plugin.php:1467
+msgid "WPS Limit Login"
+msgstr "WPS Limit Login"
+
+#: classes/plugin.php:1147 classes/plugin.php:1165 classes/plugin.php:1183
+msgid "Options saved."
+msgstr "Opties opgeslagen."
+
+#: classes/plugin.php:1118
+msgid "Cleared current lockouts"
+msgstr "Actieve blokkades zijn gewist"
+
+#: classes/plugin.php:1112
+msgid "Reset lockout count"
+msgstr "Reset blokkades teller"
+
+#: classes/plugin.php:1106
+msgid "Cleared IP log"
+msgstr "IP log is gewist"
+
+#: classes/plugin.php:957
+msgid "WC Error"
+msgstr "WC fout"
+
+#: classes/plugin.php:934
+msgid "<strong>ERROR</strong>: Incorrect username or password."
+msgstr "<strong>FOUT</strong>: Ongeldige gebruikersnaam of wachtwoord."
+
+#: classes/plugin.php:866
+msgid "Please try again in %d minute."
+msgid_plural "Please try again in %d minutes."
+msgstr[0] "Probeer het over %d minuut nogmaals"
+msgstr[1] "Probeer het over %d minuten nogmaals."
+
+#: classes/plugin.php:864
+msgid "Please try again in %d hour."
+msgid_plural "Please try again in %d hours."
+msgstr[0] ".Probeer het over %d uur nogmaals."
+msgstr[1] "Probeer het over %d uren nogmaals."
+
+#: classes/plugin.php:856
+msgid "Please try again later."
+msgstr "Probeer het later nogmaals"
+
+#: classes/plugin.php:666
+msgid "IP was blocked for %s"
+msgstr "IP was geblokkeerd voor %s."
+
+#: classes/plugin.php:664
+msgid "IP was NOT blocked because of external whitelist."
+msgstr "IP NIET geblokkeerd op grond van externe lijst toegestaan."
+
+#: classes/plugin.php:660
+msgid "Last user attempted: %s"
+msgstr "Laatste inlogpoging werd gedaan met de gebruikersnaam: %s"
+
+#: classes/plugin.php:656
+msgid "%d failed login attempts (%d lockout(s)) from IP: %s"
+msgstr "%d gefaalde login pogingen (%d blokkades) van IP: %s"
+
+#: classes/plugin.php:651
+msgid "[%s - WPS Limit Login] Too many failed login attempts"
+msgstr "[%s - WPS Limit Login] Te veel mislukte inlogpogingen"
+
+#: classes/plugin.php:647
+msgid "[%s - WPS Limit Login] Failed login attempts from whitelisted IP"
+msgstr "[%s - WPS Limit Login] Mislukte inlogpogingen van IP op de whitelist"
+
+#: classes/plugin.php:640
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minute"
+msgstr[1] "%d minuten"
+
+#: classes/plugin.php:634
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d uur"
+msgstr[1] "%d uren"
+
+#: classes/plugin.php:316 classes/plugin.php:791 classes/plugin.php:852
+msgid "<strong>ERROR</strong>: Too many failed login attempts."
+msgstr "<strong>FOUT</strong>: Teveel gefaalde inlogpogingen."
+
+#: classes/plugin.php:263 classes/plugin.php:1006
+msgid "<strong>%d</strong> attempt remaining."
+msgid_plural "<strong>%d</strong> attempts remaining."
+msgstr[0] "Nog <strong>%d</strong> loginpoging mogelijk."
+msgstr[1] "Nog <strong>%d</strong> loginpogingen mogelijk."
+
+#: blocks/whitelist.php:19
+msgid "which will add all ip between 88.88.88.86 and 88.88.88.90 in the whitelist"
+msgstr "die alle ip tussen 88.88.88.86 en 88.88.88.90 in de whitelist toevoegen"
+
+#: blocks/whitelist.php:16
+msgid "Add your IP address (%s) to a whitelist."
+msgstr "Voeg je IP adres (%s) toe aan een lijst toegestaan."
+
+#: blocks/whitelist.php:15
+msgid "Sets a list of IP addresses that will have no attempt limit and will never be blocked. Be careful, you must put trusted IP addresses (example: the IP address of your home), you must never put the IP address of a public network (Internet cafe or other)."
+msgstr "Stelt een lijst in met IP-adressen die geen pogingsbeperking hebben en nooit worden geblokkeerd. Wees voorzichtig, je moet vertrouwde IP-adressen invoeren (bijvoorbeeld: het IP-adres van je huis), je mag nooit het IP-adres van een openbaar netwerk (internetcafé of andere) invoeren."
+
+#: blocks/settings.php:87
+msgid "Reset the original settings"
+msgstr "Herstel de originele instellingen"
+
+#: blocks/settings.php:80
+msgid "Show credit link"
+msgstr "Toon krediet link"
+
+#: blocks/settings.php:76
+msgid "This helps others know about the plugin so they can protect their blogs as well if they like. However, you can disable this message if you prefer."
+msgstr "Dit helpt anderen op de hoogte te zijn van de plugin, zodat ze hun blogs ook kunnen beschermen als ze dat willen. Je kunt dit bericht echter desgewenst uitschakelen."
+
+#: blocks/settings.php:73 classes/plugin.php:1278
+msgid "Login form protected by"
+msgstr "Loginformulier beschermd door"
+
+#: blocks/settings.php:71
+msgid "By default, WPS Limit Login will display the following message on the login form:"
+msgstr "Standaard geeft WPS Limit Login het volgende bericht weer op het inlogformulier:"
+
+#: blocks/settings.php:70
+msgid "Show Credit Link?"
+msgstr "Toon krediet link?"
+
+#: blocks/settings.php:67
+msgid "lockouts"
+msgstr "Blokkades"
+
+#: blocks/settings.php:65
+msgid "Email to admin after"
+msgstr "Email de beheerder na"
+
+#: blocks/settings.php:60
+msgid "hours"
+msgstr "uren"
+
+#: blocks/settings.php:58
+msgid "lockouts increase lockout time to"
+msgstr "Blokkades verhogen de blokkade tijd naar"
+
+#: blocks/settings.php:54
+msgid "hours until retries are reset"
+msgstr "aantal uren voordat het aantal ondernomen pogingen wordt gereset"
+
+#: blocks/settings.php:50
+msgid "minutes"
+msgstr "minuten"
+
+#: blocks/settings.php:48
+msgid "for a period of"
+msgstr "voor een periode van"
+
+#: blocks/settings.php:48
+msgid "allowed retries"
+msgstr "mogelijke inlogpogingen"
+
+#: blocks/settings.php:27
+msgid "Use global settings"
+msgstr "Gebruik globale instellingen"
+
+#: blocks/settings.php:23
+msgid "If disabled, the global settings will be forcibly applied to the entire network."
+msgstr "Indien uitgeschakeld, worden de globale instellingen toegepast op alle sites."
+
+#: blocks/settings.php:22
+msgid "Let network sites use their own settings"
+msgstr "Netwerksites hun eigen instellingen laten gebruiken"
+
+#: blocks/pub-wpserveur.php:67
+msgid "Subscribe to WPServeur"
+msgstr "Abonneer op WPServeur"
+
+#: blocks/pub-wpserveur.php:63
+msgid "(-10% discount on your subscription with the promo code <strong>WPSC&T</strong>)"
+msgstr "(-10% korting op je abonnement met de actiecode <strong>WPSC&T</strong>)"
+
+#: blocks/pub-wpserveur.php:62
+msgid "We only do WordPress but we do it well!"
+msgstr "We doen alleen WordPress, maar we doen het goed!"
+
+#: blocks/pub-wpserveur.php:61
+msgid "For fast, secure and efficient hosting."
+msgstr "Voor snelle, veilige en efficiënte hosting."
+
+#: blocks/pub-wpserveur.php:60
+msgid "Discover the specialized WordPress hosting with WPServeur!"
+msgstr "Ontdek de gespecialiseerde WordPress hosting met WPServeur!"
+
+#: blocks/pub-wpserveur.php:35
+msgid "Enable Migrate Guru"
+msgstr "Inschakelen Migrate Guru"
+
+#: blocks/pub-wpserveur.php:23
+msgid "Install Migrate Guru"
+msgstr "Installeer Migrate Guru"
+
+#: blocks/menu.php:56
+msgid "Log"
+msgstr "Log"
+
+#: blocks/menu.php:30 blocks/whitelist.php:14
+msgid "Whitelist"
+msgstr "Toegestane lijst"
+
+#: blocks/menu.php:17 blocks/settings.php:15
+msgid "Configuration"
+msgstr "Configuratie"
+
+#: blocks/log.php:82 blocks/log.php:108
+msgid "Unlocked"
+msgstr "Ontgrendeld"
+
+#: blocks/log.php:80
+msgid "Unlock"
+msgstr "Ontgrendelen"
+
+#: blocks/log.php:75 classes/plugin.php:1417
+msgid "lockout"
+msgid_plural "lockouts"
+msgstr[0] "uitsluiting"
+msgstr[1] "uitsluitingen"
+
+#: blocks/log.php:67 blocks/log.php:76
+msgid "Gateway"
+msgstr "Gateway"
+
+#: blocks/log.php:66 blocks/log.php:75
+msgid "Users"
+msgstr "Gebruikers"
+
+#: blocks/log.php:65 blocks/log.php:74
+msgctxt "Internet address"
+msgid "IP"
+msgstr "IP"
+
+#: blocks/log.php:64 blocks/log.php:73
+msgid "Date"
+msgstr "Datum"
+
+#: blocks/log.php:57
+msgid "Clear Log"
+msgstr "Log wissen"
+
+#: blocks/log.php:46
+msgid "You can unlock an IP address individually (by clicking on \"Unlock\" red button)."
+msgstr "Je kunt een IP-adres individueel ontgrendelen (door op de rode knop \"Ontgrendelen\" te klikken)."
+
+#: blocks/log.php:44
+msgid "Lockout log"
+msgstr "Log van blokkades"
+
+#: blocks/log.php:34
+msgid "Restore Lockouts"
+msgstr "Blokkades opheffen"
+
+#: blocks/log.php:30
+msgid "Reset Counter"
+msgstr "Teller resetten"
+
+#: blocks/log.php:25
+msgid "%d IP is currently blocked from trying to log in"
+msgid_plural "%d IP are currently blocked from trying to log in"
+msgstr[0] "%d IP is momenteel geblokkeerd voor inloggen"
+msgstr[1] "%d IP zijn momenteel geblokkeerd voor inloggen"
+
+#: blocks/log.php:21 blocks/log.php:48 classes/plugin.php:1403
+msgid "No lockouts yet"
+msgstr "Nog geen blokkades actief"
+
+#: blocks/log.php:17
+msgid "%d lockout since last reset"
+msgid_plural "%d lockouts since last reset"
+msgstr[0] "%d Blokkade sinds de laatste reset"
+msgstr[1] "%d Blokkades sinds de laatste reset"
+
+#: blocks/log.php:11
+msgid "Statistics"
+msgstr "Statistieken"
+
+#: blocks/blacklist.php:19 blocks/settings.php:84 blocks/whitelist.php:22
+msgid "Save"
+msgstr "Opslaan"
+
+#: blocks/blacklist.php:16
+msgid "which will block all ip between 88.88.88.86 and 88.88.88.90"
+msgstr "die alle ip tussen 88.88.88.86 en 88.88.88.90 blokkeert"
+
+#: blocks/blacklist.php:14 blocks/whitelist.php:17
+msgid "One IP range (88.88.88.86/90) or IP(88.88.88.86) per line"
+msgstr "Eén IP-bereik (88.88.88.86/90) of IP (88.88.88.86) per regel"
+
+#: blocks/blacklist.php:13
+msgid "Defines a list of IP addresses for which you want to completely block access to the login page."
+msgstr "Definieert een lijst met IP-adressen waarvoor je de toegang tot de inlogpagina volledig wilt blokkeren."
+
+#: blocks/blacklist.php:12 blocks/menu.php:43
+msgid "Blacklist"
+msgstr "Blokkeerlijst"
+
+#: admin_page/options.php:9
+msgid "WPS Limit Login limits attempts to connect to your WordPress administration."
+msgstr "WPS Limit Login beperkt pogingen om verbinding te maken met je WordPress administratie."

@@ -1,0 +1,544 @@
+# Translation of Plugins - Enable Media Replace - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - Enable Media Replace - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-06-04 18:07:56+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - Enable Media Replace - Stable (latest release)\n"
+
+#: classes/ViewController.php:105
+msgid "This error is shown because you try to move the image to another folder, which already has this file"
+msgstr "This error is shown because you try to move the image to another folder, which already has this file"
+
+#: classes/ViewController.php:123
+msgid "Path: %s is not within basedir reported as: %s"
+msgstr "Path: %s is not within basedir reported as: %s"
+
+#: views/success.php:26
+msgid "( %s ) or %s click here to continue %s"
+msgstr "( %s ) or %s click here to continue %s"
+
+#: views/success.php:25
+msgid "You will be redirect to the image screen in a few seconds."
+msgstr "You will be redirected to the image screen in a few seconds."
+
+#: views/success.php:23
+msgid "Try the %sShortPixel Image Optimizer%s plugin!"
+msgstr "Try the %sShortPixel Image Optimizer%s plugin!"
+
+#: views/success.php:21
+msgid "Did you know that you can also optimize the images on your website to make them load faster?"
+msgstr "Did you know that you can also optimise the images on your website to make them load faster?"
+
+#: views/success.php:19
+msgid "Your image has been successfully replaced!"
+msgstr "Your image has been successfully replaced!"
+
+#: views/success.php:17
+msgid "Your image has been replaced!"
+msgstr "Your image has been replaced!"
+
+#: views/screen.php:231
+msgid "File is offloaded and can't be moved to other directory"
+msgstr "File is offloaded and can't be moved to another directory"
+
+#: views/screen.php:172
+msgid "Options"
+msgstr "Options"
+
+#: views/screen.php:68
+msgid "\t\t\tYou are about to replace %s in your media library. This will be %spermanent%s. %s You can click on the new image panel and select a file from your computer. You can also drag and drop a file into this window"
+msgstr "\t\t\tYou are about to replace %s  in your media library. This will be %spermanent%s . %s You can click on the new image panel and select a file from your computer.  You can also drag and drop a file into this window"
+
+#: views/screen.php:41
+msgid "Drop File"
+msgstr "Drop File"
+
+#: views/prepare-remove-background.php:71
+msgid "Replace this image with another one instead!"
+msgstr "Replace this image with another one instead!"
+
+#: views/error.php:30
+msgid "If you need help, please see the plugin %sdocumentation%s. It contains clear solutions to most of the problems you may encounter when using our plugin."
+msgstr "If you need help, please see the plugin %sdocumentation%s. It contains clear solutions to most of the problems you may encounter when using our plugin."
+
+#: views/error.php:26
+msgid "You can return to %s previous page %s"
+msgstr "You can return to %s previous page %s"
+
+#: views/error.php:18
+msgid "An error occured"
+msgstr "An error occurred"
+
+#: classes/ViewController.php:141
+msgid "An unknown error has occured"
+msgstr "An unknown error has occurred"
+
+#: classes/ViewController.php:137
+msgid "Replacement Image could not be downloaded or does not exist"
+msgstr "Replacement image could not be downloaded or does not exist"
+
+#: classes/ViewController.php:132
+msgid "This can happen when the window is open for a long time and/or there has been a timeout.  You can go back to previous screen and try again. If this happens each time when replacing, contact us"
+msgstr "This can happen when the window is open for a long time and/or there has been a timeout.  You can go back to the previous screen and try again. If this happens each time when replacing, contact us"
+
+#: classes/ViewController.php:131
+msgid "Fail to validate form nonce. Please try again"
+msgstr "Failed to validate form nonce. Please try again"
+
+#: classes/ViewController.php:114
+msgid "Error updating WordPress post in the database"
+msgstr "Error updating WordPress post in the database"
+
+#: classes/ViewController.php:111
+msgid "Copying replacement file to destination failed"
+msgstr "Copying replacement file to destination failed"
+
+#: classes/ViewController.php:108
+msgid "Something went wrong while writing the file or directory"
+msgstr "Something went wrong while writing the file or directory"
+
+#: classes/ViewController.php:104
+msgid "The target file already exists in this directory. Please try another name / directory"
+msgstr "The target file already exists in this directory. Please try another name / directory"
+
+#: classes/ViewController.php:101
+msgid "The upload from your browser seem to have failed"
+msgstr "The upload from your browser seems to have failed"
+
+#: classes/ViewController.php:98
+msgid "The file upload has been rejected for security reason. WordPress might not allow uploading this extension or filetype"
+msgstr "The file upload has been rejected for security reasons. WordPress might not allow uploading this extension or filetype"
+
+#: classes/ViewController.php:95
+msgid "Updating the WordPress attachment failed"
+msgstr "Updating the WordPress attachment failed"
+
+#: classes/ViewController.php:92
+msgid "The custom time format submitted is invalid"
+msgstr "The custom time format submitted is invalid"
+
+#: classes/ViewController.php:89
+msgid "The form submitted is missing various fields"
+msgstr "The form submitted is missing various fields"
+
+#: classes/ViewController.php:86
+msgid "You don't have permission to edit this image"
+msgstr "You don't have permission to edit this image"
+
+#: classes/ViewController.php:83
+msgid "You don't have permission to upload images. Please refer to your administrator"
+msgstr "You don't have permission to upload images. Please refer to your administrator"
+
+#: classes/uihelper.php:426
+msgid "Current"
+msgstr "Current"
+
+#: classes/uihelper.php:421
+msgid "Click here to upload or drop file in area"
+msgstr "Click here to upload or drop file in this area"
+
+#: classes/uihelper.php:418
+msgid "New"
+msgstr "New"
+
+#: classes/external/wp-offload.php:49 classes/external/wp-offload.php:59
+msgid "Your S3-Offload plugin version doesn't seem to be compatible. Please upgrade the S3-Offload plugin"
+msgstr "Your S3-Offload plugin version doesn't seem to be compatible. Please upgrade the S3-Offload plugin"
+
+#: classes/api.php:75
+msgid "No permission for user"
+msgstr "No permission for user"
+
+#: views/prepare-remove-background.php:121
+msgid "Replace"
+msgstr "Replace"
+
+#: classes/uihelper.php:426 views/prepare-remove-background.php:120
+msgid "Preview"
+msgstr "Preview"
+
+#: views/prepare-remove-background.php:108
+msgid "Opacity:"
+msgstr "Opacity:"
+
+#: views/prepare-remove-background.php:98
+msgid "Background Color:"
+msgstr "Background colour:"
+
+#: views/prepare-remove-background.php:94
+msgid "If you select this option, the image will have a solid color background and you can choose the color code from the color picker below."
+msgstr "If you select this option, the image will have a solid colour background and you can choose the colour code from the colour picker below."
+
+#: views/prepare-remove-background.php:91
+msgid "Solid background"
+msgstr "Solid background"
+
+#: views/prepare-remove-background.php:85
+msgid "Returns a transparent background if it is a PNG image, or a white one if it is a JPG image."
+msgstr "Returns a transparent background if it is a PNG image, or a white one if it is a JPG image."
+
+#: views/prepare-remove-background.php:82
+msgid "Transparent/white background"
+msgstr "Transparent/white background"
+
+#: views/prepare-remove-background.php:78
+msgid "If a CDN is used, remember to clear the cache for this image!"
+msgstr "If a CDN is used, remember to clear the cache for this image!"
+
+#: views/prepare-remove-background.php:75
+msgid "Background Removal Options"
+msgstr "Background Removal Options"
+
+#: views/prepare-remove-background.php:64
+msgid "Report bad background removal"
+msgstr "Report bad background removal"
+
+#: views/prepare-remove-background.php:56
+msgid "Remove Media Background"
+msgstr "Remove Media Background"
+
+#: views/prepare-remove-background.php:33
+msgid "Hello! %s This is a report of a background removal that did not go well %s Url: {url} %s Settings : {settings} %s Thank you! %s"
+msgstr "Hello! %s This is a report of a background removal that did not go well %s URL: {url} %s Settings : {settings} %s Thank you! %s"
+
+#: views/prepare-remove-background.php:32
+msgid "Bad remove of background report"
+msgstr "Bad removal of background report"
+
+#: views/screen.php:226
+msgid "Place the newly uploaded file in this folder: "
+msgstr "Place the newly uploaded file in this folder: "
+
+#: views/screen.php:146
+msgid "Note: This option requires you to upload a file of the same type (%s) as the file you want to replace. The attachment name will remain the same (%s) regardless of what the file you upload is called. If a CDN is used, remember to clear the cache for this image!"
+msgstr "Note: This option requires you to upload a file of the same type (%s) as the file you want to replace. The attachment name will remain the same (%s) regardless of what the file you upload is called. If a CDN is used, remember to clear the cache for this image!"
+
+#: views/screen.php:124
+msgid "Remove the background after replacing this image!"
+msgstr "Remove the background after replacing this image!"
+
+#: views/screen.php:120
+msgid "New! Click here to remove the background of this image!"
+msgstr "New! Click here to remove the background of this image!"
+
+#: views/screen.php:76
+msgid "The replacement file does not have the same file type. This can lead to unexpected issues ( %s )"
+msgstr "The replacement file does not have the same file type. This can lead to unexpected issues ( %s )"
+
+#: views/screen.php:59
+msgid "Select Replacement Media"
+msgstr "Select Replacement Media"
+
+#: views/do-replace-background.php:56
+msgid "Temp file does not exist"
+msgstr "Temp file does not exist"
+
+#: views/do-replace-background.php:16
+msgid "Error while sending form (no key). Please try again."
+msgstr "Error while sending form (no key). Please try again."
+
+#: classes/uihelper.php:516
+msgid "%s New Beta Feature! %s %s Enable Media Replace now gives you the ability to remove the background of any image. Try it out in the Media Library: hover over an image and click on Remove Background. Or just click on Remove background from the image editing window! %s  "
+msgstr "%s New Beta Feature! %s %s Enable Media Replace now gives you the ability to remove the background of any image. Try it out in the Media Library: hover over an image and click on Remove Background. Or just click on Remove background from the image editing window! %s  "
+
+#: classes/uihelper.php:465
+msgid "Removing background..."
+msgstr "Removing background..."
+
+#: classes/ViewController.php:117
+msgid "Specificed directory is outside the upload directory. This is not allowed for security reasons"
+msgstr "Specificed directory is outside the upload directory. This is not allowed for security reasons"
+
+#: classes/emr-plugin.php:580
+msgid "Remove  background"
+msgstr "Remove  background"
+
+#: classes/emr-plugin.php:534
+msgid "To remove the background, click the link."
+msgstr "To remove the background, click the link."
+
+#: classes/emr-plugin.php:464
+msgid "To remove the background, click the link and select the options."
+msgstr "To remove the background, click the link and select the options."
+
+#: classes/emr-plugin.php:171 classes/emr-plugin.php:464
+#: classes/emr-plugin.php:532 classes/emr-plugin.php:534
+msgid "Remove background"
+msgstr "Remove background"
+
+#: classes/api.php:228
+msgid "Download failed"
+msgstr "Download failed"
+
+#: classes/api.php:217
+msgid "This file seems not available anymore. Please try again"
+msgstr "This file seems to no longer be available. Please try again"
+
+#: classes/api.php:193
+msgid "The background could not be removed in a reasonable amount of time. The file might be too big, or the API could be busy. Please try again later!"
+msgstr "The background could not be removed in a reasonable amount of time. The file might be too big, or the API could be busy. Please try again later!"
+
+#: classes/api.php:68
+msgid "No attachment ID given"
+msgstr "No attachment ID given"
+
+#: build/shortpixel/notices/src/NoticeModel.php:290
+msgid "Dismiss this notice"
+msgstr "Dismiss this notice"
+
+#: views/upsell.php:146
+msgid "Get Pro"
+msgstr "Get Pro"
+
+#: views/upsell.php:139
+msgid "Envira Gallery activated!"
+msgstr "Envira Gallery activated!"
+
+#: views/upsell.php:137
+msgid "Activate"
+msgstr "Activate"
+
+#: views/upsell.php:135
+msgid "Install now"
+msgstr "Install now"
+
+#: views/upsell.php:126
+msgid "Create beautiful, fast-loading photo & video galleries for your site in minutes."
+msgstr "Create beautiful, fast-loading photo and video galleries for your site in minutes."
+
+#: views/upsell.php:94
+msgid "Shortpixel Adaptive Images activated!"
+msgstr "ShortPixel Adaptive Images activated!"
+
+#: views/upsell.php:80
+msgid "In Minutes"
+msgstr "In minutes"
+
+#: views/upsell.php:79
+msgid "Start Serving %s Optimized, %s Nextgen images %s From a global CDN"
+msgstr "Start serving %s optimised %s NextGEN images %s from a global CDN"
+
+#: views/upsell.php:75
+msgid "ShortPixel Adaptive Images"
+msgstr "ShortPixel Adaptive Images"
+
+#: views/upsell.php:60
+msgid "Shortpixel activated!"
+msgstr "ShortPixel activated!"
+
+#: views/upsell.php:57 views/upsell.php:91
+msgid "ACTIVATE"
+msgstr "ACTIVATE"
+
+#: views/upsell.php:53 views/upsell.php:87
+msgid "INSTALL NOW"
+msgstr "INSTALL NOW"
+
+#: views/upsell.php:46
+msgid "Optimize all images %s automatically"
+msgstr "Optimise all images %s automatically"
+
+#: views/upsell.php:44
+msgid "Is your website slow?"
+msgstr "Is your website slow?"
+
+#: views/upsell.php:42
+msgid "ShortPixel Image Optimizer"
+msgstr "ShortPixel Image Optimizer"
+
+#: views/do-replace-background.php:21
+msgid "Error in request. Please try again"
+msgstr "Error in request. Please try again"
+
+#: views/screen.php:206
+msgid "Now"
+msgstr "Now"
+
+#: views/screen.php:190
+msgid "Replace the date with the current date %s(%s)%s"
+msgstr "Replace the date with the current date %s(%s)%s"
+
+#: views/screen.php:149
+msgid "If you replace the file with a different filetype, this file might become unreadable and / or cause unexpected issues"
+msgstr "If you replace the file with a different filetype, this file might become unreadable and/or cause unexpected issues"
+
+#: classes/ViewController/ReplaceViewController.php:38
+#: views/do-replace-background.php:27
+msgid "You do not have permission to upload files for this author."
+msgstr "You do not have permission to upload files for this author."
+
+#: classes/external/upgrader_skin.php:81
+msgid "There was an error installing the addon. Please try again."
+msgstr "There was an error installing the add-on. Please try again."
+
+#: classes/emr-plugin.php:316
+msgid "Installing ..."
+msgstr "Installing ..."
+
+#: views/screen.php:163
+msgid "Note: If you enable this option, the name and type of the file you are uploading will replace the old file. All links pointing to the current file (%s) will be updated to point to the new file name. (If other websites link directly to the file, those links will no longer work. Be careful!)"
+msgstr "Note: If you enable this option, the name and type of the file you are uploading will replace the old file. All links pointing to the current file (%s) will be updated to point to the new file name. (If other websites link directly to the file, those links will no longer work. Be careful!)"
+
+#: build/shortpixel/notices/src/NoticeModel.php:281
+msgid "Hide Details"
+msgstr "Hide Details"
+
+#: build/shortpixel/notices/src/NoticeModel.php:277
+msgid "See Details"
+msgstr "See Details"
+
+#: classes/emr-plugin.php:620
+msgid "Replaced By"
+msgstr "Replaced By"
+
+#: classes/ViewController.php:127
+msgid "Specificed new directory does not exist. Path must be a relative path from the upload directory and exist"
+msgstr "Specified new directory does not exist. Path must be a relative path from the upload directory and exist"
+
+#: views/screen.php:196
+msgid "Custom Date"
+msgstr "Custom Date"
+
+#: views/screen.php:192
+msgid "Set a Custom Date"
+msgstr "Set a Custom Date"
+
+#: views/screen.php:191
+msgid "Keep the date %s(%s)%s"
+msgstr "Keep the date %s(%s)%s"
+
+#: views/screen.php:188
+msgid "When replacing the media, do you want to:"
+msgstr "When replacing the media, do you want to:"
+
+#: views/screen.php:131
+msgid "Replacement Options"
+msgstr "Replacement Options"
+
+#: views/screen.php:80
+msgid "The replacement file type does not seem to be allowed by WordPress. This can lead to unexpected issues"
+msgstr "The replacement file type does not seem to be allowed by WordPress. This can lead to unexpected issues"
+
+#: views/screen.php:73
+msgid "%s f %s exceeds the maximum upload size for this site."
+msgstr "%s f %s exceeds the maximum upload size for this site."
+
+#: views/screen.php:72
+msgid "Maximum file size: <strong>%s</strong>"
+msgstr "Maximum file size: <strong>%s</strong>"
+
+#: views/do-replace-background.php:85
+msgid "File successfully replaced"
+msgstr "File successfully replaced"
+
+#: build/shortpixel/log/src/DebugItem.php:35
+msgid "[Data]"
+msgstr "[Data]"
+
+#: views/prepare-remove-background.php:122 views/screen.php:243
+msgid "Cancel"
+msgstr "Cancel"
+
+#: views/screen.php:242
+msgid "Upload"
+msgstr "Upload"
+
+#: views/screen.php:165
+msgid "Please note that if you upload a new image, only the embeds/links of the original size image will be replaced in your posts."
+msgstr "Please note that if you upload a new image, only the embeds/links of the original size image will be replaced in your posts."
+
+#: views/screen.php:160
+msgid "Replace the file, use the new file name, and update all links"
+msgstr "Replace the file, use the new file name, and update all links"
+
+#: views/screen.php:142
+msgid "Just replace the file"
+msgstr "Just replace the file"
+
+#: views/screen.php:62
+msgid "NOTE: You are about to replace the media file \"%s\". There is no undo. Think about it!"
+msgstr "NOTE: You are about to replace the media file \"%s\". There is no undo. Think about it!"
+
+#: views/screen.php:43
+msgid "Replace Media Upload"
+msgstr "Replace Media Upload"
+
+#: classes/emr-plugin.php:609
+msgid "Revised"
+msgstr "Revised"
+
+#: classes/emr-plugin.php:606
+msgid "M j, Y @ H:i"
+msgstr "M j, Y @ H:i"
+
+#: classes/emr-plugin.php:489 views/screen.php:208
+msgid "Original"
+msgstr "Original"
+
+#: classes/emr-plugin.php:479
+msgid "Thumbnails were not generated"
+msgstr "Thumbnails were not generated"
+
+#: classes/emr-plugin.php:453 classes/emr-plugin.php:524
+msgid "To replace the current file, click the link and upload a replacement file."
+msgstr "To replace the current file, click the link and upload a replacement file."
+
+#: classes/emr-plugin.php:453 classes/emr-plugin.php:524
+msgid "Upload a new file"
+msgstr "Upload a new file"
+
+#: classes/emr-plugin.php:170 classes/emr-plugin.php:522
+#: classes/emr-plugin.php:576
+msgid "Replace media"
+msgstr "Replace media"
+
+#: classes/emr-plugin.php:438
+msgid "Replaced Thumbnails Preview"
+msgstr "Replaced Thumbnails Preview"
+
+#: classes/emr-plugin.php:435
+msgid "Replace Media"
+msgstr "Replace Media"
+
+#: build/shortpixel/replacer/src/Replacer.php:174
+msgid "There was an issue with updating your image URLS: Search and replace have different amount of values. Aborting updating thumbnails"
+msgstr "There was an issue with updating your image URLs: Search and replace have different amount of values. Aborting updating thumbnails"
+
+#: build/shortpixel/replacer/src/Replacer.php:97
+msgid "Fail Safe :: Source Location returned empty string. Not replacing content"
+msgstr "Fail Safe :: Source location returned empty string. Not replacing content"
+
+#: build/shortpixel/replacer/src/Replacer.php:90
+msgid "Fail Safe :: Source Location seems to be a directory."
+msgstr "Fail Safe :: Source location seems to be a directory."
+
+#: views/screen.php:28
+msgid "You do not have permission to upload files."
+msgstr "You do not have permission to upload files."
+
+#. Author URI of the plugin
+msgid "https://shortpixel.com"
+msgstr "https://shortpixel.com"
+
+#. Author of the plugin
+msgid "ShortPixel"
+msgstr "ShortPixel"
+
+#. Description of the plugin
+msgid "Enable replacing media files by uploading a new file in the \"Edit Media\" section of the WordPress Media Library."
+msgstr "Enable replacing media files by uploading a new file in the \"Edit Media\" section of the WordPress Media Library."
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/enable-media-replace/"
+msgstr "https://en-gb.wordpress.org/plugins/enable-media-replace/"
+
+#. Plugin Name of the plugin
+#: views/error.php:15 views/success.php:15
+msgid "Enable Media Replace"
+msgstr "Enable Media Replace"

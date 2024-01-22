@@ -1,0 +1,122 @@
+# Translation of Plugins - Blogger Importer - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Blogger Importer - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-07-16 13:25:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.7\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Blogger Importer - Stable (latest release)\n"
+
+#: blogger-importer.php:877
+msgid "Choose an XML file to upload, then click Upload file and import."
+msgstr "Kies een XML-bestand om te uploaden en klik vervolgens op Bestand uploaden en importeren."
+
+#: blogger-importer.php:876
+msgid "Howdy! Upload your Blogger Exported XML file and we&#8217;ll import the contents from it into this site."
+msgstr "Hé! Upload je door Blogger geëxporteerd XML-bestand en we importeren de inhoud ervan op deze site."
+
+#: blogger-importer.php:345
+msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr "Kan geen nieuwe gebruiker maken voor %s. Hun berichten worden toegeschreven aan de huidige gebruiker."
+
+#: blogger-importer.php:298
+msgid "- Select -"
+msgstr "- Selecteer -"
+
+#: blogger-importer.php:297
+msgid "or assign posts to an existing user:"
+msgstr "of wijs berichten toe aan een bestaande gebruiker:"
+
+#: blogger-importer.php:291
+msgid "as a new user:"
+msgstr "als nieuwe gebruiker:"
+
+#: blogger-importer.php:285
+msgid "Import author:"
+msgstr "Auteur importeren:"
+
+#: blogger-importer.php:272
+msgid "Submit"
+msgstr "Verstuur"
+
+#: blogger-importer.php:263
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr "Als een nieuwe gebruiker wordt gemaakt door WordPress, wordt er willekeurig een nieuw wachtwoord gegenereerd en wordt de rol van de nieuwe gebruiker ingesteld als %s. Het handmatig wijzigen van de gegevens van de nieuwe gebruiker is nodig."
+
+#: blogger-importer.php:261
+msgid "To make it easier for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site. For example, you may want to import all the entries as <code>admin</code>s entries."
+msgstr "Om het je gemakkelijker te maken om de geïmporteerde inhoud te bewerken en op te slaan, wil je misschien de auteur van het geïmporteerde item opnieuw toewijzen aan een bestaande gebruiker van deze site. Je kan bijvoorbeeld alle vermeldingen importeren als <code>admin</code> -vermeldingen."
+
+#: blogger-importer.php:260
+msgid "Assign Authors"
+msgstr "Auteurs toewijzen"
+
+#: blogger-importer.php:208
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr "Het exportbestand kon niet worden gevonden op <code>%s</code>. Waarschijnlijk ligt de oorzaak bij problemen met permissies."
+
+#: blogger-importer.php:188
+msgid "Remember to update the passwords and roles of imported users."
+msgstr "Vergeet niet de wachtwoorden en rollen van geïmporteerde gebruikers bij te werken."
+
+#: blogger-importer.php:187
+msgid "Have fun!"
+msgstr "Veel plezier!"
+
+#: blogger-importer.php:187
+msgid "All done."
+msgstr "Helemaal klaar."
+
+#: blogger-importer.php:141
+msgid "The file does not exist, please try again."
+msgstr "Het bestand bestaat niet, probeer het opnieuw."
+
+#: blogger-importer.php:140 blogger-importer.php:149 blogger-importer.php:203
+#: blogger-importer.php:207 blogger-importer.php:217
+msgid "Sorry, there has been an error."
+msgstr "Sorry, er is een fout opgetreden."
+
+#. Author URI of the plugin
+msgid "http://wordpress.org/"
+msgstr "https://nl.wordpress.org/"
+
+#. Author of the plugin
+msgid "wordpressdotorg"
+msgstr "wordpressdotorg"
+
+#. Description of the plugin
+#: blogger-importer.php:930
+msgid "Import posts, comments, and categories from a Blogger blog and migrate authors to WordPress users."
+msgstr "Importeert berichten, reacties, afbeeldingen en tags van een Blogger blog en zet auteurs om naar WordPress gebruikers."
+
+#. Plugin URI of the plugin
+msgid "http://wordpress.org/extend/plugins/blogger-importer/"
+msgstr "http://wordpress.org/extend/plugins/blogger-importer/"
+
+#. Plugin Name of the plugin
+msgid "Blogger Importer"
+msgstr "Blogger Importer"
+
+#: blogger-importer.php:863
+msgid "Import Blogger"
+msgstr "Blogger importeren"
+
+#: blogger-importer.php:930
+msgid "Blogger"
+msgstr "Blogger"
+
+#: blogger-importer.php:671
+msgid "None of the images are valid"
+msgstr "Geen van deze afbeeldingen is geldig"
+
+#: blogger-importer.php:642
+msgid "Lowrez not an image"
+msgstr "Lowrez geen beeld"
+
+#: blogger-importer.php:728 blogger-importer.php:812
+msgid "Attempting to write back empty content"
+msgstr "Poging om lege inhoud terug te schrijven"

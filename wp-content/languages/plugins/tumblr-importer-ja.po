@@ -1,0 +1,113 @@
+# Translation of Plugins - Tumblr Importer - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - Tumblr Importer - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-08-01 21:37:11+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Tumblr Importer - Stable (latest release)\n"
+
+#: tumblr-importer.php:250
+msgid "Author"
+msgstr "作者"
+
+#. Author of the plugin
+msgid "wordpressdotorg"
+msgstr "wordpressdotorg"
+
+#. Author URI of the plugin
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#. Plugin URI of the plugin
+msgid "http://wordpress.org/extend/plugins/tumblr-importer/"
+msgstr "https://ja.wordpress.org/plugins/tumblr-importer/"
+
+#: tumblr-importer.php:246
+msgid "Posts Imported"
+msgstr "インポート済みの投稿"
+
+#: tumblr-importer.php:416 tumblr-importer.php:488 tumblr-importer.php:533
+msgid "Problem communicating with Tumblr, retrying later"
+msgstr "Tumblr との通信に失敗しました。後ほど再試行します。"
+
+#: tumblr-importer.php:339
+msgid "This blog is currently being imported."
+msgstr "このブログは現在インポート中です。"
+
+#: tumblr-importer.php:334
+msgid "The specified blog cannot be found."
+msgstr "お探しのブログが見つかりません。"
+
+#: tumblr-importer.php:244
+msgid "Tumblr Blog"
+msgstr "Tumblr ブログ"
+
+#: tumblr-importer.php:272
+msgid "Import this blog"
+msgstr "このブログをインポート"
+
+#: tumblr-importer.php:249
+msgid "Pages Imported"
+msgstr "インポート済みの固定ページ"
+
+#: tumblr-importer.php:247
+msgid "Drafts Imported"
+msgstr "インポート済みの下書き"
+
+#: tumblr-importer.php:150
+msgid "Connect to Tumblr"
+msgstr "Tumblr に接続"
+
+#: tumblr-importer.php:248
+msgid "Queued Imported"
+msgstr "予約投稿をインポートしました"
+
+#: tumblr-importer.php:276
+msgid "In Progress"
+msgstr "処理中"
+
+#: tumblr-importer.php:274
+msgid "Finished!"
+msgstr "完了しました !"
+
+#: tumblr-importer.php:245
+msgid "URL"
+msgstr "URL"
+
+#: tumblr-importer.php:104
+msgid "Clear account information"
+msgstr "アカウント情報を消去"
+
+#: class-wp-importer-cron.php:51
+msgid "Every Minute"
+msgstr "毎分"
+
+#. Description of the plugin
+#: tumblr-importer.php:33
+msgid "Import posts from a Tumblr blog."
+msgstr "Tumblr ブログから投稿をインポートします。"
+
+#: tumblr-importer.php:99
+msgid "We have saved some information about your Tumblr account in your WordPress database. Clearing this information will allow you to start over. Restarting will not affect any posts you have already imported. If you attempt to re-import a blog, duplicate posts will be skipped."
+msgstr "Tumblr のアカウントに関する情報の一部を WordPress のデータベースに保存しました。この情報をリセットして再度始めからスタートできます。リセットを行なっても現在インポート済みの投稿には影響はありません。再インポートを行なっても重複する投稿はインポートされません。"
+
+#: tumblr-importer.php:100
+msgid "Note: This will stop any import currently in progress."
+msgstr "注: 現在進行中のインポートが中止されます。"
+
+#: tumblr-importer.php:122 tumblr-importer.php:236
+msgid "Import Tumblr"
+msgstr "Tumblr をインポート"
+
+#: tumblr-importer.php:124
+msgid "Howdy! This importer allows you to import posts from your Tumblr account into your WordPress site."
+msgstr "このインポートツールを使って、Tumblr の投稿を WordPress サイトに移行できます。"
+
+#: tumblr-importer.php:33
+msgid "Tumblr"
+msgstr "Tumblr"

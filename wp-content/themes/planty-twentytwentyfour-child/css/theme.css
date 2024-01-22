@@ -1,0 +1,195 @@
+/* Wide section */
+.wp-block-button__link { 
+	transition-property: background-color; /* Active la transition sur background-color */
+    transition-duration: 1s; /* La transition dure 1s */
+}
+
+/* Formatting header */
+
+header nav .wp-block-button__link { 
+	border-radius: 0px;
+}
+
+header nav .wp-block-button__link:hover { 
+	background:#c02e44 !important;
+	border-radius: 0px; 
+}
+
+
+/* Formatting Home page */
+
+	/*
+.home_planty_fullsize_logo img {
+
+	margin-top: 5%;
+	margin-bottom: -10%;
+	
+	}
+	*/
+
+/* formatting contact-us page */
+
+
+.contact-form  {
+
+	width: 100%;
+
+}
+
+.contact-us-form {
+
+	font-size: 1.5rem;
+	height: 3rem;
+	background-color: white;;
+	width: 100%;
+
+}
+
+
+#contact-us-message {
+
+	height : 30ch;
+	
+	}
+
+
+
+/* Add background image on large sized screen */
+
+@media all and (min-width: 1080px) {
+	
+	.welcome-container {
+
+		background-image: url("https://planty.wp-development.thesiliconprojects.com/wp-content/uploads/2024/01/planty_star.png");
+		background-repeat: no-repeat;
+		background-position : top 18% left 26%;
+		background-size: 10rem;
+		padding-left: 15%;
+		padding-right: 15%;
+	
+		}
+	
+	.staff-container {
+	
+		background-image: url("https://planty.wp-development.thesiliconprojects.com/wp-content/uploads/2024/01/Left-Leaf.svg");
+		background-repeat: no-repeat;
+		background-position : bottom -0rem right 0rem;
+		background-size: 13rem;
+		padding-left: 15rem;
+		padding-right: 15rem;
+	}
+
+	.contact-container {
+
+		background-image: url("https://planty.wp-development.thesiliconprojects.com/wp-content/uploads/2024/01/broken-flower.svg");
+		background-repeat: no-repeat;
+		background-position : bottom 3.4rem left 1rem;
+		padding-left : 6rem;
+		padding-right: 6rem;
+	}
+}
+
+/* Remove or resize background image on any smaller sized screen */
+
+@media all and (max-width: 1079px) {  
+	
+	.welcome-container {
+
+		background-image: url("https://planty.wp-development.thesiliconprojects.com/wp-content/uploads/2024/01/planty_star.png");
+		background-repeat: no-repeat;
+		background-position : top 5% left 20%;
+		background-size: 5rem;
+		padding-left: 15%;
+		padding-right: 15%;
+	
+		}
+
+	.staff-container {
+        
+		background-image: none;
+		padding-left : 0rem;
+		padding-right: 0rem;
+
+    }
+
+	.contact-container {
+
+		background-image: none;
+		padding-left : 2rem;
+		padding-right: 2rem;
+	}
+	
+}
+
+.contact-form-button {
+
+width: 9rem;
+border-radius: 9px;
+font-size: 1.2rem;
+color: white;
+background-color:#e0b9b4;
+margin-top: 2rem;
+position: relative;
+top: 50%;
+left: 50%;
+border: 0px;
+height: 3rem;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+
+}
+
+.contact-form-button:hover {
+
+	background:#c02e44 !important;
+	
+	}
+
+
+/* Fomatting order page */
+
+body .wp-block-button__link:hover { 
+	background:#c02e44 !important; 
+}
+
+.order-form-quantity {
+
+background-color: white;
+width: 5ch;
+
+}
+
+.order-form-request-personal-info {
+
+background-color: white;
+width: 100%;
+height: 3rem;
+
+}
+
+.order-form-request-delivery {
+
+	background-color: white;
+	width: 100%;
+	height: 3rem;
+	
+	}
+	
+
+.order-form  {
+
+	color: white;
+		
+}
+
+
+.order-form input {
+	
+	background-color: white;
+	color: black;
+	font-size: 1.5rem;
+
+		
+}
+
+
