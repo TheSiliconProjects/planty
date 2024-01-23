@@ -11,23 +11,25 @@ header nav .wp-block-button__link {
 }
 
 header nav .wp-block-button__link:hover { 
+	
 	background:#c02e44 !important;
 	border-radius: 0px; 
 }
 
+header.hide_admin_menu:not(logged-in) {
+
+	display: none !important;
+}
+
+/* unset = back to inherited value */
+
+header.hide_admin_menu logged-in {
+
+	display: unset !important;
+}
+
 
 /* Formatting Home page */
-
-	/*
-.home_planty_fullsize_logo img {
-
-	margin-top: 5%;
-	margin-bottom: -10%;
-	
-	}
-	*/
-
-/* formatting contact-us page */
 
 
 .contact-form  {
@@ -58,7 +60,7 @@ header nav .wp-block-button__link:hover {
 
 @media all and (min-width: 1080px) {
 	
-	.welcome-container {
+.welcome-container {
 
 		background-image: url("https://planty.wp-development.thesiliconprojects.com/wp-content/uploads/2024/01/planty_star.png");
 		background-repeat: no-repeat;
