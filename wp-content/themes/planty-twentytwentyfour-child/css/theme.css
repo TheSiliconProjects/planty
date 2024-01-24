@@ -10,23 +10,24 @@ header nav .wp-block-button__link {
 	border-radius: 0px;
 }
 
+
 header nav .wp-block-button__link:hover { 
 	
 	background:#c02e44 !important;
 	border-radius: 0px; 
 }
 
-header.hide_admin_menu:not(logged-in) {
+header .hide_admin_menu {
 
 	display: none !important;
 }
 
-/* unset = back to inherited value */
 
-header.hide_admin_menu logged-in {
+.logged-in header .hide_admin_menu {
 
-	display: unset !important;
+	display: inline !important;
 }
+
 
 
 /* Formatting Home page */
@@ -42,7 +43,7 @@ header.hide_admin_menu logged-in {
 
 	font-size: 1.5rem;
 	height: 3rem;
-	background-color: white;;
+	background-color: white;
 	width: 100%;
 
 }

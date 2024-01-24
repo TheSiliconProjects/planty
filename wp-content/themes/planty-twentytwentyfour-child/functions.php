@@ -45,3 +45,11 @@ wp_enqueue_style('theme-style', get_stylesheet_directory_uri() . '/css/theme.css
 * add_filter( 'wp_nav_menu_objects', 'wpdocs_unset_menu_items', 10, 2 );
 
 */
+
+add_filter( 'wp_nav_menu_items', 'add_extra_item_to_nav_menu', 10, 2 );
+function add_extra_item_to_nav_menu( $items, $args ) {
+	if (is_user_logged_in()) {
+		$items .= '<li class="menu-item"><a href="/wp-admin">Admin</a></li>';
+	}
+	return $items;
+}
