@@ -14,6 +14,28 @@ if ( ! function_exists( 'b7ectg_theme_enqueue_styles' ) ) {
 
 wp_enqueue_style('theme-style', get_stylesheet_directory_uri() . '/css/theme.css', array(), filemtime(get_stylesheet_directory() . '/css/theme.css'));
 
+
+/** Customize the log-in page logo */
+
+function wpm_login_style() { ?>
+
+<style type="text/css">
+#login h1 a, .login h1 a {
+background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/images/silicon-logo.jpg);
+}
+
+/** Add other CSS styles here */
+.login {background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/images/data-center.jpg);
+}
+#login h1 a, .login h1 img {border-radius: 50%;
+}
+</style>
+<?php }
+add_action( 'login_enqueue_scripts', 'wpm_login_style' );
+
+
+
+
 /** Hide admin menu for non logged in user
 
 * Not WORKING with WP TwentyTwentyFour. Use built in class logged-in in CSS
@@ -40,4 +62,3 @@ function wpdocs_unset_menu_items( $menu_objects, $args ) {
  add_filter( 'wp_nav_menu_objects', 'wpdocs_unset_menu_items', 10, 2 );
 
 */
-

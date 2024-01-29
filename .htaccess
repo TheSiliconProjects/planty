@@ -1,6 +1,6 @@
-# BEGIN iThemes Security - Do not modify or remove this line
+# BEGIN iThemes Security - Ne modifiez pas ou ne supprimez pas cette ligne
 # iThemes Security Config Details: 2
-	# Protect System Files - Security > Settings > System Tweaks > System Files
+	# Protéger les fichiers système - Solid Security > Réglages > Ajustements système > Fichiers système
 	<files .htaccess>
 		<IfModule mod_authz_core.c>
 			Require all denied
@@ -38,13 +38,13 @@
 		</IfModule>
 	</files>
 
-	# Disable Directory Browsing - Security > Settings > System Tweaks > Directory Browsing
+	# Désactiver l’exploration des répertoires - Solid Security > Réglages > Ajustements système > Exploration des répertoires
 	Options -Indexes
 
 	<IfModule mod_rewrite.c>
 		RewriteEngine On
 
-		# Protect System Files - Security > Settings > System Tweaks > System Files
+		# Protéger les fichiers système - Solid Security > Réglages > Ajustements système > Fichiers système
 		RewriteRule ^wp-admin/install\.php$ - [F]
 		RewriteRule ^wp-admin/includes/ - [F]
 		RewriteRule !^wp-includes/ - [S=3]
@@ -54,16 +54,16 @@
 		RewriteCond %{REQUEST_FILENAME} -f
 		RewriteRule (^|.*/)\.(git|svn)/.* - [F]
 
-		# Disable PHP in Uploads - Security > Settings > System Tweaks > PHP in Uploads
+		# Désactiver PHP dans le répertoire « Uploads » - Solid Security > Réglages > Ajustements système > PHP dans Uploads
 		RewriteRule ^wp\-content/uploads/.*\.(?:php[1-7]?|pht|phtml?|phps)\.?$ - [NC,F]
 
-		# Disable PHP in Plugins - Security > Settings > System Tweaks > PHP in Plugins
+		# Désactivez PHP dans les extensions - iThemes Security > Réglages > Ajustements système > PHP dans les extensions
 		RewriteRule ^wp\-content/plugins/.*\.(?:php[1-7]?|pht|phtml?|phps)\.?$ - [NC,F]
 
-		# Disable PHP in Themes - Security > Settings > System Tweaks > PHP in Themes
+		# Désactivez PHP dans les thèmes - iThemes Security > Réglages > Ajustements système > PHP dans les thèmes
 		RewriteRule ^wp\-content/themes/.*\.(?:php[1-7]?|pht|phtml?|phps)\.?$ - [NC,F]
 	</IfModule>
-# END iThemes Security - Do not modify or remove this line
+# END iThemes Security - Ne modifiez pas ou ne supprimez pas cette ligne
 
 ###############################################################################
 #                                                                             #
