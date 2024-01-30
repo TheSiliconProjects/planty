@@ -33,7 +33,12 @@ background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/images/silic
 <?php }
 add_action( 'login_enqueue_scripts', 'wpm_login_style' );
 
+/** Change login logo url */
 
+add_filter( 'login_headerurl', 'my_custom_login_url' );
+function my_custom_login_url($url) {
+        return 'https://wp-development.thesiliconprojects.com';
+} 
 
 
 /** Hide admin menu for non logged in user

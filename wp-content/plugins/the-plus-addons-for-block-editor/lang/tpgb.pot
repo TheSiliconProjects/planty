@@ -1,0 +1,2058 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-04 10:42+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: plus-block-loader.php:141
+#, php-format
+msgid ""
+"%1$sThe Plus Addons for Block Editor%2$s plugin requires %1$sGutenberg%2$s "
+"plugin activated."
+msgstr ""
+
+#: plus-block-loader.php:142
+msgid "Activate Gutenberg"
+msgstr ""
+
+#: plus-block-loader.php:150
+#, php-format
+msgid ""
+"%1$sThe Plus Addons for Block Editor%2$s plugin requires %1$sGutenberg%2$s "
+"plugin installed."
+msgstr ""
+
+#: plus-block-loader.php:151
+msgid "Install Gutenberg"
+msgstr ""
+
+#: plus-block-loader.php:191
+msgid "FREE vs Pro"
+msgstr ""
+
+#: plus-block-loader.php:194
+msgid "Need Help?"
+msgstr ""
+
+#: plus-block-loader.php:201
+msgid "Upgrade PRO"
+msgstr ""
+
+#: plus-block-loader.php:217
+msgid "Visit Plugin site"
+msgstr ""
+
+#: plus-block-loader.php:218
+msgid "Docs"
+msgstr ""
+
+#: plus-block-loader.php:219 includes/plus-settings-options.php:372
+msgid "Video Tutorials"
+msgstr ""
+
+#: plus-block-loader.php:220
+msgid "Join Community"
+msgstr ""
+
+#: plus-block-loader.php:221
+msgid "What's New?"
+msgstr ""
+
+#: plus-block-loader.php:222
+msgid "Request Feature"
+msgstr ""
+
+#: plus-block-loader.php:223
+msgid "Rate 5 Stars"
+msgstr ""
+
+#: the-plus-addons-for-block-editor.php:45
+#, php-format
+msgid ""
+"The Plus Addons for Block Editor requires PHP version %s+, plugin is "
+"currently NOT RUNNING."
+msgstr ""
+
+#: the-plus-addons-for-block-editor.php:60
+#, php-format
+msgid ""
+"The Plus Addons for Block Editor requires WordPress version %s+. Because you "
+"are using an earlier version, the plugin is currently NOT RUNNING."
+msgstr ""
+
+#: classes/tp-block-helper.php:361
+msgid "Full"
+msgstr ""
+
+#: classes/tp-block-helper.php:418 classes/tp-block-helper.php:434
+msgid "Select Form"
+msgstr ""
+
+#: classes/tp-block-helper.php:423
+msgid "No everest forms found"
+msgstr ""
+
+#: classes/tp-block-helper.php:441
+msgid "Form Not Found!"
+msgstr ""
+
+#: classes/tp-block-helper.php:453
+msgid "Select Ninja Form"
+msgstr ""
+
+#: classes/tp-block-helper.php:460 classes/tp-block-helper.php:483
+msgid "Create a Form First"
+msgstr ""
+
+#: classes/tp-block-helper.php:476
+msgid "Select a WPForm"
+msgstr ""
+
+#: classes/tp-block-helper.php:497
+#, php-format
+msgid "Archive by \"%s\""
+msgstr ""
+
+#: classes/tp-block-helper.php:498
+#, php-format
+msgid "Search Results for \"%s\""
+msgstr ""
+
+#: classes/tp-block-helper.php:499
+#, php-format
+msgid "Posts Tagged \"%s\""
+msgstr ""
+
+#: classes/tp-block-helper.php:500
+#, php-format
+msgid "Articles Posted by %s"
+msgstr ""
+
+#: classes/tp-block-helper.php:501
+msgid "Error 404"
+msgstr ""
+
+#: classes/tp-block-helper.php:979
+msgid "Page"
+msgstr ""
+
+#: classes/tp-block-helper.php:1260
+msgid "Not a Valid"
+msgstr ""
+
+#: classes/tp-block-helper.php:1268
+msgid "Empty Content."
+msgstr ""
+
+#: classes/tp-block-helper.php:1397
+msgid "System"
+msgstr ""
+
+#: classes/tp-block-helper.php:1399
+msgid "Default"
+msgstr ""
+
+#: classes/tp-block-helper.php:1400
+msgid "Arial"
+msgstr ""
+
+#: classes/tp-block-helper.php:1401
+msgid "Georgia"
+msgstr ""
+
+#: classes/tp-block-helper.php:1402
+msgid "Helvetica"
+msgstr ""
+
+#: classes/tp-block-helper.php:1403
+msgid "Tahoma"
+msgstr ""
+
+#: classes/tp-block-helper.php:1404
+msgid "Times New Roman"
+msgstr ""
+
+#: classes/tp-block-helper.php:1405
+msgid "Trebuchet MS"
+msgstr ""
+
+#: classes/tp-block-helper.php:1406
+msgid "Verdana"
+msgstr ""
+
+#: classes/tp-block-helper.php:1411
+msgid "Custom Fonts"
+msgstr ""
+
+#: classes/tp-core-init-blocks.php:133
+msgid "The Plus Blocks"
+msgstr ""
+
+#: classes/tp-core-init-blocks.php:351
+msgid "The Plus Different sized of featured images"
+msgstr ""
+
+#: classes/tp-core-init-blocks.php:365
+msgid "Post Listing of get Post Meta Info."
+msgstr ""
+
+#: classes/tp-core-init-blocks.php:379
+msgid "Category list links"
+msgstr ""
+
+#: classes/tp-core-init-blocks.php:396
+msgid "Product Data."
+msgstr ""
+
+#: classes/tp-core-init-blocks.php:538
+msgid "Settings parameter is missing!"
+msgstr ""
+
+#: classes/tp-core-init-blocks.php:548
+msgid "ThePlus Global settings updated!"
+msgstr ""
+
+#: classes/tp-core-init-blocks.php:674 classes/tp-core-init-blocks.php:704
+#: classes/tp-core-init-blocks.php:846
+msgid "CSS can not be load due to permission!!!"
+msgstr ""
+
+#: classes/tp-core-init-blocks.php:798
+msgid "Plus block css updated."
+msgstr ""
+
+#: classes/tp-core-init-blocks.php:800
+msgid "Plus block preview css updated."
+msgstr ""
+
+#: classes/tp-core-init-blocks.php:1287
+msgid ", "
+msgstr ""
+
+#: classes/tp-core-init-blocks.php:1347
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: classes/tp-core-init-blocks.php:1437
+msgid "Sale"
+msgstr ""
+
+#: classes/tp-registered-blocks.php:2334
+msgid "TPAG Performance"
+msgstr ""
+
+#: classes/tp-registered-blocks.php:2341
+msgid "Purge All Pages"
+msgstr ""
+
+#: classes/tp-registered-blocks.php:2349
+msgid "Purge Current Page"
+msgstr ""
+
+#: classes/tp-registered-blocks.php:2367
+msgid "Edit Template"
+msgstr ""
+
+#: classes/blocks/tp-button/index.php:219
+#: classes/blocks/tp-interactive-circle-info/index.php:81
+#: includes/plus-settings-options.php:905
+msgid "Button"
+msgstr ""
+
+#: classes/blocks/tp-countdown/index.php:50
+msgid "Days"
+msgstr ""
+
+#: classes/blocks/tp-countdown/index.php:51
+msgid "Hours"
+msgstr ""
+
+#: classes/blocks/tp-countdown/index.php:52
+msgid "Minutes"
+msgstr ""
+
+#: classes/blocks/tp-countdown/index.php:53
+msgid "Seconds"
+msgstr ""
+
+#: classes/blocks/tp-countdown/index.php:72
+#: classes/blocks/tp-countdown/index.php:78
+#: classes/blocks/tp-countdown/index.php:84
+#: classes/blocks/tp-countdown/index.php:90
+msgid "00"
+msgstr ""
+
+#: classes/blocks/tp-creative-image/index.php:73
+msgid "Creative Image"
+msgstr ""
+
+#: classes/blocks/tp-data-table/index.php:106
+msgid "Click Here"
+msgstr ""
+
+#: classes/blocks/tp-draw-svg/index.php:42
+#: classes/blocks/tp-flipbox/index.php:83
+#: classes/blocks/tp-flipbox/index.php:138
+#: classes/blocks/tp-infobox/index.php:121
+#: classes/blocks/tp-infobox/index.php:490
+#: classes/blocks/tp-number-counter/index.php:121
+#: classes/blocks/tp-pricing-table/index.php:71
+msgid "icon"
+msgstr ""
+
+#: classes/blocks/tp-external-form-styler/index.php:29
+msgid "Please select Form"
+msgstr ""
+
+#: classes/blocks/tp-flipbox/index.php:61
+#: classes/blocks/tp-flipbox/index.php:132
+msgid "FlipBox"
+msgstr ""
+
+#: classes/blocks/tp-heading-title/index.php:97
+msgid "image seprator"
+msgstr ""
+
+#: classes/blocks/tp-hovercard/index.php:809
+#: classes/blocks/tp-hovercard/index.php:811
+msgid "card-Img"
+msgstr ""
+
+#: classes/blocks/tp-number-counter/index.php:43
+#: classes/blocks/tp-number-counter/index.php:45
+msgid "Counter Number"
+msgstr ""
+
+#: classes/blocks/tp-number-counter/index.php:82
+#: includes/plus-settings-options.php:1244
+msgid "Number Counter"
+msgstr ""
+
+#: classes/blocks/tp-post-author/index.php:30
+#: classes/blocks/tp-post-author/index.php:34
+#: classes/blocks/tp-post-meta/index.php:72
+#: includes/blog/post-meta-style-3.php:5 includes/blog/post-meta-style-3.php:9
+msgid "author"
+msgstr ""
+
+#: classes/blocks/tp-post-author/index.php:54
+msgid "website"
+msgstr ""
+
+#: classes/blocks/tp-post-author/index.php:57
+#: includes/plus-settings-options.php:429
+#: includes/plus-settings-options.php:491
+msgid "Email"
+msgstr ""
+
+#: classes/blocks/tp-post-author/index.php:60 includes/welcome-page.php:220
+msgid "facebook"
+msgstr ""
+
+#: classes/blocks/tp-post-author/index.php:63
+msgid "twitter"
+msgstr ""
+
+#: classes/blocks/tp-post-author/index.php:66 includes/welcome-page.php:221
+msgid "instagram"
+msgstr ""
+
+#: classes/blocks/tp-post-comment/index.php:832
+#, php-format
+msgid " %s"
+msgstr ""
+
+#: classes/blocks/tp-post-comment/index.php:840
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr ""
+
+#: classes/blocks/tp-post-comment/index.php:847
+#, php-format
+msgid " %1$s%2$s. %3$s%4$s%5$s"
+msgstr ""
+
+#: classes/blocks/tp-post-comment/index.php:875
+#: includes/plus-settings-options.php:428
+msgid "Name"
+msgstr ""
+
+#: classes/blocks/tp-post-comment/index.php:879
+msgid "Email Address *"
+msgstr ""
+
+#: classes/blocks/tp-post-comment/index.php:882
+msgid "Website"
+msgstr ""
+
+#: classes/blocks/tp-post-content/index.php:37
+msgid "Block Re-rendering halted"
+msgstr ""
+
+#: classes/blocks/tp-post-listing/index.php:100
+msgid "No Posts found"
+msgstr ""
+
+#: classes/blocks/tp-post-meta/index.php:84
+msgid "No Comments"
+msgstr ""
+
+#: classes/blocks/tp-post-meta/index.php:89
+msgid "comment"
+msgstr ""
+
+#: classes/blocks/tp-post-meta/index.php:120
+#, php-format
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/blocks/tp-post-meta/index.php:1010
+msgctxt "Word count type. Do not translate!"
+msgid "words"
+msgstr ""
+
+#: classes/blocks/tp-pricing-list/index.php:28
+msgid "food icon"
+msgstr ""
+
+#: classes/blocks/tp-pricing-table/index.php:66
+#: includes/plus-settings-options.php:1135
+msgid "Icon"
+msgstr ""
+
+#: classes/blocks/tp-site-logo/index.php:42
+#: classes/blocks/tp-site-logo/index.php:45
+#: classes/blocks/tp-site-logo/index.php:51
+#: classes/blocks/tp-site-logo/index.php:54
+#: classes/blocks/tp-site-logo/index.php:61
+#: classes/blocks/tp-site-logo/index.php:64
+#: classes/blocks/tp-site-logo/index.php:76
+#: includes/plus-settings-options.php:1415
+msgid "Site Logo"
+msgstr ""
+
+#: classes/blocks/tp-social-embed/index.php:50
+#: classes/blocks/tp-social-embed/index.php:59
+#: classes/blocks/tp-social-embed/index.php:68
+#: classes/blocks/tp-social-embed/index.php:88
+msgid "Social Facebook Embed"
+msgstr ""
+
+#: classes/blocks/tp-social-embed/index.php:102
+msgid "Facebook Share"
+msgstr ""
+
+#: classes/blocks/tp-social-embed/index.php:220
+msgid "Social Vimeo"
+msgstr ""
+
+#: classes/blocks/tp-social-embed/index.php:260
+msgid "Social Youtube"
+msgstr ""
+
+#: classes/blocks/tp-social-embed/index.php:282
+#: includes/plus-settings-options.php:1081
+msgid "Google Map"
+msgstr ""
+
+#: classes/blocks/tp-social-feed/index.php:1954
+#: classes/blocks/tp-social-feed/index.php:1957
+#: classes/blocks/tp-social-reviews/index.php:155
+msgid "All Social Feed"
+msgstr ""
+
+#: classes/blocks/tp-social-icons/index.php:90
+msgid "Custom icon"
+msgstr ""
+
+#: classes/blocks/tp-stylist-list/index.php:65
+msgid "icon-img"
+msgstr ""
+
+#: classes/blocks/tp-testimonials/index.php:140
+#: classes/blocks/tp-testimonials/index.php:142
+msgid "author avatar"
+msgstr ""
+
+#: classes/blocks/tp-video/index.php:70
+msgid "play-icon"
+msgstr ""
+
+#: classes/blocks/tp-video/index.php:96
+msgid "video"
+msgstr ""
+
+#: classes/blocks/tp-video/index.php:242
+msgid "Video Thumbnail"
+msgstr ""
+
+#: classes/blocks/tp-video/index.php:250
+msgid "My Video"
+msgstr ""
+
+#: classes/extras/tpag-reusable-shortcode.php:50
+msgid "Shortcode"
+msgstr ""
+
+#: includes/plus-settings-options.php:15
+msgid ""
+"White Label our plugin and setup client's branding all around. You can "
+"update name, description, Icon and even hide the menu from dashboard. Get "
+"our pro version to have access of this feature."
+msgstr ""
+
+#: includes/plus-settings-options.php:17
+msgid "White Lable"
+msgstr ""
+
+#: includes/plus-settings-options.php:28
+msgid ""
+"Activate Licence to get access of our Pro Blocks, Features and Design "
+"Templates."
+msgstr ""
+
+#: includes/plus-settings-options.php:30
+#: includes/plus-settings-options.php:2351
+msgid "Activate"
+msgstr ""
+
+#: includes/plus-settings-options.php:78 includes/rollback.php:167
+#: includes/rollback.php:206
+msgid "Rollback to Previous Version"
+msgstr ""
+
+#: includes/plus-settings-options.php:82
+msgid "Rollback Free Version"
+msgstr ""
+
+#: includes/plus-settings-options.php:87 includes/plus-settings-options.php:89
+msgid "Reinstall"
+msgstr ""
+
+#: includes/plus-settings-options.php:91
+msgid ""
+"Note : Please take a backup of your Database and/or Complete Website before "
+"rollback."
+msgstr ""
+
+#: includes/plus-settings-options.php:110
+msgid "Basic"
+msgstr ""
+
+#: includes/plus-settings-options.php:114
+msgid "Moderate"
+msgstr ""
+
+#: includes/plus-settings-options.php:118
+msgid "Advanced"
+msgstr ""
+
+#: includes/plus-settings-options.php:125
+msgid "Blog/Magazine"
+msgstr ""
+
+#: includes/plus-settings-options.php:129
+msgid "eCommerce"
+msgstr ""
+
+#: includes/plus-settings-options.php:133
+msgid "Landing Page"
+msgstr ""
+
+#: includes/plus-settings-options.php:137
+msgid "Dynamic"
+msgstr ""
+
+#: includes/plus-settings-options.php:141
+msgid "Business"
+msgstr ""
+
+#: includes/plus-settings-options.php:145
+msgid "Personal"
+msgstr ""
+
+#: includes/plus-settings-options.php:149
+msgid "Portfolio"
+msgstr ""
+
+#: includes/plus-settings-options.php:153
+msgid "Other"
+msgstr ""
+
+#: includes/plus-settings-options.php:172
+msgid "Well done!"
+msgstr ""
+
+#: includes/plus-settings-options.php:172
+msgid " on installing The Plus Addons for Gutenberg."
+msgstr ""
+
+#: includes/plus-settings-options.php:174
+msgid ""
+"We suggest you to complete this flow to make sure you enjoy a smooth "
+"experience with the plugin"
+msgstr ""
+
+#: includes/plus-settings-options.php:183
+msgid "Select your website complexity"
+msgstr ""
+
+#: includes/plus-settings-options.php:184
+msgid ""
+"Based on your website requirements we will activate only the necessary "
+"blocks."
+msgstr ""
+
+#: includes/plus-settings-options.php:201
+msgid "Select your website type"
+msgstr ""
+
+#: includes/plus-settings-options.php:218
+msgid "Know Your Addon (1/5)"
+msgstr ""
+
+#: includes/plus-settings-options.php:221
+msgid "Great, We're almost done, now let's explore the features"
+msgstr ""
+
+#: includes/plus-settings-options.php:225
+msgid "Click here to learn more about features"
+msgstr ""
+
+#: includes/plus-settings-options.php:233
+msgid "Know Your Addon (2/5)"
+msgstr ""
+
+#: includes/plus-settings-options.php:236
+msgid "Will so many features slow down my site?"
+msgstr ""
+
+#: includes/plus-settings-options.php:237
+msgid "First Gutenberg Addon"
+msgstr ""
+
+#: includes/plus-settings-options.php:238
+msgid ""
+"Not at all! We bring you the power of scanning unused blocks for The Plus & "
+"Core Gutenberg blocks. Use this once you complete making your website. This "
+"will ensure that no extra code is loaded on your website."
+msgstr ""
+
+#: includes/plus-settings-options.php:252
+msgid "Know Your Addon (3/5)"
+msgstr ""
+
+#: includes/plus-settings-options.php:255
+msgid "Progressive CSS & JS delivery"
+msgstr ""
+
+#: includes/plus-settings-options.php:256
+msgid ""
+"Regardless of any no of blocks you use, our plugin will load only 1 CSS and "
+"1 JS file dynamically for each page. This reduces the overall request counts "
+"and guarantees better speed."
+msgstr ""
+
+#: includes/plus-settings-options.php:268
+msgid ""
+"Note: Not to be confused with Cache plugin, you would still require them, as "
+"this only affects our plus files. We are compatible to all the Popular Cache "
+"plugins."
+msgstr ""
+
+#: includes/plus-settings-options.php:271
+msgid "Know Your Addon (4/5)"
+msgstr ""
+
+#: includes/plus-settings-options.php:274
+msgid "System Requirements :"
+msgstr ""
+
+#: includes/plus-settings-options.php:275
+msgid ""
+"Make sure the following system requirements are met so that you enjoy a "
+"smoother experience"
+msgstr ""
+
+#: includes/plus-settings-options.php:290
+msgid "Wordpress: v5 or above"
+msgstr ""
+
+#: includes/plus-settings-options.php:301
+msgid "PHP : v7.2 or above "
+msgstr ""
+
+#: includes/plus-settings-options.php:322 includes/welcome-page.php:80
+msgid "Memory Limit : "
+msgstr ""
+
+#: includes/plus-settings-options.php:336
+msgid "Max Execution Time: 300 or above"
+msgstr ""
+
+#: includes/plus-settings-options.php:352
+msgid "Know Your Addon (5/5)"
+msgstr ""
+
+#: includes/plus-settings-options.php:354
+msgid "We're here to help:"
+msgstr ""
+
+#: includes/plus-settings-options.php:357
+msgid "Get Support"
+msgstr ""
+
+#: includes/plus-settings-options.php:358
+msgid ""
+"Facing issue? Feel free to reach us at helpdesk, our team will get back to "
+"you typically within 24 working hours"
+msgstr ""
+
+#: includes/plus-settings-options.php:359
+msgid "RAISE A TICKET"
+msgstr ""
+
+#: includes/plus-settings-options.php:362
+msgid "Suggest Feature"
+msgstr ""
+
+#: includes/plus-settings-options.php:363
+msgid ""
+"Feels something missing? We`re open to hear your feedback, please share your "
+"ideas with us to shape your perfect addon."
+msgstr ""
+
+#: includes/plus-settings-options.php:364
+msgid "REQUEST FEATURE"
+msgstr ""
+
+#: includes/plus-settings-options.php:367
+msgid "Detailed Docs"
+msgstr ""
+
+#: includes/plus-settings-options.php:368
+msgid ""
+"Stuck somewhere? Follow our step-by-step detailed documentation to know "
+"everything about a blocks. "
+msgstr ""
+
+#: includes/plus-settings-options.php:369
+msgid "READ DOCS"
+msgstr ""
+
+#: includes/plus-settings-options.php:373
+msgid ""
+"Love watching videos? We create weekly in-depth video tutorials showing you "
+"the amazing possibilities of The Plus Addons for Gutenberg."
+msgstr ""
+
+#: includes/plus-settings-options.php:398
+msgid "Level Up with NexterWP Theme!"
+msgstr ""
+
+#: includes/plus-settings-options.php:399
+msgid "WordPress Redefined"
+msgstr ""
+
+#: includes/plus-settings-options.php:400
+msgid ""
+"Using WordPress will never be the same, as Nexter Theme backs you with a "
+"Theme Builder, Fastest Performance & Better Security."
+msgstr ""
+
+#: includes/plus-settings-options.php:401
+msgid "Learn More"
+msgstr ""
+
+#: includes/plus-settings-options.php:403
+msgid "Why use Nexter Theme?"
+msgstr ""
+
+#: includes/plus-settings-options.php:406
+msgid "Agree to install & activate"
+msgstr ""
+
+#: includes/plus-settings-options.php:406
+msgid "Nexter"
+msgstr ""
+
+#: includes/plus-settings-options.php:406
+msgid "Theme "
+msgstr ""
+
+#: includes/plus-settings-options.php:406
+msgid "Recommended"
+msgstr ""
+
+#: includes/plus-settings-options.php:412
+msgid "Check All Features"
+msgstr ""
+
+#: includes/plus-settings-options.php:426
+msgid "Stay Updated!"
+msgstr ""
+
+#: includes/plus-settings-options.php:427
+msgid ""
+"Never miss whats happening in the World of WordPress, we send monthly emails "
+"with WordPress News, Product Updates, Speed & Security Tips, Special Offers "
+"and more"
+msgstr ""
+
+#: includes/plus-settings-options.php:430
+msgid "Please enter your email correctly"
+msgstr ""
+
+#: includes/plus-settings-options.php:432
+msgid "NO SPAM GUARANTEE"
+msgstr ""
+
+#: includes/plus-settings-options.php:434
+msgid "Submit"
+msgstr ""
+
+#: includes/plus-settings-options.php:449
+msgid "Limited Time FLASH DEAL!"
+msgstr ""
+
+#: includes/plus-settings-options.php:450
+msgid "USE CODE "
+msgstr ""
+
+#: includes/plus-settings-options.php:451
+msgid "FIRSTTIME20"
+msgstr ""
+
+#: includes/plus-settings-options.php:452
+msgid " to get FLAT 20% OFF"
+msgstr ""
+
+#: includes/plus-settings-options.php:454
+msgid "UPGRADE NOW "
+msgstr ""
+
+#: includes/plus-settings-options.php:455
+msgid "Compare FREE vs PRO"
+msgstr ""
+
+#: includes/plus-settings-options.php:458
+msgid "60 DAYS MONEY-BACK GUARANTEE"
+msgstr ""
+
+#: includes/plus-settings-options.php:475
+msgid "Congratulations All set!"
+msgstr ""
+
+#: includes/plus-settings-options.php:476
+msgid ""
+"We have configured The Plus Addons for Gutenberg based on your site "
+"requirements, where only necessary blocks are activated & rest are disabled. "
+"To use more blocks visit ( "
+msgstr ""
+
+#: includes/plus-settings-options.php:478
+msgid " Manage Blocks)"
+msgstr ""
+
+#: includes/plus-settings-options.php:479
+msgid ""
+"Agree to contribute to make The Plus Addons for Gutenberg better by sharing "
+"non-sensitive details. "
+msgstr ""
+
+#: includes/plus-settings-options.php:479
+msgid " See what details are shared "
+msgstr ""
+
+#: includes/plus-settings-options.php:482
+msgid "We collect :"
+msgstr ""
+
+#: includes/plus-settings-options.php:485
+msgid "PHP Version"
+msgstr ""
+
+#: includes/plus-settings-options.php:486
+msgid "Server Details"
+msgstr ""
+
+#: includes/plus-settings-options.php:487
+msgid "WordPress Version"
+msgstr ""
+
+#: includes/plus-settings-options.php:488
+msgid "Plugins & Theme Used"
+msgstr ""
+
+#: includes/plus-settings-options.php:489
+msgid "No. of Plus Blocks Used"
+msgstr ""
+
+#: includes/plus-settings-options.php:490
+msgid "Site Language"
+msgstr ""
+
+#: includes/plus-settings-options.php:494
+msgid ""
+"The following details will help us serve you better, and will not be shared "
+"with any third-party or used to spam you in anyway."
+msgstr ""
+
+#: includes/plus-settings-options.php:505
+msgid "Back"
+msgstr ""
+
+#: includes/plus-settings-options.php:506
+msgid "Proceed"
+msgstr ""
+
+#: includes/plus-settings-options.php:553
+#: includes/plus-settings-options.php:555
+msgid "The Plus Settings"
+msgstr ""
+
+#: includes/plus-settings-options.php:630
+msgid "Patterns"
+msgstr ""
+
+#: includes/plus-settings-options.php:817
+msgid "Accordion"
+msgstr ""
+
+#: includes/plus-settings-options.php:826
+msgid "Pro Buttons"
+msgstr ""
+
+#: includes/plus-settings-options.php:835
+msgid "Advanced Chart"
+msgstr ""
+
+#: includes/plus-settings-options.php:844
+msgid "Advanced Typography"
+msgstr ""
+
+#: includes/plus-settings-options.php:853
+msgid "Animated Service Boxes"
+msgstr ""
+
+#: includes/plus-settings-options.php:861
+msgid "Audio Player"
+msgstr ""
+
+#: includes/plus-settings-options.php:870
+msgid "Before After"
+msgstr ""
+
+#: includes/plus-settings-options.php:878
+msgid "Blockquote"
+msgstr ""
+
+#: includes/plus-settings-options.php:887
+msgid "Breadcrumbs"
+msgstr ""
+
+#: includes/plus-settings-options.php:896
+msgid "Advanced Button"
+msgstr ""
+
+#: includes/plus-settings-options.php:914
+msgid "Carousel Anything"
+msgstr ""
+
+#: includes/plus-settings-options.php:923
+msgid "Carousel Remote"
+msgstr ""
+
+#: includes/plus-settings-options.php:932
+msgid "Circle Menu"
+msgstr ""
+
+#: includes/plus-settings-options.php:941
+msgid "Code Highlighter"
+msgstr ""
+
+#: includes/plus-settings-options.php:950
+msgid "Countdown"
+msgstr ""
+
+#: includes/plus-settings-options.php:959
+msgid "Container"
+msgstr ""
+
+#: includes/plus-settings-options.php:968
+msgid "Coupon Code"
+msgstr ""
+
+#: includes/plus-settings-options.php:977
+msgid "Advanced Image"
+msgstr ""
+
+#: includes/plus-settings-options.php:986
+msgid "CTA Banner"
+msgstr ""
+
+#: includes/plus-settings-options.php:995
+msgid "Data Table"
+msgstr ""
+
+#: includes/plus-settings-options.php:1004
+msgid "Dark Mode"
+msgstr ""
+
+#: includes/plus-settings-options.php:1013
+msgid "Design Tool"
+msgstr ""
+
+#: includes/plus-settings-options.php:1022
+msgid "Draw SVG"
+msgstr ""
+
+#: includes/plus-settings-options.php:1031
+msgid "Dynamic Device"
+msgstr ""
+
+#: includes/plus-settings-options.php:1045
+msgid "Spacer"
+msgstr ""
+
+#: includes/plus-settings-options.php:1054
+msgid "External Form Styler"
+msgstr ""
+
+#: includes/plus-settings-options.php:1063
+msgid "Expand"
+msgstr ""
+
+#: includes/plus-settings-options.php:1072
+msgid "Flipbox"
+msgstr ""
+
+#: includes/plus-settings-options.php:1090
+msgid "Heading Animation"
+msgstr ""
+
+#: includes/plus-settings-options.php:1099
+msgid "Heading"
+msgstr ""
+
+#: includes/plus-settings-options.php:1108
+msgid "Advanced Heading"
+msgstr ""
+
+#: includes/plus-settings-options.php:1117
+msgid "Hotspot"
+msgstr ""
+
+#: includes/plus-settings-options.php:1126
+msgid "Hover Card"
+msgstr ""
+
+#: includes/plus-settings-options.php:1144
+msgid "Image"
+msgstr ""
+
+#: includes/plus-settings-options.php:1154
+msgid "Infobox"
+msgstr ""
+
+#: includes/plus-settings-options.php:1163
+msgid "Interactive Circle Info"
+msgstr ""
+
+#: includes/plus-settings-options.php:1172
+msgid "Login Register"
+msgstr ""
+
+#: includes/plus-settings-options.php:1181
+msgid "LottieFiles Animation"
+msgstr ""
+
+#: includes/plus-settings-options.php:1190
+msgid "Mailchimp"
+msgstr ""
+
+#: includes/plus-settings-options.php:1199
+msgid "Media Listing"
+msgstr ""
+
+#: includes/plus-settings-options.php:1208
+msgid "Message box"
+msgstr ""
+
+#: includes/plus-settings-options.php:1217
+msgid "Mobile Menu"
+msgstr ""
+
+#: includes/plus-settings-options.php:1226
+msgid "Mouse Cursor"
+msgstr ""
+
+#: includes/plus-settings-options.php:1235
+msgid "Navigation Menu"
+msgstr ""
+
+#: includes/plus-settings-options.php:1253
+msgid "Popup Builder"
+msgstr ""
+
+#: includes/plus-settings-options.php:1262
+msgid "Post Author"
+msgstr ""
+
+#: includes/plus-settings-options.php:1271
+msgid "Post Comments"
+msgstr ""
+
+#: includes/plus-settings-options.php:1280
+msgid "Post Content"
+msgstr ""
+
+#: includes/plus-settings-options.php:1289
+msgid "Post Image"
+msgstr ""
+
+#: includes/plus-settings-options.php:1298
+msgid "Post Listing"
+msgstr ""
+
+#: includes/plus-settings-options.php:1307
+msgid "Post Meta Info"
+msgstr ""
+
+#: includes/plus-settings-options.php:1316
+msgid "Post Navigation"
+msgstr ""
+
+#: includes/plus-settings-options.php:1325
+msgid "Post Title"
+msgstr ""
+
+#: includes/plus-settings-options.php:1334
+msgid "Pricing List"
+msgstr ""
+
+#: includes/plus-settings-options.php:1343
+msgid "Pricing Table"
+msgstr ""
+
+#: includes/plus-settings-options.php:1352
+msgid "Pre Loader"
+msgstr ""
+
+#: includes/plus-settings-options.php:1361
+msgid "Paragraph"
+msgstr ""
+
+#: includes/plus-settings-options.php:1370
+msgid "Process Steps"
+msgstr ""
+
+#: includes/plus-settings-options.php:1379
+msgid "Product Listing"
+msgstr ""
+
+#: includes/plus-settings-options.php:1388
+msgid "Progress Bar"
+msgstr ""
+
+#: includes/plus-settings-options.php:1397
+msgid "Progress Tracker"
+msgstr ""
+
+#: includes/plus-settings-options.php:1406
+msgid "Row"
+msgstr ""
+
+#: includes/plus-settings-options.php:1424
+msgid "Stylish List"
+msgstr ""
+
+#: includes/plus-settings-options.php:1433
+msgid "Scroll Navigation"
+msgstr ""
+
+#: includes/plus-settings-options.php:1442
+msgid "Scroll Sequence"
+msgstr ""
+
+#: includes/plus-settings-options.php:1453
+msgid "Search Bar"
+msgstr ""
+
+#: includes/plus-settings-options.php:1462
+msgid "Social Icon"
+msgstr ""
+
+#: includes/plus-settings-options.php:1471
+msgid "Social Embed"
+msgstr ""
+
+#: includes/plus-settings-options.php:1480
+#: includes/social-feed/fancybox-feed-post.php:28
+msgid "Social Feed"
+msgstr ""
+
+#: includes/plus-settings-options.php:1489
+msgid "Social Sharing"
+msgstr ""
+
+#: includes/plus-settings-options.php:1498
+msgid "Social Reviews"
+msgstr ""
+
+#: includes/plus-settings-options.php:1507
+msgid "Spline 3D Viewer"
+msgstr ""
+
+#: includes/plus-settings-options.php:1516
+msgid "Smooth Scroll"
+msgstr ""
+
+#: includes/plus-settings-options.php:1524
+msgid "Switcher"
+msgstr ""
+
+#: includes/plus-settings-options.php:1533
+msgid "Table of Contents"
+msgstr ""
+
+#: includes/plus-settings-options.php:1542
+msgid "Tabs Tours"
+msgstr ""
+
+#: includes/plus-settings-options.php:1551
+msgid "Taxonomy Listing"
+msgstr ""
+
+#: includes/plus-settings-options.php:1561
+msgid "Team Member"
+msgstr ""
+
+#: includes/plus-settings-options.php:1570
+msgid "Testimonials"
+msgstr ""
+
+#: includes/plus-settings-options.php:1579
+msgid "Timeline"
+msgstr ""
+
+#: includes/plus-settings-options.php:1588
+msgid "Video"
+msgstr ""
+
+#: includes/plus-settings-options.php:1808
+msgid "Add or Upload File"
+msgstr ""
+
+#: includes/plus-settings-options.php:1857
+msgid "CSS & JS Delivery System"
+msgstr ""
+
+#: includes/plus-settings-options.php:1860
+msgid "Smart Optimized Mode"
+msgstr ""
+
+#: includes/plus-settings-options.php:1861
+msgid "On Demand Assets"
+msgstr ""
+
+#: includes/plus-settings-options.php:1866
+msgid ""
+"On First Load, CSS delivery start from header in minified-combined format "
+"and One combined-minified JS in the footer. On Second load, All CSS will be "
+"combined-minified in just one single CSS file and loaded on header and JS "
+"will be delivered from footer same as First load. The optimized asset is "
+"stored at \"/wp-content/uploads/theplus_gutenberg\""
+msgstr ""
+
+#: includes/plus-settings-options.php:1867
+msgid "Purge All Assets"
+msgstr ""
+
+#: includes/plus-settings-options.php:1868
+msgid ""
+"*Above button will remove all Combined-minified files from \"/wp-content/"
+"uploads/theplus_gutenberg\" and It will regenerate on your page visit."
+msgstr ""
+
+#: includes/plus-settings-options.php:1871
+msgid ""
+"Based on blocks used on web page, Individual CSS for each block will be "
+"loaded from header. All JS will be loaded in footer individually based on "
+"blocks used on that page."
+msgstr ""
+
+#: includes/plus-settings-options.php:1876
+msgid "Delay Extra JS "
+msgstr ""
+
+#: includes/plus-settings-options.php:1883
+msgid "Defer CSS & JS "
+msgstr ""
+
+#: includes/plus-settings-options.php:1895
+msgid "Regenerate Assets "
+msgstr ""
+
+#: includes/plus-settings-options.php:1896
+msgid ""
+"Note : If you find any discrepancy in frontend and backend design, then we "
+"would suggest you to click on above button to regenerate the assets "
+"dynamically again based on design changes."
+msgstr ""
+
+#: includes/plus-settings-options.php:1899
+msgid "REGENERATE ALL ASSETS"
+msgstr ""
+
+#: includes/plus-settings-options.php:1929
+msgid "Setting Panel"
+msgstr ""
+
+#: includes/plus-settings-options.php:1930
+msgid "Version"
+msgstr ""
+
+#: includes/plus-settings-options.php:2040
+msgid "Enable All"
+msgstr ""
+
+#: includes/plus-settings-options.php:2043
+msgid "All"
+msgstr ""
+
+#: includes/plus-settings-options.php:2044
+msgid "Free"
+msgstr ""
+
+#: includes/plus-settings-options.php:2045
+msgid "Freemium"
+msgstr ""
+
+#: includes/plus-settings-options.php:2046
+msgid "Pro"
+msgstr ""
+
+#: includes/plus-settings-options.php:2052
+msgid "Scan Unused Blocks"
+msgstr ""
+
+#: includes/plus-settings-options.php:2053
+msgid "Disable Unused Blocks"
+msgstr ""
+
+#: includes/plus-settings-options.php:2055
+msgid "Search Blocks.."
+msgstr ""
+
+#: includes/plus-settings-options.php:2164
+msgid "Welcome"
+msgstr ""
+
+#: includes/plus-settings-options.php:2177
+msgid "Plus Blocks"
+msgstr ""
+
+#: includes/plus-settings-options.php:2190
+#: includes/plus-settings-options.php:2203
+msgid "Google Map API Key"
+msgstr ""
+
+#: includes/plus-settings-options.php:2191
+msgid ""
+"NOTE : Turn Off this key If you theme already have google key option. So, It "
+"will not generate error in console for multiple google map keys."
+msgstr ""
+
+#: includes/plus-settings-options.php:2198
+msgid "Show"
+msgstr ""
+
+#: includes/plus-settings-options.php:2199
+msgid "Hide"
+msgstr ""
+
+#: includes/plus-settings-options.php:2204
+msgid ""
+"This field is required if you want to use Advance Google Map element. You "
+"can obtain your own Google Maps Key here: (<a href=\"https://developers."
+"google.com/maps/documentation/javascript/get-api-key\" target=\"_blank\" rel="
+"\"noopener noreferrer\" >Click Here</a>)"
+msgstr ""
+
+#: includes/plus-settings-options.php:2214
+msgid "Google Fonts"
+msgstr ""
+
+#: includes/plus-settings-options.php:2215
+msgid ""
+"Note : If you disable this, It will not load Google Font on site as well as "
+"stop showing values in Font Family Selection."
+msgstr ""
+
+#: includes/plus-settings-options.php:2221
+#: includes/plus-settings-options.php:2233
+#: includes/plus-settings-options.php:2246
+#: includes/plus-settings-options.php:2258
+#: includes/plus-settings-options.php:2269
+msgid "Enable"
+msgstr ""
+
+#: includes/plus-settings-options.php:2222
+#: includes/plus-settings-options.php:2234
+#: includes/plus-settings-options.php:2245
+#: includes/plus-settings-options.php:2257
+#: includes/plus-settings-options.php:2270
+msgid "Disable"
+msgstr ""
+
+#: includes/plus-settings-options.php:2226
+msgid "Global CSS"
+msgstr ""
+
+#: includes/plus-settings-options.php:2227
+msgid ""
+"Note : If you disable this, It will not load global CSS and also not showing "
+"global option settings."
+msgstr ""
+
+#: includes/plus-settings-options.php:2238
+msgid "Beta Version"
+msgstr ""
+
+#: includes/plus-settings-options.php:2239
+msgid ""
+"Note : If you enable, You will be considered as a beta user and You will get "
+"beta update notice directly in your plugins update area. This works only for "
+"Pro Version of plugin, It will available in Free version soon."
+msgstr ""
+
+#: includes/plus-settings-options.php:2250
+msgid "Show The Plus Performance in Admin Bar"
+msgstr ""
+
+#: includes/plus-settings-options.php:2251
+msgid ""
+"This option will show The Plus Performance option on WordPress top Admin "
+"Bar, which allows you to purge assets for individual or all pages directly "
+"from any page."
+msgstr ""
+
+#: includes/plus-settings-options.php:2262
+msgid "Font Awesome Loading"
+msgstr ""
+
+#: includes/plus-settings-options.php:2263
+msgid ""
+"Note : If you disable this, It will stop loading at frontend throughout your "
+"website."
+msgstr ""
+
+#: includes/plus-settings-options.php:2274
+msgid "Contribute by sharing"
+msgstr ""
+
+#: includes/plus-settings-options.php:2275
+#, php-format
+msgid ""
+"You can share non-sensitive %s of your site, which help us build better "
+"version of The Plus Blocks for Gutenberg"
+msgstr ""
+
+#: includes/plus-settings-options.php:2275
+msgid "details"
+msgstr ""
+
+#: includes/plus-settings-options.php:2280
+msgid "I won`t share"
+msgstr ""
+
+#: includes/plus-settings-options.php:2281
+msgid "Let`s Contribute"
+msgstr ""
+
+#: includes/plus-settings-options.php:2292
+msgid "Extra Options"
+msgstr ""
+
+#: includes/plus-settings-options.php:2305
+msgid "Performance"
+msgstr ""
+
+#: includes/plus-settings-options.php:2318
+msgid "Custom"
+msgstr ""
+
+#: includes/plus-settings-options.php:2328
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/plus-settings-options.php:2329
+msgid "Add Your Custom CSS Styles"
+msgstr ""
+
+#: includes/plus-settings-options.php:2335
+msgid "Custom JS"
+msgstr ""
+
+#: includes/plus-settings-options.php:2336
+msgid "Add Your Custom JS Scripts"
+msgstr ""
+
+#: includes/plus-settings-options.php:2369
+msgid "White Label"
+msgstr ""
+
+#: includes/plus-settings-options.php:2418
+#, php-format
+msgid "Invalid property: %1$s"
+msgstr ""
+
+#: includes/plus-settings-options.php:2637
+msgid "You are not allowed to do this action"
+msgstr ""
+
+#: includes/rollback.php:141
+msgid "Rollback versions not allowed"
+msgstr ""
+
+#: includes/rollback.php:146
+msgid "Error, Try selecting another version."
+msgstr ""
+
+#: includes/welcome-page.php:15
+msgid "Welcome, "
+msgstr ""
+
+#: includes/welcome-page.php:17
+msgid ""
+"Let's build most amazing gutenberg websites using blocks of The Plus Addons "
+"for Gutenberg."
+msgstr ""
+
+#: includes/welcome-page.php:20
+msgid "35+ Free Blocks"
+msgstr ""
+
+#: includes/welcome-page.php:21
+msgid "15+ Freemium Blocks"
+msgstr ""
+
+#: includes/welcome-page.php:22
+msgid "30+ Pro Blocks"
+msgstr ""
+
+#: includes/welcome-page.php:23
+msgid "10+ Special Features"
+msgstr ""
+
+#: includes/welcome-page.php:24
+msgid "5+ UI Templates"
+msgstr ""
+
+#: includes/welcome-page.php:25
+msgid "300+ UI Design Blocks"
+msgstr ""
+
+#: includes/welcome-page.php:27
+msgid "And It's just a start. Stay Tuned."
+msgstr ""
+
+#: includes/welcome-page.php:28
+msgid "Free Vs Pro"
+msgstr ""
+
+#: includes/welcome-page.php:29
+msgid ""
+"* Free is Better but Pro is the best. Try it with 30 days refund policy."
+msgstr ""
+
+#: includes/welcome-page.php:34
+msgid "Documentation"
+msgstr ""
+
+#: includes/welcome-page.php:35
+msgid "We wrote every details for you."
+msgstr ""
+
+#: includes/welcome-page.php:37
+msgid ""
+"Looking forward to knowing more about each widget & features we provide? "
+"That is the best way to learn before you start implementation or to find a "
+"solution of any issue you are having in the process. We have documented all "
+"possible points there."
+msgstr ""
+
+#: includes/welcome-page.php:38
+msgid "Read Documentation"
+msgstr ""
+
+#: includes/welcome-page.php:53
+msgid "System Requirement"
+msgstr ""
+
+#: includes/welcome-page.php:54
+msgid "Configuration needed to work smoothly."
+msgstr ""
+
+#: includes/welcome-page.php:63
+msgid "PHP Version : "
+msgstr ""
+
+#: includes/welcome-page.php:63
+msgid " Check"
+msgstr ""
+
+#: includes/welcome-page.php:80
+msgid "(Required 256M)"
+msgstr ""
+
+#: includes/welcome-page.php:88
+msgid "GZIp Enabled :"
+msgstr ""
+
+#: includes/welcome-page.php:97
+msgid "What’s New?"
+msgstr ""
+
+#: includes/welcome-page.php:98
+msgid ""
+"Stay tuned at this place as We are working day and night for new blocks, "
+"features, design layouts, bug fixes and compatibility with WordPress Eco "
+"System."
+msgstr ""
+
+#: includes/welcome-page.php:102
+msgid "04 January 2024"
+msgstr ""
+
+#: includes/welcome-page.php:102
+msgid "3.2.2"
+msgstr ""
+
+#: includes/welcome-page.php:104
+msgid ""
+"Reduce : API's : Posts/Pages and streamlining multiple API calls Reduce and "
+"Optimize code"
+msgstr ""
+
+#: includes/welcome-page.php:105
+msgid "Added : All Blocks : Global Flex Option Added."
+msgstr ""
+
+#: includes/welcome-page.php:106
+msgid "Added : Container : Position Absolute / Fixed Option Added."
+msgstr ""
+
+#: includes/welcome-page.php:107
+msgid ""
+"Added : Google Fonts : Plus Jakarta Sans, Passions Conflict, Kumbh Sans."
+msgstr ""
+
+#: includes/welcome-page.php:108
+msgid "Added : Info Box : Description Margin Option Added."
+msgstr ""
+
+#: includes/welcome-page.php:109
+msgid "Added : Post Content: Paragraph( P tag )  Margin Option Added."
+msgstr ""
+
+#: includes/welcome-page.php:110
+msgid "Update : Datatables : JS Update"
+msgstr ""
+
+#: includes/welcome-page.php:111
+msgid ""
+"Compatibility : Wp Super Cache : Clearing the cache after saving FSE "
+"templates."
+msgstr ""
+
+#: includes/welcome-page.php:112
+msgid "Compatibility : AAWP Plugin : Display Rules Compatibility"
+msgstr ""
+
+#: includes/welcome-page.php:113
+msgid "Compatibility : Formidable Forms : Display Rules Compatibility"
+msgstr ""
+
+#: includes/welcome-page.php:114
+msgid ""
+"Compatibility : Range Slider : Kadence Blocks Range Slider Safari Browser "
+"Bug Fix"
+msgstr ""
+
+#: includes/welcome-page.php:115
+msgid "Fix : RichText : Space Bar Bug Fix in FSE Theme."
+msgstr ""
+
+#: includes/welcome-page.php:116
+msgid "Fix : Breadcrumb : Schema Markup Category Page Bug Fix"
+msgstr ""
+
+#: includes/welcome-page.php:117
+msgid "Fix : Breadcrumb : Current Active Typography Bug Fix."
+msgstr ""
+
+#: includes/welcome-page.php:118
+msgid "Fix : Selector Media Query :  CSS Media Query Bug Fix"
+msgstr ""
+
+#: includes/welcome-page.php:119
+msgid "Fix : Components : Repeater Component Drag Sorting Order Bug Fix"
+msgstr ""
+
+#: includes/welcome-page.php:120
+msgid "Fix : Accordion : Description Typography color option Bug Fix."
+msgstr ""
+
+#: includes/welcome-page.php:121
+msgid "Fix : Info Box : Carousel Layout Button Css Bug Fix."
+msgstr ""
+
+#: includes/welcome-page.php:122
+msgid "Fix : Image : Css Bug Fix"
+msgstr ""
+
+#: includes/welcome-page.php:123
+msgid "Fix : FSE Theme : Blog Page cache generate Issue Bug Fix"
+msgstr ""
+
+#: includes/welcome-page.php:124
+msgid "Fix : Performance and Optimized Code"
+msgstr ""
+
+#: includes/welcome-page.php:128
+msgid "change log"
+msgstr ""
+
+#: includes/welcome-page.php:128
+msgid "Full Change log"
+msgstr ""
+
+#: includes/welcome-page.php:133
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: includes/welcome-page.php:134
+msgid "You might have some, We have tried to answer them all."
+msgstr ""
+
+#: includes/welcome-page.php:137
+msgid "How to get Help/Support?"
+msgstr ""
+
+#: includes/welcome-page.php:138
+#, php-format
+msgid ""
+"You can have a look at <a href=\"%1$s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\" class=\"panel-sec-color\">our documentation</a> get <a href="
+"\"%2$s\" target=\"_blank\" class=\"panel-sec-color\" rel=\"noopener "
+"noreferrer\">Free support</a> using WordPress.org, and/or Join our <a href="
+"\"%3$s\" target=\"_blank\" class=\"panel-sec-color\" rel=\"noopener "
+"noreferrer\">Facebook channel</a> to get help from community."
+msgstr ""
+
+#: includes/welcome-page.php:141
+msgid "What is this Performance option about?"
+msgstr ""
+
+#: includes/welcome-page.php:142
+msgid ""
+"First of all, Performance is our highest priority. We have setup caching "
+"architecture in which, It generates One CSS & One JS files for each page. "
+"Those files combine & minify code of blocks used on those pages in single "
+"file. That means, If you have Just one block from The Plus Addons on your "
+"page, It will make one CSS file and One JS file which will have that block’s "
+"assets. So, It will make your plugin 100% modular with highest possible "
+"performance."
+msgstr ""
+
+#: includes/welcome-page.php:145
+msgid "When and Why Need to remove cache?"
+msgstr ""
+
+#: includes/welcome-page.php:146
+msgid ""
+"When you make any updated in your page and If that is not reflecting "
+"properly in frontend, You need to remove cache. When you click on Purge All "
+"Cache, It will remove all those individual files and It will start creating "
+"those files when you visit that page for first time."
+msgstr ""
+
+#: includes/welcome-page.php:149
+msgid "What If I want to remove cache of only one page?"
+msgstr ""
+
+#: includes/welcome-page.php:150
+msgid ""
+"You can do that from admin bar of page editor. That is available on top for "
+"all pages you check from front end. You will see option “The Plus "
+"Performance” -> “Purge Current Page”."
+msgstr ""
+
+#: includes/welcome-page.php:153
+msgid "Site is not working well even after removing cache at frontend."
+msgstr ""
+
+#: includes/welcome-page.php:154
+msgid ""
+"If your website is not working well even after removing cache from above "
+"button. You need to check your 3rd party caching plugin and remove cache "
+"from there. After that try to remove your browser cache by pressing Hard "
+"Reload and/or try on incognito mode."
+msgstr ""
+
+#: includes/welcome-page.php:156
+msgid "More FAQs"
+msgstr ""
+
+#: includes/welcome-page.php:201
+msgid "Technical Support"
+msgstr ""
+
+#: includes/welcome-page.php:202
+msgid "Let’s find a solution for your question."
+msgstr ""
+
+#: includes/welcome-page.php:204
+msgid ""
+"Tried everything but not found a solution? Our support team is always there "
+"for your backup. Just a few quick details to "
+msgstr ""
+
+#: includes/welcome-page.php:204
+msgid "check at here before submitting ticket."
+msgstr ""
+
+#: includes/welcome-page.php:204
+msgid " You may read our "
+msgstr ""
+
+#: includes/welcome-page.php:204
+msgid "Support Policy"
+msgstr ""
+
+#: includes/welcome-page.php:204
+msgid " to find out, Which things are covered."
+msgstr ""
+
+#: includes/welcome-page.php:206
+msgid "Support Time : Mon-Fri | 9 AM to 6 PM (Time Zone :UTC+5:30)"
+msgstr ""
+
+#: includes/welcome-page.php:208
+msgid "Average Response Time : 24 Hours (Weekdays)"
+msgstr ""
+
+#: includes/welcome-page.php:210
+msgid "Live Chat"
+msgstr ""
+
+#: includes/welcome-page.php:211
+msgid "Free Support"
+msgstr ""
+
+#: includes/welcome-page.php:216
+msgid "We are social"
+msgstr ""
+
+#: includes/welcome-page.php:217
+msgid "Join us to get regular Social Updates."
+msgstr ""
+
+#: includes/welcome-page.php:219
+msgid ""
+"Get to know about plugin updates, tips & tricks, New Offers and lots more "
+"from our social media accounts."
+msgstr ""
+
+#: includes/welcome-page.php:222
+msgid "youtube"
+msgstr ""
+
+#: includes/welcome-page.php:223
+msgid "Facebook Community"
+msgstr ""
+
+#: includes/welcome-page.php:230
+msgid "Rate Us"
+msgstr ""
+
+#: includes/welcome-page.php:231
+msgid "Maximum Rating motivate us to do more and better."
+msgstr ""
+
+#: includes/welcome-page.php:233
+msgid ""
+"Sharing your kind words about us and our widget means a lot to us. You can "
+"share your review at below."
+msgstr ""
+
+#: includes/welcome-page.php:234
+msgid "Rate on WordPress"
+msgstr ""
+
+#: includes/welcome-page.php:235
+msgid "Rate on Facebook"
+msgstr ""
+
+#: includes/welcome-page.php:240
+msgid "Any Feedback or Suggestions?"
+msgstr ""
+
+#: includes/welcome-page.php:241
+msgid "We love constructive views of yours."
+msgstr ""
+
+#: includes/welcome-page.php:243
+msgid ""
+"We always believe in improving and growth. Your all kind of suggestions for "
+"new blocks, Features, Improvements, Customer Service Suggestions and "
+"anything else are most welcome. We do appreciate your time."
+msgstr ""
+
+#: includes/welcome-page.php:244
+msgid "Share Feedback"
+msgstr ""
+
+#: includes/welcome-page.php:249
+msgid "Join 14,573 Subscribers"
+msgstr ""
+
+#: includes/welcome-page.php:250
+msgid "Get latest updates, Offers and more on your email."
+msgstr ""
+
+#: includes/welcome-page.php:252
+msgid ""
+"Want to join our newsletter? We share tricks & tips related to Product and "
+"WordPress itself. On top of that, You will get timely notifications of new "
+"plugin updates and lots more."
+msgstr ""
+
+#: includes/welcome-page.php:253
+msgid "Subscribe Us"
+msgstr ""
+
+#: includes/social-feed/fancybox-feed-post.php:13
+#: includes/social-feed/fancybox-feed-post.php:17
+#: includes/social-feed/fancybox-feed.php:27
+#: includes/social-feed/fancybox-feed.php:31
+msgid "Facebook Post"
+msgstr ""
+
+#: includes/social-feed/fancybox-feed-post.php:14
+#: includes/social-feed/fancybox-feed-post.php:18
+#: includes/social-feed/fancybox-feed-post.php:24
+#: includes/social-feed/fancybox-feed-post.php:31
+#: includes/social-feed/fancybox-feed.php:28
+#: includes/social-feed/fancybox-feed.php:32
+msgid "Facebook Image"
+msgstr ""
+
+#: includes/social-feed/fancybox-feed-post.php:34
+#: includes/social-feed/fancybox-feed.php:42
+msgid "Social Media Image"
+msgstr ""
+
+#: includes/social-feed/fancybox-feed-style-1.php:21
+#: includes/social-feed/fancybox-feed-style-2.php:23
+msgid "View Post"
+msgstr ""
+
+#: includes/social-feed/fancybox-feed-style-1.php:21
+#: includes/social-feed/fancybox-feed-style-2.php:23
+msgid "View post"
+msgstr ""
+
+#: includes/social-feed/fancybox-feed.php:41
+#: includes/social-feed/fancybox-feed.php:45
+msgid "Social Media Post"
+msgstr ""
+
+#: includes/social-feed/feed-Description.php:18
+#: includes/social-feed/feed-Description.php:22
+msgid "Hashtag"
+msgstr ""
+
+#: includes/social-feed/feed-Description.php:35
+msgid "Description"
+msgstr ""
+
+#: includes/social-feed/feed-footer.php:9
+msgid "Like "
+msgstr ""
+
+#: includes/social-feed/feed-footer.php:11
+msgid "Like"
+msgstr ""
+
+#: includes/social-feed/feed-footer.php:12
+msgid "Reaction"
+msgstr ""
+
+#: includes/social-feed/feed-footer.php:20
+msgid "comment "
+msgstr ""
+
+#: includes/social-feed/feed-footer.php:30
+msgid "share "
+msgstr ""
+
+#: includes/social-feed/popup-type.php:14
+#: includes/social-feed/popup-type.php:45
+#: includes/social-feed/social-feed-ob-style.php:5
+#: includes/social-feed/social-feed-ob-style.php:22
+msgid "Post URL"
+msgstr ""
+
+#: includes/social-feed/popup-type.php:21
+#: includes/social-feed/popup-type.php:24
+#: includes/social-feed/popup-type.php:36
+#: includes/social-feed/popup-type.php:39
+msgid "Post Thumbnail"
+msgstr ""
+
+#: includes/social-feed/popup-type.php:29
+#: includes/social-feed/popup-type.php:47
+msgid "Popup Gallery"
+msgstr ""
+
+#: includes/social-feed/social-feed-ob-style.php:13
+#: includes/social-reviews/social-review-ob-style.php:30
+msgid "User Profile"
+msgstr ""
+
+#: includes/social-reviews/social-review-ob-style.php:20
+msgid "Review URL"
+msgstr ""
+
+#: includes/social-reviews/social-review-ob-style.php:24
+msgid "Page URL"
+msgstr ""
+
+#: includes/social-reviews/social-review-ob-style.php:24
+msgid "Social Logo"
+msgstr ""
+
+#: includes/social-reviews/social-review-style-1.php:26
+#: includes/social-reviews/social-review-style-2.php:33
+msgid "Posted On "
+msgstr ""

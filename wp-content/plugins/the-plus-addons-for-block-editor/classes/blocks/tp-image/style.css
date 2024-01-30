@@ -1,0 +1,7 @@
+.tpgb-image-caption{
+    transition: all .3s;
+}
+.tpgb-image figure.tpgb-figure{
+    margin: 0px;
+    display: grid;
+}
