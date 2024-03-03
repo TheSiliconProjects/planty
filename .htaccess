@@ -157,39 +157,23 @@ Options +FollowSymlinks
 # This module controls the setting of the Expires HTTP header and the max-age directive of the Cache-Control HTTP header in server responses. 
 
 <IfModule mod_expires.c>
+
     ExpiresActive On
-    ExpiresByType text/css A31536000
-    ExpiresByType text/x-component A31536000
-    ExpiresByType application/x-javascript A31536000
+
+    ExpiresByType application/font-woff A31536000
+    ExpiresByType application/font-woff2 A31536000
     ExpiresByType application/javascript A31536000
-    ExpiresByType text/javascript A31536000
-    ExpiresByType text/x-js A31536000
-    ExpiresByType video/asf A31536000
-    ExpiresByType video/avi A31536000
-    ExpiresByType image/avif A31536000
-    ExpiresByType image/avif-sequence A31536000
-    ExpiresByType image/bmp A31536000
     ExpiresByType application/java A31536000
-    ExpiresByType video/divx A31536000
-    ExpiresByType application/msword A31536000
-    ExpiresByType application/vnd.ms-fontobject A31536000
-    ExpiresByType application/x-msdownload A31536000
-    ExpiresByType image/gif A31536000
-    ExpiresByType application/x-gzip A31536000
-    ExpiresByType image/x-icon A31536000
-    ExpiresByType image/jpeg A31536000
-    ExpiresByType image/webp A31536000
     ExpiresByType application/json A31536000
+    ExpiresByType application/msword A31536000
+    ExpiresByType application/pdf A31536000
     ExpiresByType application/vnd.ms-access A31536000
-    ExpiresByType audio/midi A31536000
-    ExpiresByType video/quicktime A31536000
-    ExpiresByType audio/mpeg A31536000
-    ExpiresByType video/mp4 A31536000
-    ExpiresByType video/mpeg A31536000
-    ExpiresByType video/webm A31536000
+    ExpiresByType application/vnd.ms-fontobject A31536000
     ExpiresByType application/vnd.ms-project A31536000
-    ExpiresByType application/x-font-otf A31536000
+    ExpiresByType application/vnd.ms-excel A31536000
     ExpiresByType application/vnd.ms-opentype A31536000
+    ExpiresByType application/vnd.ms-powerpoint A31536000
+    ExpiresByType application/vnd.ms-write A31536000
     ExpiresByType application/vnd.oasis.opendocument.database A31536000
     ExpiresByType application/vnd.oasis.opendocument.chart A31536000
     ExpiresByType application/vnd.oasis.opendocument.formula A31536000
@@ -197,36 +181,116 @@ Options +FollowSymlinks
     ExpiresByType application/vnd.oasis.opendocument.presentation A31536000
     ExpiresByType application/vnd.oasis.opendocument.spreadsheet A31536000
     ExpiresByType application/vnd.oasis.opendocument.text A31536000
-    ExpiresByType audio/ogg A31536000
-    ExpiresByType video/ogg A31536000
-    ExpiresByType application/pdf A31536000
-    ExpiresByType image/png A31536000
-    ExpiresByType application/vnd.ms-powerpoint A31536000
-    ExpiresByType audio/x-realaudio A31536000
-    ExpiresByType image/svg+xml A31536000
+    ExpiresByType application/x-font-otf A31536000
+    ExpiresByType application/x-javascript A31536000
     ExpiresByType application/x-shockwave-flash A31536000
     ExpiresByType application/x-tar A31536000
-    ExpiresByType image/tiff A31536000
     ExpiresByType application/x-font-ttf A31536000
-    ExpiresByType application/vnd.ms-opentype A31536000
+    ExpiresByType application/x-msdownload A31536000
+    ExpiresByType application/x-gzip A31536000
+    ExpiresByType application/zip A31536000
+
+    ExpiresByType audio/midi A31536000
+    ExpiresByType audio/mpeg A31536000
+    ExpiresByType audio/ogg A31536000
+    ExpiresByType audio/x-realaudio A31536000
     ExpiresByType audio/wav A31536000
     ExpiresByType audio/wma A31536000
-    ExpiresByType application/vnd.ms-write A31536000
-    ExpiresByType application/font-woff A31536000
-    ExpiresByType application/font-woff2 A31536000
-    ExpiresByType application/vnd.ms-excel A31536000
-    ExpiresByType application/zip A31536000
+
+    ExpiresByType image/avif A31536000
+    ExpiresByType image/avif-sequence A31536000
+    ExpiresByType image/bmp A31536000
+    ExpiresByType image/gif A31536000
+    ExpiresByType image/x-icon A31536000
+    ExpiresByType image/jpeg A31536000
+    ExpiresByType image/webp A31536000
+    ExpiresByType image/png A31536000
+    ExpiresByType image/svg+xml A31536000
+    ExpiresByType image/tiff A31536000
+
+    ExpiresByType text/css A31536000
+    ExpiresByType text/x-component A31536000
+    ExpiresByType text/javascript A31536000
+    ExpiresByType text/x-js A31536000
+
+    ExpiresByType video/asf A31536000
+    ExpiresByType video/avi A31536000
+    ExpiresByType video/divx A31536000
+    ExpiresByType video/quicktime A31536000
+    ExpiresByType video/mp4 A31536000
+    ExpiresByType video/mpeg A31536000
+    ExpiresByType video/webm A31536000
+    ExpiresByType video/ogg A31536000
+
 </IfModule>
 
 # Compression / Decompression modules
+
 <IfModule mod_deflate.c>
-        AddOutputFilterByType DEFLATE text/css text/x-component application/x-javascript application/javascript text/javascript text/x-js text/html text/richtext text/plain text/xsd text/xsl text/xml image/bmp application/java application/msword application/vnd.ms-fontobject application/x-msdownload image/x-icon application/json application/vnd.ms-access video/webm application/vnd.ms-project application/x-font-otf application/vnd.ms-opentype application/vnd.oasis.opendocument.database application/vnd.oasis.opendocument.chart application/vnd.oasis.opendocument.formula application/vnd.oasis.opendocument.graphics application/vnd.oasis.opendocument.presentation application/vnd.oasis.opendocument.spreadsheet application/vnd.oasis.opendocument.text audio/ogg application/pdf application/vnd.ms-powerpoint image/svg+xml application/x-shockwave-flash image/tiff application/x-font-ttf application/vnd.ms-opentype audio/wav application/vnd.ms-write application/font-woff application/font-woff2 application/vnd.ms-excel
+
+        AddOutputFilterByType DEFLATE text/css
+ 	AddOutputFilterByType DEFLATE text/x-component
+	AddOutputFilterByType DEFLATE text/javascript
+	AddOutputFilterByType DEFLATE text/x-js
+	AddOutputFilterByType DEFLATE text/html
+	AddOutputFilterByType DEFLATE text/richtext
+	AddOutputFilterByType DEFLATE text/plain
+	AddOutputFilterByType DEFLATE text/xsd
+	AddOutputFilterByType DEFLATE text/xsl
+	AddOutputFilterByType DEFLATE text/xml
+
+	AddOutputFilterByType DEFLATE application/font-woff
+	AddOutputFilterByType DEFLATE application/font-woff2
+	AddOutputFilterByType DEFLATE application/java
+	AddOutputFilterByType DEFLATE application/msword
+	AddOutputFilterByType DEFLATE application/pdf application/vnd.ms-powerpoint
+	AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+	AddOutputFilterByType DEFLATE application/vnd.ms-access
+	AddOutputFilterByType DEFLATE application/vnd.ms-excel
+	AddOutputFilterByType DEFLATE application/vnd.ms-write
+	AddOutputFilterByType DEFLATE application/vnd.ms-opentype
+	AddOutputFilterByType DEFLATE application/vnd.oasis.opendocument.database
+	AddOutputFilterByType DEFLATE application/vnd.oasis.opendocument.chart
+	AddOutputFilterByType DEFLATE application/vnd.oasis.opendocument.formula
+	AddOutputFilterByType DEFLATE application/vnd.oasis.opendocument.graphics
+	AddOutputFilterByType DEFLATE application/vnd.oasis.opendocument.presentation
+	AddOutputFilterByType DEFLATE application/vnd.oasis.opendocument.spreadsheet
+	AddOutputFilterByType DEFLATE application/vnd.oasis.opendocument.text audio/ogg
+	AddOutputFilterByType DEFLATE application/x-font
+	AddOutputFilterByType DEFLATE application/x-font-opentype
+	AddOutputFilterByType DEFLATE application/x-font-otf
+	AddOutputFilterByType DEFLATE application/x-font-truetype
+	AddOutputFilterByType DEFLATE application/x-font-ttf
+	AddOutputFilterByType DEFLATE application/x-javascript
+	AddOutputFilterByType DEFLATE application/x-msdownload
+	AddOutputFilterByType DEFLATE application/x-shockwave-flash
+	AddOutputFilterByType DEFLATE application/xhtml+xml
+	AddOutputFilterByType DEFLATE application/xml
+	AddOutputFilterByType DEFLATE application/vnd.ms-excel
+
+        AddOutputFilterByType DEFLATE audio/wav
+
+	AddOutputFilterByType DEFLATE font/opentype
+	AddOutputFilterByType DEFLATE font/otf
+	AddOutputFilterByType DEFLATE font/ttf
+
+	AddOutputFilterByType DEFLATE image/svg+xml
+	AddOutputFilterByType DEFLATE image/tiff
+	AddOutputFilterByType DEFLATE image/x-icon application/json
+
+	AddOutputFilterByType DEFLATE video/webm application/vnd.ms-project
+  	
+#	Old browser fixes
+	BrowserMatch ^Mozilla/4 gzip-only-text/html
+	BrowserMatch ^Mozilla/4\.0[678] no-gzip
+	BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+	Header append Vary User-Agent
+
     <IfModule mod_mime.c>
         # DEFLATE by extension
         AddOutputFilter DEFLATE js css htm html xml
     </IfModule>
 </IfModule>
-
 
 # Setup in root .htaccess
 # Replace, merge remove HTTP responses headers

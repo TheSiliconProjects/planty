@@ -2,14 +2,18 @@
 # This file is distributed under the same license as the Plugins - Contact Form 7 - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-29 04:59:20+0000\n"
+"PO-Revision-Date: 2024-02-05 06:33:19+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"X-Generator: GlotPress/4.0.0-beta.2\n"
 "Language: ja_JP\n"
 "Project-Id-Version: Plugins - Contact Form 7 - Stable (latest release)\n"
+
+#: includes/rest-api.php:360
+msgid "There is no valid unit tag."
+msgstr "適正なユニットタグがありません。"
 
 #: modules/sendinblue/contact-form-properties.php:101
 #: modules/sendinblue/service.php:156
@@ -261,7 +265,7 @@ msgctxt "personal name"
 msgid "%1$s %2$s"
 msgstr "%1$s %2$s"
 
-#: includes/rest-api.php:506
+#: includes/rest-api.php:513
 msgid "Unique identifier for the contact form."
 msgstr "コンタクトフォームの一意識別子。"
 
@@ -754,7 +758,7 @@ msgstr "リクエストしたコンタクトフォームにアクセスする権
 
 #: includes/rest-api.php:243 includes/rest-api.php:265
 #: includes/rest-api.php:310 includes/rest-api.php:349
-#: includes/rest-api.php:414 includes/rest-api.php:433
+#: includes/rest-api.php:421 includes/rest-api.php:440
 msgid "The requested contact form was not found."
 msgstr "リクエストしたコンタクトフォームが見つかりません。"
 

@@ -55,6 +55,9 @@ function tpgb_external_form_styler_render_callback( $attributes, $content) {
     return $output;
 }
 function tpgb_get_form_rendered(){
+	if ( ! current_user_can( 'edit_posts' ) ) {
+		wp_die( 'You can not Permission.' );
+	}
     $form_id = isset($_POST['form_id']) ? wp_unslash($_POST['form_id']) : '';
     $form_type = isset($_POST['form_type']) ? sanitize_text_field(wp_unslash($_POST['form_type'])) : '';
 	

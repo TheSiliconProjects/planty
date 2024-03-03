@@ -1,9 +1,9 @@
 === Ultimate Blocks - WordPress Blocks Plugin ===
 Contributors: dotcamp, ultimateblocks, imtiazrayhan, istiakrayhan, erdembircan, alexius08, wpleaders1, wpcdplugin, wptb
 Tags: block, blocks, gutenberg blocks, gutenberg, block editor
-Requires at least: 5.0
+Requires at least: 5.8
 Tested up to: 6.4
-Stable tag: 3.1.1
+Stable tag: 3.1.3
 Requires PHP: 5.6
 License: GPL3+
 License URI: http://www.gnu.org/licenses/gpl-3.0.txt
@@ -143,6 +143,40 @@ That's it. You're done!
 3. Tabbed Content Block.
 
 == Changelog ==
+
+= 3.1.3 =
+
+* IMPROVE: Separated Styled list and list item alignment.
+* IMPROVE: Make default width for the uploaded video.
+* IMPROVE: Separated normal and hover colors in icon block.
+* IMPROVE: Advanced heading initially without bold.
+* IMPROVE: Shorts support in the advanced video block.
+* IMPROVE: Color Controls in the styled list block.
+* FIX: Shadow in the advanced video block.
+* FIX: Image alignment inside the tabbed content block.
+* FIX: Autoplay in the advanced video block youtube.
+* PRO: FIX: German umlauts (ä,ö,ü) not showing correctly on frontend.
+* PRO: NEW: Ajax functionality for the post grid pagination.
+
+= 3.1.2 =
+
+* FIX: Default Open option is not working content toggle block.
+* FIX: Empty color option in table of content.
+* FIX: PHP errors and warning for WP 5.7.3 and PHP 7.4.33.
+* FIX: Video uploading in advanced video block.
+* PRO: FIX: Content Toggle Search option is not showing in the frontend.
+* PRO: FIX: Changing image slider height with arrow breaks the block.
+* PRO: FIX: Background color not showing in the table of contents.
+* PRO: IMPROVE: Move current icon option in layout panel in the table of content.
+* IMPROVE: Add upsell for post grid pagination.
+* IMPROVE: Showing Pagination outside the image in the image slider.
+* IMPROVE: Color component in button (improved) block.
+* IMPROVE: Icon control in all blocks.
+* IMPROVE: Styled List additional panel opened by default.
+* IMPROVE: Renderappender in tabbed content block.
+* NEW: Option to hide review text in the star rating block.
+* NEW: Border and Radius option in icon block.
+* NEW: Custom CSS Extension.
 
 = 3.1.1 =
 

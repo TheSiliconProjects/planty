@@ -727,6 +727,14 @@ function tpgb_tp_hovercard() {
 add_action( 'init', 'tpgb_tp_hovercard' );
 
 function tpgb_get_html_structure($attr,$load=''){
+
+	if( $load!='attr' && isset($_POST)){
+		check_ajax_referer( 'tpgb-addons', 'nonce' );
+		if ( ! current_user_can( 'edit_posts' ) ) {
+			exit();
+		}
+	}
+	
 	$tagname = (isset($_POST['tagname']) && !empty($_POST['tagname'])) ? map_deep( wp_unslash( $_POST['tagname'] ), 'sanitize_text_field' ) : $attr['cardList'];
 	$block_id = (isset($_POST['block_id']) && !empty($_POST['block_id'])) ? sanitize_key($_POST['block_id']) : $attr['block_id'];
 	

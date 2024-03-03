@@ -65,7 +65,7 @@ if ( !class_exists( 'TP_Gutenberg_Loader' ) ) {
          *
          * @return void
          */
-        public function loader_helper() {
+        public function loader_helper() {			
 			$option_name='default_tpgb_load_opt';
 			$value='1';
 			if ( is_admin() && get_option( $option_name ) !== false ) {
@@ -81,6 +81,8 @@ if ( !class_exists( 'TP_Gutenberg_Loader' ) ) {
                         $tpgb_normal_blocks_opts = [];
                     }
 					$tpgb_normal_blocks_opts['enable_normal_blocks']= array("tp-accordion","tp-breadcrumbs","tp-blockquote","tp-button-core","tp-button","tp-countdown","tp-container","tp-creative-image","tp-data-table","tp-draw-svg","tp-empty-space","tp-flipbox","tp-google-map","tp-heading","tp-heading-title","tp-hovercard","tp-icon-box","tp-infobox","tp-image","tp-messagebox","tp-number-counter","tp-pricing-list","tp-pricing-table","tp-pro-paragraph","tp-progress-bar","tp-row","tp-stylist-list","tp-social-icons","tp-tabs-tours","tp-testimonials","tp-video","tp-login-register");
+
+                    $tpgb_normal_blocks_opts['tp_extra_option']= ['tp-advanced-border-radius','tp-display-rules','tp-equal-height','tp-event-tracking','tp-magic-scroll','tp-global-tooltip','tp-continuous-animation','tp-content-hover-effect','tp-mouse-parallax','tp-3d-tilt','tp-scoll-animation'];
 					
 					$deprecated = null;
 					$autoload = 'no';
@@ -229,7 +231,7 @@ if ( !class_exists( 'TP_Gutenberg_Loader' ) ) {
 			return $plugin_meta;
         }
 
-         /*
+        /*
          * Activation Reset
          * @since 2.0.9
          */
@@ -238,6 +240,7 @@ if ( !class_exists( 'TP_Gutenberg_Loader' ) ) {
                 exit( wp_redirect( admin_url( 'admin.php?page=tpgb_welcome_page' ) ) );
             }
         }
+
     }
     
     TP_Gutenberg_Loader::get_instance();

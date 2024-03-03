@@ -271,6 +271,7 @@ class Tp_Core_Init_Blocks {
 			'preview_grid_image' => esc_url(TPGB_URL .'assets/images/tpgb-placeholder-grid.jpg'),
 			'taxonomy_list' => Tp_Blocks_Helper::tpgb_get_post_taxonomies(),
 			'custom_font' => Tp_Blocks_Helper::tpgb_custom_font(),
+			'tpgb_extra_opt' => Tp_Blocks_Helper::get_extra_opt_enabled(),
 		);
 		
 		if(has_filter('tpgb_load_localize')) {
@@ -1220,7 +1221,7 @@ class Tp_Core_Init_Blocks {
 			)
 		);
 
-		if( get_current_screen()->id != 'the-plus-settings_page_tpgb_normal_blocks_opts' ) return;
+		if( strpos(get_current_screen()->id, 'tpgb_normal_blocks_opts') === false ) return;
 
 		wp_enqueue_script( 'tpgb-disable-block', TPGB_URL . 'assets/js/admin/tpgb-disable-block.js', array( 'jquery', 'wp-blocks', 'wp-element', 'wp-data', 'wp-components', 'wp-block-library' ), 1 );
 		wp_localize_script( 'tpgb-disable-block', 'tpgb_disable_block_data', array(

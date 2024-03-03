@@ -79,15 +79,15 @@ echo '<div class="tpgb-panel-welcome-page">';
 				}
 				echo '<div class="sys-req-label"><span>'.esc_html__('Memory Limit : ','tpgb'). ini_get('memory_limit').'</br>'.esc_html__('(Required 256M)','tpgb').'</span>'.$memory_check_req.'</div>';
 				
-				$gzip_check_req = '';
-				if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')){
-					$gzip_check_req = '<span class="check-req-right">'.$check_right_req.'</span>';
-				}else{
-					$gzip_check_req = '<span class="check-req-wrong">'.$check_wrong_req.'</span>';
+				$gzip_check_req = '<span class="check-req-wrong">'.$check_wrong_req.'</span>';
+				if ( isset($_SERVER['HTTP_ACCEPT_ENCODING']) ){
+					if(substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')){
+						$gzip_check_req = '<span class="check-req-right">'.$check_right_req.'</span>';
+					}
 				}
 				echo '<div class="sys-req-label tpgb-bm-0"><span>'.esc_html__('GZIp Enabled :','tpgb').'</span>'.$gzip_check_req.'</div>';
 				/*echo '<a href="#" class="tpgb-panel-btn tpgb-mt-8" title="'.esc_attr__('Know More & Resolve','tpgb').'" target="_blank" rel="noopener noreferrer">'.esc_html__('Know More & Resolve?','tpgb').'</a>';*/
-			
+
 			echo '</div>';
 			/*Welcome System Requirement*/
 		echo '</div>';
@@ -97,40 +97,22 @@ echo '<div class="tpgb-panel-welcome-page">';
 				echo '<div class="tpgb-sec-title">'.esc_html__('What’s New?','tpgb').'</div>';
 				echo '<div class="tpgb-sec-subtitle">'.esc_html__('Stay tuned at this place as We are working day and night for new blocks, features, design layouts, bug fixes and compatibility with WordPress Eco System.','tpgb').'</div>';
 				echo '<div class="tpgb-sec-border"></div>';
+				
 				echo '<div class="tpgb-changelog-list">';
-					echo '<div class="changelog-date">'.esc_html__('10 January 2024','tpgb').' <span class="changelog-version">'.esc_html__('3.2.3','tpgb').'</span></div>';
+					echo '<div class="changelog-date">'.esc_html__('28 February 2024','tpgb').' <span class="changelog-version">'.esc_html__('3.2.7','tpgb').'</span></div>';
 					echo '<ul class="changelog-list">';
-						echo '<li>'.esc_html__('Compatibility : Gutenberg V17.4.1 : Responsive Preview Device CSS bug fix','tpgb').'</li>';
-						echo '<li>'.esc_html__('Fix : Container : Mobile Device Flex Direction bug fix','tpgb').'</li>';
+						echo '<li>'.esc_html__('Update : Post Listing : Display Post Option Increase Maximum limit','tpgb').'</li>';
+						echo '<li>'.esc_html__('Fix : Accordion Inner : Gutenberg Class Name Bug Fix','tpgb').'</li>';
+						echo '<li>'.esc_html__('Fix : Display Rules : Compatibility of Advanced iFrame block attributes Bug Fix','tpgb').'</li>';
 					echo '</ul>';
 				echo '</div>';
 				echo '<div class="tpgb-changelog-list">';
-					echo '<div class="changelog-date">'.esc_html__('04 January 2024','tpgb').' <span class="changelog-version">'.esc_html__('3.2.2','tpgb').'</span></div>';
+					echo '<div class="changelog-date">'.esc_html__('26 February 2024','tpgb').' <span class="changelog-version">'.esc_html__('3.2.6','tpgb').'</span></div>';
 					echo '<ul class="changelog-list">';
-						echo '<li>'.esc_html__('Reduce : API\'s : Posts/Pages and streamlining multiple API calls Reduce and Optimize code','tpgb').'</li>';
-						echo '<li>'.esc_html__('Added : All Blocks : Global Flex Option Added.','tpgb').'</li>';
-						echo '<li>'.esc_html__('Added : Container : Position Absolute / Fixed Option Added.','tpgb').'</li>';
-						echo '<li>'.esc_html__('Added : Google Fonts : Plus Jakarta Sans, Passions Conflict, Kumbh Sans.','tpgb').'</li>';
-						echo '<li>'.esc_html__('Added : Info Box : Description Margin Option Added.','tpgb').'</li>';
-						echo '<li>'.esc_html__('Added : Post Content: Paragraph( P tag )  Margin Option Added.','tpgb').'</li>';
-						echo '<li>'.esc_html__('Update : Datatables : JS Update','tpgb').'</li>';
-						echo '<li>'.esc_html__('Compatibility : Wp Super Cache : Clearing the cache after saving FSE templates.','tpgb').'</li>';
-						echo '<li>'.esc_html__('Compatibility : AAWP Plugin : Display Rules Compatibility','tpgb').'</li>';
-						echo '<li>'.esc_html__('Compatibility : Formidable Forms : Display Rules Compatibility','tpgb').'</li>';
-						echo '<li>'.esc_html__('Compatibility : Range Slider : Kadence Blocks Range Slider Safari Browser Bug Fix','tpgb').'</li>';
-						echo '<li>'.esc_html__('Fix : RichText : Space Bar Bug Fix in FSE Theme.','tpgb').'</li>';
-						echo '<li>'.esc_html__('Fix : Breadcrumb : Schema Markup Category Page Bug Fix','tpgb').'</li>';
-						echo '<li>'.esc_html__('Fix : Breadcrumb : Current Active Typography Bug Fix.','tpgb').'</li>';
-						echo '<li>'.esc_html__('Fix : Selector Media Query :  CSS Media Query Bug Fix','tpgb').'</li>';
-						echo '<li>'.esc_html__('Fix : Components : Repeater Component Drag Sorting Order Bug Fix','tpgb').'</li>';
-						echo '<li>'.esc_html__('Fix : Accordion : Description Typography color option Bug Fix.','tpgb').'</li>';
-						echo '<li>'.esc_html__('Fix : Info Box : Carousel Layout Button Css Bug Fix.','tpgb').'</li>';
-						echo '<li>'.esc_html__('Fix : Image : Css Bug Fix','tpgb').'</li>';
-						echo '<li>'.esc_html__('Fix : FSE Theme : Blog Page cache generate Issue Bug Fix','tpgb').'</li>';
-						echo '<li>'.esc_html__('Fix : Performance and Optimized Code','tpgb').'</li>';
+						echo '<li>'.esc_html__('Security : Minor Security Improvements','tpgb').'</li>';
 					echo '</ul>';
 				echo '</div>';
-
+				
 				echo '<a href="'.esc_url('https://roadmap.theplusblocks.com/updates').'" class="tpgb-panel-btn tpgb-mt-8" title="'.esc_attr__('change log','tpgb').'" target="_blank" rel="noopener noreferrer">'.esc_html__('Full Change log','tpgb').'</a>';
 			echo '</div>';
 			/*Welcome Change log*/

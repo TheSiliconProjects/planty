@@ -2637,6 +2637,22 @@ Class Tpgb_Library {
 				}
 			}
 
+			if( !in_array( '3.2.4', $get_version ) ){
+				$versions = array_unique( array_merge( $get_version, $versions ) );
+				update_option( $option_name, $versions );
+
+				$get_blocks_list = get_option('tpgb_normal_blocks_opts');
+				if(isset($get_blocks_list) && !empty($get_blocks_list)){
+					if( !isset($get_blocks_list['tp_extra_option']) )  {
+
+						$plus_ex_list = ['tp-advanced-border-radius','tp-display-rules','tp-equal-height','tp-event-tracking','tp-magic-scroll','tp-global-tooltip','tp-continuous-animation','tp-content-hover-effect','tp-mouse-parallax','tp-3d-tilt','tp-scoll-animation'];
+
+						$get_blocks_list['tp_extra_option'] = $plus_ex_list;
+						update_option( 'tpgb_normal_blocks_opts', $get_blocks_list );
+					}
+				}
+			}
+
 		}
 	}
 	

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Solid Security – Password, Two Factor Authentication, and Brute Force Protection - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-01-27 12:59:40+0000\n"
+"PO-Revision-Date: 2024-02-07 19:45:55+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,10 @@ msgstr ""
 "X-Generator: GlotPress/4.0.0-beta.2\n"
 "Language: es\n"
 "Project-Id-Version: Plugins - Solid Security – Password, Two Factor Authentication, and Brute Force Protection - Stable (latest release)\n"
+
+#: core/modules/global/privacy.php:49
+msgid "A cookie named “itsec_interstitial_browser” is created to track a user’s login process to implement enhanced security features."
+msgstr "Se crea una cookie denominada «itsec_interstitial_browser» para rastrear el proceso de acceso de un usuario con el fin de implementar características de seguridad mejoradas."
 
 #: vendor-prod/stellarwp/telemetry/src/views/optin.php:62
 msgid "Allow & Continue"
@@ -3970,8 +3974,8 @@ msgstr "El problema no se pudo corregir automáticamente."
 
 #. Translators: 1: Link to Sucuri's privacy policy
 #: core/modules/site-scanner/privacy.php:12
-msgid "This site is scanned for potential malware and vulnerabilities by the iThemes Site Scanner. We do not send personal information to the scanner; however, the scanner could find personal information posted publicly (such as in comments) during the scan."
-msgstr "Este sitio se explora en busca de potenciales malware y vulnerabilidades por el explorador de sitios de iThemes. No enviamos información personal al explorador; sin embargo, el explorador podría encontrar información personal publicada públicamente (como en los comentarios) durante la exploración."
+msgid "This site is scanned for potential malware and vulnerabilities by the SolidWP Site Scanner. We do not send personal information to the scanner; however, the scanner could find personal information posted publicly (such as in comments) during the scan."
+msgstr "Este sitio se explora en busca de potenciales malware y vulnerabilidades por el explorador de sitios de SolidWP. No enviamos información personal al explorador; sin embargo, el explorador podría encontrar información personal publicada públicamente (como en los comentarios) durante la exploración."
 
 #: core/modules/site-scanner/Model/Factory.php:163
 msgid "Blocklist"
@@ -5129,12 +5133,12 @@ msgid "The number of days database logs should be kept."
 msgstr "El número de días que deben guardarse los registros en la base de datos."
 
 #. Translators: 1: Number of days that data is retained for
-#: core/modules/global/privacy.php:30
+#: core/modules/global/privacy.php:31
 msgid "Security logs are retained for %1$d days."
 msgstr "Los registros de seguridad se conservan %1$d días."
 
 #. Translators: 1: Number of days that data is retained for
-#: core/modules/global/privacy.php:19
+#: core/modules/global/privacy.php:20
 msgid "The IP address of visitors, user ID of logged in users, and username of login attempts are conditionally logged to check for malicious activity and to protect the site from specific kinds of attacks. Examples of conditions when logging occurs include login attempts, log out requests, requests for suspicious URLs, changes to site content, and password updates. This information is retained for %1$d days."
 msgstr "La dirección IP de los visitantes, el ID de los usuarios conectados y el nombre de usuario de los intentos de acceso se registran de manera condicional para comprobar actividad maliciosa y proteger el sitio de tipos específicos de ataques. Ejemplos de condiciones en las que se hace registro son los intentos de acceso, solicitudes de desconexión, solicitudes de URLs sospechosas, cambios en el contenido del sitio y cambios de contraseñas. Esta información se conserva durante %1$d días."
 
@@ -5283,8 +5287,9 @@ msgstr "Debido a los ajustes actuales, los detalles de los registros de las copi
 msgid "Backups of security log details are retained for %1$d days."
 msgstr "Los detalles de los registros de las copias de seguridad se conservan durante %1$d días."
 
-#: core/modules/backup/privacy.php:14 core/modules/global/privacy.php:14
-#: core/modules/global/privacy.php:25 core/modules/hide-backend/privacy.php:17
+#: core/modules/backup/privacy.php:14 core/modules/global/privacy.php:15
+#: core/modules/global/privacy.php:26 core/modules/global/privacy.php:47
+#: core/modules/hide-backend/privacy.php:17
 #: core/modules/network-brute-force/privacy.php:17
 #: core/modules/site-scanner/privacy.php:9
 #: core/modules/two-factor/privacy.php:9

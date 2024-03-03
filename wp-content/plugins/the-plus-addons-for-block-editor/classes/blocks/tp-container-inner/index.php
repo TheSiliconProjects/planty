@@ -384,6 +384,17 @@ function tpgb_tp_grid() {
 						'backend' => true
 					],
 					(object) [
+						'condition' => [ (object) [ 'key' => 'flexRespreverse', 'relation' => '==', 'value' => false ]],
+						'selector' => '@media (max-width: 1024px) { {{PLUS_WRAP}}.tpgb-container-col { flex-direction: {{flexDirection}} } }' ,
+						'media' => 'sm',
+					],
+					(object) [
+						'condition' => [ (object) [ 'key' => 'flexRespreverse', 'relation' => '==', 'value' => false ]],
+						'selector' => '@media (max-width: 1024px) { {{PLUS_WRAP}}.tpgb-container-col-editor > .block-editor-inner-blocks > .block-editor-block-list__layout{ flex-direction: {{flexDirection}} } }' ,
+						'media' => 'sm',
+						'backend' => true
+					],
+					(object) [
 						'condition' => [ (object) [ 'key' => 'flexRespreverse', 'relation' => '==', 'value' => true ],
 							(object) ['key' => 'flexTabreverse', 'relation' => '==', 'value' => false] 
 						],
@@ -411,6 +422,17 @@ function tpgb_tp_grid() {
 						],
 						'selector' => '@media (max-width: 1024px) and (min-width:768px) { {{PLUS_WRAP}}.tpgb-container-col-editor > .block-editor-inner-blocks > .block-editor-block-list__layout{ flex-direction: {{flexDirection}}-reverse } }',
 						'media' => 'sm',
+						'backend' => true
+					],
+					(object) [
+						'condition' => [ (object) [ 'key' => 'flexRespreverse', 'relation' => '==', 'value' => false ]],
+						'selector' => '@media (max-width: 1024px){.text-center{text-align: center;}}@media (max-width: 767px) { {{PLUS_WRAP}}.tpgb-container-col{ flex-direction: {{flexDirection}} } }',
+						'media' => 'xs',
+					],
+					(object) [
+						'condition' => [ (object) [ 'key' => 'flexRespreverse', 'relation' => '==', 'value' => false ]],
+						'selector' => '@media (max-width: 1024px){.text-center{text-align: center;}}@media (max-width: 767px) { {{PLUS_WRAP}}.tpgb-container-col-editor > .block-editor-inner-blocks > .block-editor-block-list__layout{ flex-direction: {{flexDirection}} } }',
+						'media' => 'xs',
 						'backend' => true
 					],
 					(object) [

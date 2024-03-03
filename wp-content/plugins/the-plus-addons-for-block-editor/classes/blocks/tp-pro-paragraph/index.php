@@ -114,7 +114,7 @@ function tpgb_tp_pro_paragraph() {
 				'default' => '',
 				'style' => [
 						(object) [
-						'selector' => '{{PLUS_WRAP}} .pro-paragraph-inner a{ color: {{linkColor}}; }',
+							'selector' => '{{PLUS_WRAP}}.tpgb-pro-paragraph .pro-paragraph-inner a{ color: {{linkColor}}; }',
 					],
 				],
 				'scopy' => true,

@@ -3,7 +3,7 @@
 * Plugin Name: The Plus Addons for Block Editor
 * Plugin URI: https://theplusblocks.com/
 * Description: Highly Customizable 85+ Advanced WordPress Blocks for Performance-Driven Website.
-* Version: 3.2.3
+* Version: 3.2.7
 * Author: POSIMYTH
 * Author URI: https://posimyth.com
 * Tested up to: 6.4
@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-defined( 'TPGB_VERSION' ) or define( 'TPGB_VERSION', '3.2.3' );
+defined( 'TPGB_VERSION' ) or define( 'TPGB_VERSION', '3.2.7' );
 define( 'TPGB_FILE__', __FILE__ );
 
 define( 'TPGB_PATH', plugin_dir_path( __FILE__ ) );

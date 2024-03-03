@@ -22,7 +22,8 @@ function tpgb_tp_interactive_circle_info_render_callback( $attributes, $content)
 	$btnStyle = (!empty($attributes['btnStyle'])) ? $attributes['btnStyle'] : 'style-7';
 	$btnIconType = (!empty($attributes['btnIconType'])) ? $attributes['btnIconType'] : 'none';
 	$btnIconPosition = (!empty($attributes['btnIconPosition'])) ? $attributes['btnIconPosition'] : 'after';
-
+	$btnIconStore = (!empty($attributes['btnIconStore'])) ? $attributes['btnIconStore'] : '';
+	
 	$blockClass = Tp_Blocks_Helper::block_wrapper_classes( $attributes );
 
 	$totalItems = $animationClass = $indicatClass = $contiRotateClass = '';
@@ -36,7 +37,7 @@ function tpgb_tp_interactive_circle_info_render_callback( $attributes, $content)
 	if(!empty($extIndicator) && !empty($extIndicator['tpgbReset'])){
 		$indicatClass = 'indicator-'.$extIndicator['indiStyle'];
 	}
-	if(!empty($contiRotate) && !empty($contiRotate['tpgbReset'])){
+	if(!empty($contiRotate) && !empty($contiRotate['tpgbReset']) && $selAnimation == 'bounce'){
 		if($contiRotate['animDirection']=='clock-wise'){
 			$contiRotateClass = 'circle-continue-rotate';
 		}else{

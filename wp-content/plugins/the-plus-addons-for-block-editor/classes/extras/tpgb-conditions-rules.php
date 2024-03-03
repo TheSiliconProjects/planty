@@ -41,7 +41,24 @@ class Tpgb_Display_Conditions_Rules {
 	public function __construct() {
 		/*Display Rules Options*/
 		add_filter( 'tpgb_display_option', [ $this, 'tpgb_display_option'], 10 );
+
+		$load_enable_extra = get_option('tpgb_normal_blocks_opts');
+		if( !empty($load_enable_extra) && isset($load_enable_extra['tp_extra_option']) && !empty($load_enable_extra['tp_extra_option']) && in_array('tp-display-rules', $load_enable_extra['tp_extra_option'])){
+			WP_Block_Supports::get_instance()->register(
+				'displayrules',
+				array(
+					'register_attribute' => array( $this, 'register_attr_display_rules' ),
+				)
+			);
+		}
 	}
+	
+	public function register_attr_display_rules( $block_type ) {
+        if ( $block_type && isset($block_type->name) && $block_type->name!='ai/ai-block' && strpos($block_type->name, "tpgb/") === false && $block_type->attributes && ! array_key_exists( 'tpgbDisrule', $block_type->attributes ) ) {
+            $attributes = self::tpgb_display_option();
+            $block_type->attributes = array_merge( $block_type->attributes, $attributes );
+        }
+    }
 	
 	/*
 	 * Display Rules Options

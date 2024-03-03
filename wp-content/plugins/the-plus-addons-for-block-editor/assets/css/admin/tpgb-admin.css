@@ -918,14 +918,14 @@ a.tpgb-panel-social {
 	transition: all .3s linear;
 }
 
-/*.block-group-info:hover .block-hover-details.block-info-doc {
+.block-group-info:hover .block-hover-details.block-info-doc {
     opacity: 1;
     visibility: visible;
     top: -60px;
-}*/
-.block-group-info:hover .block-hover-details.block-info-doc {
-    display: none;
 }
+/* .block-group-info:hover .block-hover-details.block-info-doc {
+    display: none;
+} */
 .block-hover-details.block-info-doc:before {
 	content: 'Documentation';
 	position: absolute;
@@ -3475,6 +3475,33 @@ b {
     color: #888;
 }
 .form-tpgb_white_label .tpgb-whitel-main-data .hide-wl-desc{
+    margin-top: 0;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 26px;
+    font-weight: 400;
+    color: #888;
+}
+
+/* Extra Option css */
+.tpgb-extras-feature-list{
+    width: 80%;
+    flex-direction: column;
+    position: relative;
+    min-height: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 30px 0px 15px
+}
+.tpgb-extras-feature-list .tpgb-extras-feature-list-title{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding-top: 0;
+    color: #313131;
+}
+.tpgb-extras-feature-list-desc{
     margin-top: 0;
     font-size: 15px;
     font-style: normal;

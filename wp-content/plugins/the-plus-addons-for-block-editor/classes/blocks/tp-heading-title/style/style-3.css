@@ -26,3 +26,7 @@
  	min-width: 10%;
  	border: 1px solid #6f14f1;
 }
+.heading-style-3 .sep-mg img {
+    width: 100%;
+    height: auto;
+}

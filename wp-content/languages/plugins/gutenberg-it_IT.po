@@ -2,32 +2,252 @@
 # This file is distributed under the same license as the Plugins - Gutenberg - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-01-26 11:52:13+0000\n"
+"PO-Revision-Date: 2024-02-29 20:53:26+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/4.0.0-beta.2\n"
+"X-Generator: GlotPress/4.0.0-beta.3\n"
 "Language: it\n"
 "Project-Id-Version: Plugins - Gutenberg - Stable (latest release)\n"
 
-#: lib/experiments-page.php:136
-msgid "Test connecting block attribute values to a custom field value"
-msgstr "Prova il collegamento dei valori degli attributi del blocco al valore di un campo personalizzato"
+#. translators: %s: Name of parameter being updated:
+#. font_family_settings[slug]".
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-families-controller.php:116
+msgid "%s cannot be updated."
+msgstr "%s non può essere aggiornato."
 
-#: lib/experimental/fonts/font-library/class-wp-rest-font-families-controller.php:98
-msgid "font_family_settings should be a font family definition."
-msgstr "font_family_settings dovrebbe essere una definizione di famiglia di caratteri."
+#. translators: %s: Parameter name: "font_family_settings".
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-families-controller.php:99
+msgid "%s parameter must be a valid JSON string."
+msgstr "Il parametro %s deve essere una stringa JSON valida."
 
-#. translators: %s: Font collection id.
-#: lib/experimental/fonts/font-library/class-wp-font-library.php:96
+#. translators: 1: File key (e.g. "file-0") in the request data, 2: Font face
+#. source parameter name: "font_face_settings[src]".
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:231
+msgid "File %1$s must be used in %2$s."
+msgstr "Il file %1$s deve essere utilizzato in %2$s."
+
+#. translators: 1: Font face source parameter name: "font_face_settings[src]",
+#. 2: The invalid src value.
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:219
+msgid "%1$s value \"%2$s\" must be a valid URL or file reference."
+msgstr "Il valore %1$s \"%2$s\" deve essere un URL o un riferimento di file valido."
+
+#. translators: %s: Font face source parameter name: "font_face_settings[src]".
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:209
+msgid "%s values must be non-empty strings."
+msgstr "I valori %s devono essere stringhe non vuote."
+
+#. translators: %s: Name of the missing font face settings parameter, e.g.
+#. "font_face_settings[src]".
+#. translators: %s: Name of the empty font family setting parameter, e.g.
+#. "font_family_settings[slug]".
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:193
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-families-controller.php:136
+msgid "%s cannot be empty."
+msgstr "%s non può essere vuoto."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-collections-controller.php:319
+msgid "Sorry, you are not allowed to access font collections."
+msgstr "Non hai i permessi per accedere alle raccolte di font."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-collections-controller.php:149
+msgid "Font collection not found."
+msgstr "Raccolta di font non trovata."
+
+#: lib/compat/wordpress-6.5/block-bindings/class-wp-block-bindings-registry.php:175
+msgid "The $source_properties array contains invalid properties."
+msgstr "L'array $source_properties contiene proprietà non valide."
+
+#: lib/compat/wordpress-6.5/block-bindings/class-wp-block-bindings-registry.php:165
+msgid "The \"uses_context\" parameter must be an array."
+msgstr "Il parametro \"uses_context\" deve essere un array."
+
+#: lib/compat/wordpress-6.5/block-bindings/class-wp-block-bindings-registry.php:155
+msgid "The \"get_value_callback\" parameter must be a valid callback."
+msgstr "Il parametro \"get_value_callback\" deve essere una callback valida."
+
+#: lib/compat/wordpress-6.5/block-bindings/class-wp-block-bindings-registry.php:145
+msgid "The $source_properties must contain a \"get_value_callback\"."
+msgstr "$source_properties deve contenere un \"get_value_callback\"."
+
+#: lib/compat/wordpress-6.5/block-bindings/class-wp-block-bindings-registry.php:135
+msgid "The $source_properties must contain a \"label\"."
+msgstr "$source_properties deve contenere una \"etichetta\"."
+
+#: lib/compat/wordpress-6.5/fonts/fonts.php:26
+msgid "Font Families"
+msgstr "Famiglie di font"
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-families-controller.php:434
+msgid "font-family declaration in theme.json format, encoded as a string."
+msgstr "dichiarazione font-family in formato theme.json, codificato come una stringa."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-families-controller.php:345
+msgid "URL to a preview image of the font family."
+msgstr "URL di un'immagine di anteprima della famiglia di font."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-families-controller.php:331
+msgid "Kebab-case unique identifier for the font family preset."
+msgstr "Identificatore univoco in notazione kebab-case per la famiglia di font predefinita."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-families-controller.php:324
+msgid "Name of the font family preset, translatable."
+msgstr "Nome traducibile della famiglia di font predefinita."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-families-controller.php:319
+msgid "font-face definition in theme.json format."
+msgstr "definizione font-face nel formato theme.json."
+
+#. translators: %s: Font family slug.
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-families-controller.php:192
+msgid "A font family with slug \"%s\" already exists."
+msgstr "Esiste già una famiglia di font con lo slug \"%s\"."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-families-controller.php:74
+msgid "Sorry, you are not allowed to access this font family."
+msgstr "Non hai i permessi per accedere a questa famiglia di font."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-families-controller.php:49
+msgid "Sorry, you are not allowed to access font families."
+msgstr "Non hai i permessi per accedere a queste famiglie di font."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:898
+msgid "Sorry, you are not allowed to upload this file type."
+msgstr "Non hai i permessi per caricare questo tipo di file."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:652
+msgid "CSS unicode-range value."
+msgstr "Valore CSS per unicode-range."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:645
+msgid "CSS size-adjust value."
+msgstr "Valore CSS per size-adjust."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:638
+msgid "CSS line-gap-override value."
+msgstr "Valore CSS per line-gap-override."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:631
+msgid "CSS font-variation-settings value."
+msgstr "Valore CSS per font-variation-settings."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:624
+msgid "CSS font-feature-settings value."
+msgstr "Valore CSS per font-feature-settings."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:617
+msgid "CSS font-variant value."
+msgstr "Valore CSS per font-variant."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:610
+msgid "CSS descent-override value."
+msgstr "Valore CSS per descent-override."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:603
+msgid "CSS ascent-override value."
+msgstr "Valore CSS per ascent-override."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:596
+msgid "CSS font-stretch value."
+msgstr "Valore CSS per font-stretch."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:574
+msgid "Paths or URLs to the font files."
+msgstr "Percorsi o URL dei file dei font."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:559
+msgid "CSS font-display value."
+msgstr "Valore CSS per font-display."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:549
+msgid "List of available font weights, separated by a space."
+msgstr "Elenco dei pesi disponibili per i font, separati da uno spazio."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:541
+msgid "CSS font-style value."
+msgstr "Valore CSS per font-style."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:533
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-families-controller.php:338
+msgid "CSS font-family value."
+msgstr "Valore CSS per font-family."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:528
+msgid "font-face declaration in theme.json format."
+msgstr "dichiarazione font-face nel formato theme.json."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:513
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-families-controller.php:301
+msgid "Version of the theme.json schema used for the typography settings."
+msgstr "Versione dello schema theme.json usato per le impostazioni tipografiche."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:172
+msgid "font_face_settings parameter must be a valid JSON string."
+msgstr "Il parametro font_face_settings deve essere una stringa JSON valida."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:148
+msgid "Sorry, you are not allowed to access this font face."
+msgstr "Non hai i permessi per accedere a questo font face."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:123
+msgid "Sorry, you are not allowed to access font faces."
+msgstr "Non hai i permessi per accedere ai font face."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-collections-controller.php:250
+msgid "The categories for the font collection."
+msgstr "Le categorie per la raccolta di font."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-collections-controller.php:245
+msgid "The font families for the font collection."
+msgstr "Le famiglie di font per la raccolta di font."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-collections-controller.php:240
+msgid "The description for the font collection."
+msgstr "La descrizione per la raccolta di font."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-collections-controller.php:235
+msgid "The name for the font collection."
+msgstr "Il nome della raccolta di font."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-collections-controller.php:229
+msgid "Unique identifier for the font collection."
+msgstr "Identificatore univoco per la raccolta di font."
+
+#. translators: %s: File path or URL to font collection JSON file.
+#: lib/compat/wordpress-6.5/fonts/class-wp-font-collection.php:116
+msgid "Font collection JSON file is invalid or does not exist."
+msgstr "Il file JSON della raccolta di font non è valido o non esiste."
+
+#. translators: %s: Font collection slug.
+#: lib/compat/wordpress-6.5/fonts/class-wp-font-collection.php:62
+msgid "Font collection slug \"%s\" is not valid. Slugs must use only alphanumeric characters, dashes, and underscores."
+msgstr "Lo slug della raccolta di font \"%s \" non è valido. Gli slug devono utilizzare solo caratteri alfanumerici, trattini alti e trattini bassi."
+
+#: lib/compat/wordpress-6.5/class-wp-script-modules.php:84
+msgid "Entries in dependencies array must be either strings or arrays with an id key."
+msgstr "Le voci nelle array delle dipendenze devono essere stringhe o array con una chiave id."
+
+#: lib/compat/wordpress-6.5/class-wp-script-modules.php:71
+msgid "Missing required id key in entry among dependencies array."
+msgstr "Manca la chiave id richiesta nella voce tra gli array delle dipendenze."
+
+#: lib/compat/wordpress-6.5/block-bindings/post-meta.php:45
+#: build/editor/index.js:5363 build/editor/index.min.js:5296
+msgctxt "block bindings source"
+msgid "Post Meta"
+msgstr "Meta dell'articolo"
+
+#. translators: %s: Font collection slug.
+#: lib/compat/wordpress-6.5/fonts/class-wp-font-library.php:82
 msgid "Font collection \"%s\" not found."
 msgstr "La raccolta di font \"%s\" non è stata trovata."
 
-#. translators: %s: Font collection id.
-#: lib/experimental/fonts/font-library/class-wp-font-library.php:69
-msgid "Font collection with id: \"%s\" is already registered."
-msgstr "La raccolta di font con id: \"%s\" è già registrata."
+#. translators: %s: Font collection slug.
+#: lib/compat/wordpress-6.5/fonts/class-wp-font-library.php:55
+msgid "Font collection with slug \"%s\" is already registered."
+msgstr "La raccolta di font con slug: \"%s\" è già registrata."
 
 #: lib/compat/wordpress-6.5/block-patterns.php:66
 msgid "View Pattern Category"
@@ -82,8 +302,8 @@ msgid "Choose from the most used pattern categories"
 msgstr "Scegli dalle categorie di pattern più utilizzate"
 
 #: lib/compat/wordpress-6.5/block-patterns.php:52
-msgid "&larr; Go to pattern categories"
-msgstr "&larr; Vai alle categorie di pattern"
+msgid "&larr; Go to Pattern Categories"
+msgstr "&larr; Vai alle categorie dei pattern"
 
 #: lib/compat/wordpress-6.5/block-patterns.php:51
 msgid "Add or remove pattern categories"
@@ -95,7 +315,7 @@ msgstr "Aggiungi una nuova categoria"
 
 #. translators: Visible only in the front end, this warning takes the place of
 #. a faulty block. %s represents a pattern's slug.
-#: build/block-library/blocks/pattern.php:50
+#: build/block-library/blocks/pattern.php:52
 msgid "[block rendering halted for pattern \"%s\"]"
 msgstr "[rendering del blocco arrestato per il pattern \"%s\"]"
 
@@ -111,12 +331,7 @@ msgstr "Provenienza originaria del template, ad esempio 'tema'"
 msgid "Human readable text for the author."
 msgstr "Testo leggibile in chiaro per l'autore."
 
-#. translators: %s: Directory path.
-#: lib/experimental/fonts/font-library/class-wp-rest-font-families-controller.php:363
-msgid "Error: Unable to create directory %s."
-msgstr "Errore: impossibile creare la directory %s."
-
-#: lib/compat/wordpress-6.5/class-gutenberg-rest-global-styles-revisions-controller-6-5.php:87
+#: lib/compat/wordpress-6.5/class-gutenberg-rest-global-styles-revisions-controller-6-5.php:96
 msgid "Invalid revision ID."
 msgstr "L'ID della revisione non è valido."
 
@@ -206,6 +421,23 @@ msgstr "Prova nuovi blocchi che consentono la creazione di moduli (Attenzione: l
 msgid "Form and input blocks "
 msgstr "Blocchi Modulo e Input "
 
+#: lib/experimental/data-views.php:47
+msgid "Dataview type"
+msgstr "Tipo di visualizzazione dei dati"
+
+#: lib/experimental/data-views.php:46
+msgid "Dataview types"
+msgstr "Tipi di visualizzazione dei dati"
+
+#: lib/experimental/data-views.php:20
+msgid "Post which stores the different data views configurations"
+msgstr "Articolo che memorizza le diverse configurazioni di visualizzazione dei dati"
+
+#: lib/experimental/data-views.php:19
+msgctxt "post type general name"
+msgid "Dataviews"
+msgstr "Visualizzazione dei dati"
+
 #: lib/compat/wordpress-6.5/block-patterns.php:29
 msgid "Different layouts containing audio."
 msgstr "Diversi layout contenenti audio."
@@ -218,10 +450,6 @@ msgstr "Diversi layout contenenti video."
 #: build/block-library/blocks/latest-posts.php:156
 msgid "… <a href=\"%1$s\" rel=\"noopener noreferrer\">Read more<span class=\"screen-reader-text\">: %2$s</span></a>"
 msgstr "… <a href=\"%1$s\" rel=\"noopener noreferrer\">Leggi tutto<span class=\"screen-reader-text\">: %2$s</span></a>"
-
-#: build/block-library/blocks/image.php:211
-msgid "Enlarged image"
-msgstr "Immagine ingrandita"
 
 #: build/block-library/blocks/form.php:113
 msgid "Form submission"
@@ -245,46 +473,27 @@ msgstr "Prova le nuove viste per entità diverse come le pagine."
 msgid "New admin views"
 msgstr "Nuove viste amministrazione"
 
-#: lib/experimental/fonts/font-library/class-wp-rest-font-families-controller.php:224
-msgid "No fonts to uninstall"
-msgstr "Nessun font da disinstallare"
-
 #. Translators: %d: Integer representing the number of return links on the
 #. page.
 #: build/block-library/blocks/footnotes.php:48
 msgid "Jump to footnote reference %1$d"
 msgstr "Salta al riferimento nella nota a piè di pagina %1$d"
 
-#: lib/experimental/fonts/font-library/font-library.php:80
-msgid "Add from Google Fonts. Fonts are copied to and served from your site."
-msgstr "Aggiungi da Google Fonts. I font vengono copiati e serviti dal tuo sito."
+#: lib/compat/wordpress-6.5/fonts/class-wp-font-collection.php:136
+msgid "Error decoding the font collection JSON file contents."
+msgstr "Errore nella decodifica dei contenuti dei file JSON della raccolta di font."
 
-#: lib/experimental/fonts/font-library/class-wp-font-collection.php:103
-msgid "Error reading the Font Collection data JSON file contents."
-msgstr "Errore nella lettura del contenuto del file JSON dei dati Font Collection."
-
-#: lib/experimental/fonts/font-library/class-wp-font-collection.php:99
-msgid "Font Collection data JSON file does not exist."
-msgstr "Il file JSON di dati Font Collection non esiste."
-
-#: lib/experimental/fonts/font-library/class-wp-font-collection.php:94
-msgid "Error decoding the Font Collection data from the REST response JSON."
-msgstr "Errore durante la decodifica dei dati Font Collection dal JSON della risposta REST."
-
-#: lib/experimental/fonts/font-library/class-wp-font-collection.php:89
-msgid "Error fetching the Font Collection data from a URL."
-msgstr "Errore durante il recupero dei dati Font Collection da un URL."
-
-#: lib/experimental/fonts/font-library/class-wp-font-collection.php:84
-msgid "Invalid URL for Font Collection data."
-msgstr "URL non valido per i dati Font Collection."
+#. translators: %s: Font collection URL.
+#: lib/compat/wordpress-6.5/fonts/class-wp-font-collection.php:160
+msgid "Error fetching the font collection data from \"%s\"."
+msgstr "Errore durante il recupero della raccolta di font da \"%s\"."
 
 #. translators: %s: taxonomy's label
-#: build/block-library/blocks/post-terms.php:86
+#: build/block-library/blocks/post-terms.php:88
 msgid "Display a list of assigned terms from the taxonomy: %s"
 msgstr "Visualizza un elenco di termini assegnati dalla tassonomia: %s"
 
-#: lib/compat/wordpress-6.4/block-hooks.php:292
+#: lib/compat/wordpress-6.4/block-hooks.php:293
 msgid "This block is automatically inserted near any occurence of the block types used as keys of this map, into a relative position given by the corresponding value."
 msgstr "Questo blocco viene inserito automaticamente vicino a ogni occorrenza dei tipi di blocco utilizzati come chiavi di questa mappa, in una posizione relativa data dal valore corrispondente."
 
@@ -292,75 +501,75 @@ msgstr "Questo blocco viene inserito automaticamente vicino a ogni occorrenza de
 msgid "Cannot hook block to itself."
 msgstr "Impossibile creare un hook del blocco verso sé stesso."
 
-#. translators: %s: Duration in years from or to a particular datetime, e.g.,
+#. translators: %d: Duration in years from or to a particular datetime, e.g.,
 #. "4 years ago" or "4 years from now".
-#: lib/compat/wordpress-6.4/script-loader.php:71
+#: lib/compat/wordpress-6.5/script-loader.php:75
 msgid "%d years"
 msgstr "%d anni"
 
-#. translators: %s: One year from or to a particular datetime, e.g., "a year
-#. ago" or "a year from now".
-#: lib/compat/wordpress-6.4/script-loader.php:69
+#. translators: One year from or to a particular datetime, e.g., "a year ago"
+#. or "a year from now".
+#: lib/compat/wordpress-6.5/script-loader.php:73
 msgid "a year"
 msgstr "un anno"
 
-#. translators: %s: Duration in months from or to a particular datetime, e.g.,
+#. translators: %d: Duration in months from or to a particular datetime, e.g.,
 #. "4 months ago" or "4 months from now".
-#: lib/compat/wordpress-6.4/script-loader.php:67
+#: lib/compat/wordpress-6.5/script-loader.php:71
 msgid "%d months"
 msgstr "%d mesi"
 
-#. translators: %s: One month from or to a particular datetime, e.g., "a month
-#. ago" or "a month from now".
-#: lib/compat/wordpress-6.4/script-loader.php:65
+#. translators: One month from or to a particular datetime, e.g., "a month ago"
+#. or "a month from now".
+#: lib/compat/wordpress-6.5/script-loader.php:69
 msgid "a month"
 msgstr "un mese"
 
-#. translators: %s: Duration in days from or to a particular datetime, e.g., "4
+#. translators: %d: Duration in days from or to a particular datetime, e.g., "4
 #. days ago" or "4 days from now".
-#: lib/compat/wordpress-6.4/script-loader.php:63
+#: lib/compat/wordpress-6.5/script-loader.php:67
 msgid "%d days"
 msgstr "%d giorni"
 
-#. translators: %s: One day from or to a particular datetime, e.g., "a day ago"
-#. or "a day from now".
-#: lib/compat/wordpress-6.4/script-loader.php:61
+#. translators: One day from or to a particular datetime, e.g., "a day ago" or
+#. "a day from now".
+#: lib/compat/wordpress-6.5/script-loader.php:65
 msgid "a day"
 msgstr "un giorno"
 
-#. translators: %s: Duration in hours from or to a particular datetime, e.g.,
+#. translators: %d: Duration in hours from or to a particular datetime, e.g.,
 #. "4 hours ago" or "4 hours from now".
-#: lib/compat/wordpress-6.4/script-loader.php:59
+#: lib/compat/wordpress-6.5/script-loader.php:63
 msgid "%d hours"
 msgstr "%d ore"
 
-#. translators: %s: One hour from or to a particular datetime, e.g., "an hour
-#. ago" or "an hour from now".
-#: lib/compat/wordpress-6.4/script-loader.php:57
+#. translators: One hour from or to a particular datetime, e.g., "an hour ago"
+#. or "an hour from now".
+#: lib/compat/wordpress-6.5/script-loader.php:61
 msgid "an hour"
 msgstr "un'ora"
 
-#. translators: %s: Duration in minutes from or to a particular datetime, e.g.,
+#. translators: %d: Duration in minutes from or to a particular datetime, e.g.,
 #. "4 minutes ago" or "4 minutes from now".
-#: lib/compat/wordpress-6.4/script-loader.php:55
+#: lib/compat/wordpress-6.5/script-loader.php:59
 msgid "%d minutes"
 msgstr "%d minuti"
 
 #. translators: One minute from or to a particular datetime, e.g., "a minute
 #. ago" or "a minute from now".
-#: lib/compat/wordpress-6.4/script-loader.php:53
+#: lib/compat/wordpress-6.5/script-loader.php:57
 msgid "a minute"
 msgstr "un minuto"
 
-#. translators: %s: Duration in seconds from or to a particular datetime, e.g.,
+#. translators: %d: Duration in seconds from or to a particular datetime, e.g.,
 #. "4 seconds ago" or "4 seconds from now".
-#: lib/compat/wordpress-6.4/script-loader.php:51
+#: lib/compat/wordpress-6.5/script-loader.php:55
 msgid "%d seconds"
 msgstr "%d secondi"
 
 #. translators: One second from or to a particular datetime, e.g., "a second
 #. ago" or "a second from now".
-#: lib/compat/wordpress-6.4/script-loader.php:49
+#: lib/compat/wordpress-6.5/script-loader.php:53
 msgid "a second"
 msgstr "un secondo"
 
@@ -374,11 +583,11 @@ msgctxt "taxonomy general name"
 msgid "Pattern Categories"
 msgstr "Categorie di pattern"
 
-#: build/block-library/blocks/query.php:32
+#: lib/compat/wordpress-6.5/interactivity-api/class-wp-interactivity-api.php:839
 msgid "Page Loaded."
 msgstr "Pagina caricata."
 
-#: build/block-library/blocks/query.php:31
+#: lib/compat/wordpress-6.5/interactivity-api/class-wp-interactivity-api.php:838
 msgid "Loading page, please wait."
 msgstr "Caricamento pagina, attendi."
 
@@ -407,10 +616,6 @@ msgctxt "block keyword"
 msgid "toggle"
 msgstr "attiva/disattiva"
 
-#: lib/experiments-page.php:131
-msgid "Connections"
-msgstr "Connessioni"
-
 #: lib/experiments-page.php:53
 msgid "Enable the live collaboration and offline persistence between peers"
 msgstr "Abilita la collaborazione in tempo reale e la persistenza offline tra pari"
@@ -419,92 +624,23 @@ msgstr "Abilita la collaborazione in tempo reale e la persistenza offline tra pa
 msgid "Live Collaboration and offline persistence "
 msgstr "Collaborazione in tempo reale e persistenza offline "
 
-#: lib/experimental/fonts/font-library/class-wp-rest-font-families-controller.php:350
-msgid "No fonts to install"
-msgstr "Nessun font da installare"
-
-#: lib/experimental/fonts/font-library/class-wp-rest-font-families-controller.php:374
-msgid "Error: WordPress does not have permission to write the fonts folder on your server."
-msgstr "Errore: WordPress non ha l'autorizzazione per scrivere la cartella dei font sul tuo server."
-
-#: lib/experimental/fonts/font-library/class-wp-rest-font-collections-controller.php:116
-#: lib/experimental/fonts/font-library/class-wp-rest-font-families-controller.php:262
-msgid "Sorry, you are not allowed to update the Font Library on this site."
-msgstr "Non hai i permessi per aggiornare la libreria dei font su questo sito."
-
-#: lib/experimental/fonts/font-library/class-wp-rest-font-families-controller.php:198
-msgid "The font family slug."
-msgstr "Lo slug della famiglia di caratteri."
-
-#: lib/experimental/fonts/font-library/class-wp-rest-font-families-controller.php:189
-msgid "The font families to install."
-msgstr "Le famiglie di caratteri da installare."
-
-#. translators: font face index.
-#: lib/experimental/fonts/font-library/class-wp-rest-font-families-controller.php:145
-msgid "Font family Font face [%1$s] file is not defined in the request files."
-msgstr "Il font face della famiglia di caratteri [%1$s] non è definito nei file di richiesta."
-
-#. translators: font face index.
-#: lib/experimental/fonts/font-library/class-wp-rest-font-families-controller.php:136
-msgid "Font family Font face [%1$s] should have only one of the downloadFromUrl or uploadedFile properties defined and not both."
-msgstr "Il font face della famiglia di caratteri [%1$s] dovrebbe avere solo una tra le proprietà download_from_url o uploaded_file definite, e non entrambe."
-
-#. translators: font face index.
-#: lib/experimental/fonts/font-library/class-wp-rest-font-families-controller.php:128
-msgid "Font family Font face [%1$s] should have fontWeight and fontStyle properties defined."
-msgstr "Il font face della famiglia di caratteri [%1$s] dovrebbe avere proprietà fontWeight e fontStyle definite."
-
-#: lib/experimental/fonts/font-library/class-wp-rest-font-families-controller.php:118
-msgid "Font family should have at least one font face definition."
-msgstr "La famiglia di caratteri dovrebbe avere almeno una definizione font face."
-
-#: lib/experimental/fonts/font-library/class-wp-rest-font-families-controller.php:114
-msgid "Font family should have fontFace property defined as an array."
-msgstr "La famiglia di caratteri dovrebbe avere la proprietà fontFace definita come array."
-
-#: lib/experimental/fonts/font-library/class-wp-rest-font-families-controller.php:107
-msgid "Font family should have slug, name and fontFamily properties defined."
-msgstr "La famiglia di caratteri dovrebbe avere slug, nome e proprietà fontFamily definite."
-
-#: lib/experimental/fonts/font-library/class-wp-font-family.php:610
-msgid "The font face assets could not be written."
-msgstr "Impossibile scrivere le risorse del font face."
-
-#: lib/experimental/fonts/font-library/class-wp-font-family.php:565
-msgid "Font post update failed"
-msgstr "Aggiornamento del font dell'articolo non riuscito"
-
-#: lib/experimental/fonts/font-library/class-wp-font-family.php:496
-msgid "Font post creation failed"
-msgstr "Creazione del font dell'articolo non riuscita"
-
-#: lib/experimental/fonts/font-library/class-wp-font-family.php:121
-msgid "The font family could not be deleted."
-msgstr "Impossibile eliminare la famiglia di caratteri."
-
-#: lib/experimental/fonts/font-library/class-wp-font-family.php:111
-msgid "The font family could not be found."
-msgstr "Impossibile trovare la famiglia di caratteri."
-
-#: lib/experimental/fonts/font-library/class-wp-font-family-utils.php:61
-msgid "Fonts must have the same slug to be merged."
-msgstr "I font devono avere lo stesso slug per essere uniti."
-
-#: lib/compat/wordpress-6.4/html-api/class-wp-html-processor.php:409
+#: lib/compat/wordpress-6.4/html-api/class-wp-html-processor.php:407
+#: lib/compat/wordpress-6.5/html-api/class-gutenberg-html-processor-6-5.php:398
 msgid "Cannot visit tag closers in HTML Processor."
 msgstr "Impossibile visitare i tag di chiusura nell'HTML Processor."
 
-#: lib/compat/wordpress-6.4/html-api/class-wp-html-processor.php:390
+#: lib/compat/wordpress-6.4/html-api/class-wp-html-processor.php:388
+#: lib/compat/wordpress-6.5/html-api/class-gutenberg-html-processor-6-5.php:379
 msgid "Please pass a query array to this function."
 msgstr "Passa un array di query a questa funzione."
 
 #. translators: %s: WP_HTML_Processor::create_fragment().
-#: lib/compat/wordpress-6.4/html-api/class-wp-html-processor.php:304
+#: lib/compat/wordpress-6.4/html-api/class-wp-html-processor.php:302
+#: lib/compat/wordpress-6.5/html-api/class-gutenberg-html-processor-6-5.php:293
 msgid "Call %s to create an HTML Processor instead of calling the constructor directly."
 msgstr "Fai una chiamata a %s per creare un HTML Processor anziché chiamare il costruttore direttamente."
 
-#: build/block-library/blocks/search.php:185
+#: build/block-library/blocks/search.php:180
 msgid "Submit Search"
 msgstr "Invia ricerca"
 
@@ -513,16 +649,16 @@ msgctxt "block keyword"
 msgid "reusable"
 msgstr "riutilizzabile"
 
-#: build/block-library/blocks/footnotes.php:101
-#: build/block-library/index.js:59697 build/block-library/index.js:59708
+#: build/block-library/blocks/footnotes.php:123
+#: build/block-library/index.js:60311 build/block-library/index.js:60322
 msgid "Footnotes"
 msgstr "Note a piè di pagina"
 
-#: lib/experiments-page.php:119 lib/experiments-page.php:124
+#: lib/experiments-page.php:106 lib/experiments-page.php:111
 msgid "Disable TinyMCE and Classic block"
 msgstr "Disabilita TinyMCE e il blocco classico"
 
-#: lib/class-wp-theme-json-resolver-gutenberg.php:340
+#: lib/class-wp-theme-json-resolver-gutenberg.php:337
 msgid "`experimental-link-color` is no longer supported. Use `link-color` instead."
 msgstr "`experimental-link-color` non è più supportato. Usa `link-color` al suo posto."
 
@@ -542,7 +678,7 @@ msgid "Footnotes"
 msgstr "Note a piè di pagina"
 
 #. translators: %s: duotone colors
-#: lib/class-wp-duotone-gutenberg.php:540
+#: lib/class-wp-duotone-gutenberg.php:536
 msgid "\"%s\" in theme.json settings.color.duotone is not a hex or rgb string."
 msgstr "\"%s\" in theme.json settings.color.duotone non è una stringa hex o rgb."
 
@@ -556,22 +692,22 @@ msgctxt "block title"
 msgid "Excerpt"
 msgstr "Riassunto"
 
-#: build/block-library/blocks/search.php:163
-#: build/block-library/blocks/search.php:186
+#: build/block-library/blocks/search.php:156
+#: build/block-library/blocks/search.php:181
 msgid "Expand search field"
 msgstr "Espandi campo di ricerca"
 
 #. translators: %s: duotone filter ID
-#: lib/class-wp-duotone-gutenberg.php:731
+#: lib/class-wp-duotone-gutenberg.php:727
 msgid "The duotone id \"%s\" is not registered in theme.json settings"
 msgstr "L’id bicromia \"%s\" non è registrato nelle impostazioni di theme.json"
 
 #. translators: %s: Image alt text.
-#: build/block-library/blocks/image.php:160
+#: build/block-library/blocks/image.php:147
 msgid "Enlarge image: %s"
 msgstr "Ingrandisci l’immagine: %s"
 
-#: build/block-library/blocks/image.php:139
+#: build/block-library/blocks/image.php:143
 msgid "Enlarge image"
 msgstr "Ingrandisci l’immagine"
 
@@ -598,6 +734,10 @@ msgstr "Torna alla vetrina del tema"
 msgctxt "block description"
 msgid "Display an image to represent this site. Update this block and the changes apply everywhere."
 msgstr "Visualizza un'immagine per rappresentare questo sito. Aggiorna questo blocco e le modifiche saranno applicate ovunque."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:768
+msgid "Invalid post parent ID."
+msgstr "ID dell'articolo genitore non valido."
 
 #: lib/compat/wordpress-6.4/class-gutenberg-rest-global-styles-revisions-controller-6-4.php:135
 msgid "The date the revision was last modified, as GMT."
@@ -636,14 +776,6 @@ msgid_plural "%s minutes"
 msgstr[0] "%s minuto"
 msgstr[1] "%s minuti"
 
-#: lib/experiments-page.php:112
-msgid "Test the Grid layout type as a new variation of Group block."
-msgstr "Prova il tipo di layout a griglia come nuova variante del blocco Gruppo."
-
-#: lib/experiments-page.php:107
-msgid "Grid variation for Group block "
-msgstr "Variante griglia per il blocco Gruppo "
-
 #: build/block-library/blocks/post-time-to-read/block.json
 msgctxt "block description"
 msgid "Show minutes required to finish reading the post."
@@ -655,27 +787,27 @@ msgid "Time To Read"
 msgstr "Tempo di lettura"
 
 #: lib/compat/wordpress-6.4/html-api/class-gutenberg-html-tag-processor-6-4.php:2376
-#: lib/compat/wordpress-6.5/html-api/class-gutenberg-html-tag-processor-6-5.php:2409
+#: lib/compat/wordpress-6.5/html-api/class-gutenberg-html-tag-processor-6-5.php:3226
 msgid "The query argument must be an array or a tag name."
 msgstr "L'argomento della query deve essere un array o il nome di un tag."
 
 #: lib/compat/wordpress-6.4/html-api/class-gutenberg-html-tag-processor-6-4.php:2055
-#: lib/compat/wordpress-6.5/html-api/class-gutenberg-html-tag-processor-6-5.php:2088
+#: lib/compat/wordpress-6.5/html-api/class-gutenberg-html-tag-processor-6-5.php:2898
 msgid "Invalid attribute name."
 msgstr "Nome dell'attributo non valido."
 
 #: lib/compat/wordpress-6.4/html-api/class-gutenberg-html-tag-processor-6-4.php:1708
-#: lib/compat/wordpress-6.5/html-api/class-gutenberg-html-tag-processor-6-5.php:1733
+#: lib/compat/wordpress-6.5/html-api/class-gutenberg-html-tag-processor-6-5.php:2333
 msgid "Too many calls to seek() - this can lead to performance issues."
 msgstr "Troppe chiamate a seek(): questo può causare problemi di prestazioni."
 
 #: lib/compat/wordpress-6.4/html-api/class-gutenberg-html-tag-processor-6-4.php:1699
-#: lib/compat/wordpress-6.5/html-api/class-gutenberg-html-tag-processor-6-5.php:1724
+#: lib/compat/wordpress-6.5/html-api/class-gutenberg-html-tag-processor-6-5.php:2324
 msgid "Unknown bookmark name."
 msgstr "Nome del segnalibro sconosciuto."
 
 #: lib/compat/wordpress-6.4/html-api/class-gutenberg-html-tag-processor-6-4.php:805
-#: lib/compat/wordpress-6.5/html-api/class-gutenberg-html-tag-processor-6-5.php:826
+#: lib/compat/wordpress-6.5/html-api/class-gutenberg-html-tag-processor-6-5.php:1209
 msgid "Too many bookmarks: cannot create any more."
 msgstr "Troppi segnalibri: impossibile crearne altri."
 
@@ -685,24 +817,21 @@ msgid "Untitled post %d"
 msgstr "Articolo senza titolo %d"
 
 #. Description of the plugin
+#: gutenberg.php
 msgid "Printing since 1440. This is the development plugin for the block editor, site editor, and other future WordPress core functionality."
 msgstr "Stampa dal 1440. Questo è il plugin di sviluppo per l'editor a blocchi, l'editor del sito e altre future funzionalità del core di WordPress."
 
-#: lib/experimental/fonts-api/class-wp-fonts-resolver.php:402
-msgid "Font family not defined in the variation or \"slug\"."
-msgstr "Famiglia di caratteri non definita nella variazione o nello \"slug\"."
-
 #. translators: 1: theme.json, 2: Value name, 3: Value path, 4: Another value
 #. name.
-#: lib/class-wp-theme-json-gutenberg.php:2157
+#: lib/class-wp-theme-json-gutenberg.php:2164
 msgid "Your %1$s file uses a dynamic value (%2$s) for the path at %3$s. However, the value at %3$s is also a dynamic value (pointing to %4$s) and pointing to another dynamic value is not supported. Please update %3$s to point directly to %4$s."
 msgstr "Il file %1$s utilizza un valore dinamico (%2$s) per il percorso che punta a %3$s. Tuttavia, anche %3$s è un valore dinamico (punta a %4$s) e il puntamento a un altro valore dinamico non è supportato. Aggiorna %3$s per puntare direttamente a %4$s."
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:200
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:198
 msgid "Block inspector tab display overrides."
 msgstr "Sostituzioni della visualizzazione della scheda dell'Ispettore blocchi."
 
-#: lib/class-wp-rest-global-styles-controller-gutenberg.php:713
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:709
 msgid "Markup is not allowed in CSS."
 msgstr "Il markup non è ammesso nel CSS."
 
@@ -734,7 +863,7 @@ msgstr "Prova il randomizzatore di colori degli stili globali; una utility che c
 msgid "Color randomizer "
 msgstr "Randomizzatore di colori "
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:134
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:132
 msgid "Indicates whether the current theme supports block-based templates."
 msgstr "Indica se il tema corrente supporta template basati su blocchi."
 
@@ -780,15 +909,15 @@ msgstr "Verifica una nuova vista allargata nell'Editor del sito (attenzione: la 
 msgid "Zoomed out view "
 msgstr "Vista allargata "
 
-#: build/style-engine/class-wp-style-engine-processor-gutenberg.php:46
+#: build/style-engine/class-wp-style-engine-processor-gutenberg.php:44
 msgid "$store must be an instance of WP_Style_Engine_CSS_Rules_Store_Gutenberg"
 msgstr "$store deve essere un'istanza di WP_Style_Engine_CSS_Rules_Store_Gutenberg"
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:311
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:309
 msgid "Disables custom spacing sizes."
 msgstr "Disabilita dimensione della spaziatura personalizzata."
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:224
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:222
 msgid "Disables output of layout styles."
 msgstr "Disabilita l'output degli stili del layout."
 
@@ -797,29 +926,29 @@ msgstr "Disabilita l'output degli stili del layout."
 msgid "Search results for: \"%s\""
 msgstr "Risultati della ricerca per: \"%s\""
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:170
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:168
 msgid "Whether the V2 of the list block that uses inner blocks should be enabled."
 msgstr "Se è necessario abilitare la V2 del blocco elenco che usa i blocchi interni."
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:306
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:304
 msgid "Active theme spacing scale."
 msgstr "Scala di spaziatura del tema attivo."
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:301
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:299
 msgid "Active theme spacing sizes."
 msgstr "Dimensioni di spaziatura del tema attivo."
 
 #. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Large.
-#: lib/class-wp-theme-json-gutenberg.php:3574
+#: lib/class-wp-theme-json-gutenberg.php:3581
 msgid "%sX-Large"
 msgstr "%sX-Large"
 
 #. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Small.
-#: lib/class-wp-theme-json-gutenberg.php:3537
+#: lib/class-wp-theme-json-gutenberg.php:3544
 msgid "%sX-Small"
 msgstr "%sX-Small"
 
-#: lib/class-wp-theme-json-gutenberg.php:3503
+#: lib/class-wp-theme-json-gutenberg.php:3510
 msgid "Some of the theme.json settings.spacing.spacingScale values are invalid"
 msgstr "Alcuni dei valori di theme.json settings.spacing.spacingScale non sono validi"
 
@@ -830,7 +959,7 @@ msgstr "Elenco delle categorie"
 
 #. translators: %s: Number of comments.
 #: build/block-library/blocks/comments-title.php:59
-#: build/block-library/index.js:11137
+#: build/block-library/index.js:11189
 msgid "%s response"
 msgid_plural "%s responses"
 msgstr[0] "%s risposta"
@@ -838,7 +967,7 @@ msgstr[1] "%s risposte"
 
 #. translators: 1: Number of comments, 2: Post title.
 #: build/block-library/blocks/comments-title.php:45
-#: build/block-library/index.js:11131
+#: build/block-library/index.js:11183
 msgid "%1$s response to %2$s"
 msgid_plural "%1$s responses to %2$s"
 msgstr[0] "%1$s risposta a %2$s"
@@ -856,12 +985,12 @@ msgstr "Commenti"
 
 #. translators: %s: Post title.
 #: build/block-library/blocks/comments-title.php:66
-#: build/block-library/index.js:11142
+#: build/block-library/index.js:11194
 msgid "Response to %s"
 msgstr "Risposta a %s"
 
 #: build/block-library/blocks/comments-title.php:72
-#: build/block-library/index.js:11148
+#: build/block-library/index.js:11200
 msgid "Response"
 msgstr "Risposta"
 
@@ -885,23 +1014,23 @@ msgstr "Titolo commenti"
 
 #. translators: %s: Post title.
 #: build/block-library/blocks/comments-title.php:69
-#: build/block-library/index.js:11145
+#: build/block-library/index.js:11197
 msgid "Responses to %s"
 msgstr "Risposte a %s"
 
 #. translators: %s: Post title.
 #: build/block-library/blocks/comments-title.php:41
-#: build/block-library/index.js:8557 build/block-library/index.js:11128
+#: build/block-library/index.js:8583 build/block-library/index.js:11180
 msgid "One response to %s"
 msgstr "Una risposta a %s"
 
 #: build/block-library/blocks/comments-title.php:74
-#: build/block-library/index.js:11150
+#: build/block-library/index.js:11202
 msgid "Responses"
 msgstr "Risposte"
 
 #: build/block-library/blocks/comments-title.php:55
-#: build/block-library/index.js:11134
+#: build/block-library/index.js:11186
 msgid "One response"
 msgstr "Una risposta"
 
@@ -935,7 +1064,7 @@ msgctxt "block title"
 msgid "Comment Author Avatar (deprecated)"
 msgstr "Avatar dell'autore del commento (deprecato)"
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:164
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:162
 msgid "Whether the V2 of the quote block that uses inner blocks should be enabled."
 msgstr "Se è necessario attivare la V2 del blocco Citazione che usa i blocchi interni."
 
@@ -974,28 +1103,28 @@ msgid "Avatar"
 msgstr "Avatar"
 
 #. translators: %s is the Comment Author name.
-#: build/block-library/blocks/avatar.php:79
+#: build/block-library/blocks/avatar.php:90
 msgid "(%s website link, opens in a new tab)"
 msgstr "(Link al sito web %s, apre una nuova scheda)"
 
 #. translators: %s is the Author name.
-#: build/block-library/blocks/avatar.php:52
+#: build/block-library/blocks/avatar.php:63
 msgid "(%s author archive, opens in a new tab)"
 msgstr "(Archivio dell'autore %s, apre una nuova scheda)"
 
-#: lib/compat/wordpress-6.4/fonts/font-face/class-wp-font-face.php:207
+#: lib/compat/wordpress-6.4/fonts/font-face/class-wp-font-face.php:205
 msgid "Font font-weight must be a properly formatted string or integer."
 msgstr "Il peso del font deve essere una stringa o un numero intero formattato correttamente."
 
-#: lib/compat/wordpress-6.4/fonts/font-face/class-wp-font-face.php:195
+#: lib/compat/wordpress-6.4/fonts/font-face/class-wp-font-face.php:193
 msgid "Each font src must be a non-empty string."
 msgstr "Ogni font src deve essere una stringa non vuota."
 
-#: lib/compat/wordpress-6.4/fonts/font-face/class-wp-font-face.php:183
+#: lib/compat/wordpress-6.4/fonts/font-face/class-wp-font-face.php:181
 msgid "Font src must be a non-empty string or an array of strings."
 msgstr "Font src deve essere una stringa non vuota o un array di stringhe."
 
-#: lib/compat/wordpress-6.4/fonts/font-face/class-wp-font-face.php:172
+#: lib/compat/wordpress-6.4/fonts/font-face/class-wp-font-face.php:170
 msgid "Font font-family must be a non-empty string."
 msgstr "La famiglia di font del font deve essere una stringa non vuota."
 
@@ -1019,24 +1148,24 @@ msgctxt "block title"
 msgid "Author Biography"
 msgstr "Biografia dell'autore"
 
-#: lib/class-wp-rest-global-styles-controller-gutenberg.php:187
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:183
 msgid "Sorry, you are not allowed to view this global style."
 msgstr "Non sei autorizzato a visualizzare questo stile globale."
 
-#: lib/class-wp-rest-global-styles-controller-gutenberg.php:179
-#: lib/class-wp-rest-global-styles-controller-gutenberg.php:242
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:175
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:238
 msgid "Sorry, you are not allowed to edit this global style."
 msgstr "Non sei autorizzato a modificare questo stile globale."
 
 #: build/block-library/blocks/comments-pagination-previous.php:18
-#: build/block-library/index.js:8563 build/block-library/index.js:8622
-#: build/block-library/index.js:10483
+#: build/block-library/index.js:8589 build/block-library/index.js:8648
+#: build/block-library/index.js:10524
 msgid "Older Comments"
 msgstr "Commenti meno recenti"
 
 #: build/block-library/blocks/comments-pagination-next.php:25
-#: build/block-library/index.js:8567 build/block-library/index.js:8626
-#: build/block-library/index.js:10810
+#: build/block-library/index.js:8593 build/block-library/index.js:8652
+#: build/block-library/index.js:10856
 msgid "Newer Comments"
 msgstr "Commenti più recenti"
 
@@ -1068,11 +1197,6 @@ msgstr "Visualizza il link alla successiva pagina dei commenti."
 #: build/block-library/blocks/site-logo.php:90
 msgid "Site icon."
 msgstr "Icona del sito."
-
-#: lib/theme.json
-msgctxt "Font size name"
-msgid "Extra Large"
-msgstr "Extra large"
 
 #: build/block-library/blocks/query-pagination/block.json
 msgctxt "block title"
@@ -1179,57 +1303,57 @@ msgctxt "block title"
 msgid "Comment Author Name"
 msgstr "Nome dell'autore del commento"
 
-#: lib/class-wp-rest-global-styles-controller-gutenberg.php:609
-#: lib/class-wp-rest-global-styles-controller-gutenberg.php:688
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:605
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:684
 msgid "Theme not found."
 msgstr "Tema non trovato."
 
-#: lib/class-wp-rest-global-styles-controller-gutenberg.php:554
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:550
 msgid "HTML title for the post, transformed for display."
 msgstr "Titolo HTML per l'articolo, trasformato per la visualizzazione."
 
-#: lib/class-wp-rest-global-styles-controller-gutenberg.php:549
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:545
 msgid "Title for the global styles variation, as it exists in the database."
 msgstr "Titolo per la variante degli stili globali, se presente nel database."
 
-#: lib/class-wp-rest-global-styles-controller-gutenberg.php:543
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:539
 msgid "Title of the global styles variation."
 msgstr "Titolo della variante degli stili globali."
 
-#: lib/class-wp-rest-global-styles-controller-gutenberg.php:538
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:534
 #: lib/compat/wordpress-6.4/class-gutenberg-rest-global-styles-revisions-controller-6-4.php:153
 msgid "Global settings."
 msgstr "Impostazioni globali."
 
-#: lib/class-wp-rest-global-styles-controller-gutenberg.php:533
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:529
 #: lib/compat/wordpress-6.4/class-gutenberg-rest-global-styles-revisions-controller-6-4.php:148
 msgid "Global styles."
 msgstr "Stili globali."
 
-#: lib/class-wp-rest-global-styles-controller-gutenberg.php:527
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:523
 msgid "ID of global styles config."
 msgstr "ID per la configurazione degli stili globali."
 
-#: lib/class-wp-rest-global-styles-controller-gutenberg.php:145
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:141
 msgid "No global styles config exist with that id."
 msgstr "Non esiste nessuna configurazione degli stili globali con quel ID."
 
-#: lib/class-wp-rest-global-styles-controller-gutenberg.php:586
-#: lib/class-wp-rest-global-styles-controller-gutenberg.php:662
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:582
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:658
 msgid "Sorry, you are not allowed to access the global styles on this site."
 msgstr "Non hai i permessi per accedere agli stili globali su questo sito."
 
-#: lib/class-wp-rest-global-styles-controller-gutenberg.php:57
-#: lib/class-wp-rest-global-styles-controller-gutenberg.php:83
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:53
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:79
 msgid "The theme identifier"
 msgstr "L'identificatore del tema"
 
 #. translators: %s is the Author name.
 #. translators: %s is the Comment Author name
-#: build/block-library/blocks/avatar.php:37
-#: build/block-library/blocks/avatar.php:64
+#: build/block-library/blocks/avatar.php:48
+#: build/block-library/blocks/avatar.php:75
 #: build/block-library/blocks/comment-author-avatar.php:50
-#: build/block-library/index.js:2155 build/block-library/index.js:2193
+#: build/block-library/index.js:2158 build/block-library/index.js:2196
 msgid "%s Avatar"
 msgstr "Avatar %s"
 
@@ -1268,185 +1392,15 @@ msgctxt "block description"
 msgid "Display content in multiple columns, with blocks added to each column."
 msgstr "Visualizza contenuto su più colonne, con blocchi aggiunti ad ogni colonna."
 
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:507
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-families-controller.php:295
+msgid "Unique identifier for the post."
+msgstr "Identificativo unico per l'articolo."
+
 #: build/block-library/blocks/table/block.json
 msgctxt "block description"
 msgid "Create structured content in rows and columns to display information."
 msgstr "Crea contenuto strutturato in righe e colonne per visualizzare informazioni."
-
-#: lib/theme.json
-msgctxt "Duotone name"
-msgid "Blue and orange"
-msgstr "Blu e arancione"
-
-#: lib/theme.json
-msgctxt "Duotone name"
-msgid "Purple and green"
-msgstr "Viola e verde"
-
-#: lib/theme.json
-msgctxt "Duotone name"
-msgid "Magenta and yellow"
-msgstr "Magenta e giallo"
-
-#: lib/theme.json
-msgctxt "Duotone name"
-msgid "Midnight"
-msgstr "Blu mezzanotte"
-
-#: lib/theme.json
-msgctxt "Duotone name"
-msgid "Blue and red"
-msgstr "Blu e rosso"
-
-#: lib/theme.json
-msgctxt "Duotone name"
-msgid "Purple and yellow"
-msgstr "Viola e giallo"
-
-#: lib/theme.json
-msgctxt "Duotone name"
-msgid "Grayscale"
-msgstr "Scala di grigio"
-
-#: lib/theme.json
-msgctxt "Duotone name"
-msgid "Dark grayscale"
-msgstr "Scala di grigio scuro"
-
-#: lib/theme.json
-msgctxt "Gradient name"
-msgid "Midnight"
-msgstr "Blu mezzanotte"
-
-#: lib/theme.json
-msgctxt "Gradient name"
-msgid "Electric grass"
-msgstr "Verde elettrico"
-
-#: lib/theme.json
-msgctxt "Gradient name"
-msgid "Pale ocean"
-msgstr "Azzurro oceano tenue"
-
-#: lib/theme.json
-msgctxt "Gradient name"
-msgid "Luminous dusk"
-msgstr "Crepuscolo luminoso"
-
-#: lib/theme.json
-msgctxt "Gradient name"
-msgid "Blush bordeaux"
-msgstr "Bordeaux pastello"
-
-#: lib/theme.json
-msgctxt "Gradient name"
-msgid "Blush light purple"
-msgstr "Viola tenue pastello"
-
-#: lib/theme.json
-msgctxt "Gradient name"
-msgid "Cool to warm spectrum"
-msgstr "Gamma dai colori freddi ai colori caldi"
-
-#: lib/theme.json
-msgctxt "Gradient name"
-msgid "Very light gray to cyan bluish gray"
-msgstr "Dal grigio molto chiaro al ciano bluastro grigio"
-
-#: lib/theme.json
-msgctxt "Gradient name"
-msgid "Luminous vivid orange to vivid red"
-msgstr "Da arancione intenso luminoso a rosso vivo"
-
-#: lib/theme.json
-msgctxt "Gradient name"
-msgid "Luminous vivid amber to luminous vivid orange"
-msgstr "Da ambra intenso luminoso ad arancione intenso luminoso"
-
-#: lib/theme.json
-msgctxt "Gradient name"
-msgid "Light green cyan to vivid green cyan"
-msgstr "Da ciano verde chiaro a ciano verde intenso"
-
-#: lib/theme.json
-msgctxt "Gradient name"
-msgid "Vivid cyan blue to vivid purple"
-msgstr "Da blu ciano intenso a viola intenso"
-
-#: lib/theme.json
-msgctxt "Color name"
-msgid "Vivid purple"
-msgstr "Viola intenso"
-
-#: lib/theme.json
-msgctxt "Color name"
-msgid "Vivid cyan blue"
-msgstr "Blu ciano intenso"
-
-#: lib/theme.json
-msgctxt "Color name"
-msgid "Pale cyan blue"
-msgstr "Blu ciano pallido"
-
-#: lib/theme.json
-msgctxt "Color name"
-msgid "Vivid green cyan"
-msgstr "Ciano verde intenso"
-
-#: lib/theme.json
-msgctxt "Color name"
-msgid "Light green cyan"
-msgstr "Ciano verde chiaro"
-
-#: lib/theme.json
-msgctxt "Color name"
-msgid "Luminous vivid amber"
-msgstr "Ambra intenso luminoso"
-
-#: lib/theme.json
-msgctxt "Color name"
-msgid "Luminous vivid orange"
-msgstr "Arancione vivido luminoso"
-
-#: lib/theme.json
-msgctxt "Color name"
-msgid "Vivid red"
-msgstr "Rosso vivo"
-
-#: lib/theme.json
-msgctxt "Color name"
-msgid "Pale pink"
-msgstr "Rosa pallido"
-
-#: lib/theme.json
-msgctxt "Color name"
-msgid "White"
-msgstr "Bianco"
-
-#: lib/theme.json
-msgctxt "Color name"
-msgid "Cyan bluish gray"
-msgstr "Ciano bluastro grigio"
-
-#: lib/theme.json
-msgctxt "Color name"
-msgid "Black"
-msgstr "Nero"
-
-#: lib/theme.json
-msgctxt "Font size name"
-msgid "Large"
-msgstr "Grande"
-
-#: lib/theme.json
-msgctxt "Font size name"
-msgid "Medium"
-msgstr "Medio"
-
-#: lib/theme.json
-msgctxt "Font size name"
-msgid "Small"
-msgstr "Piccolo"
 
 #: build/block-library/blocks/query/block.json
 msgctxt "block description"
@@ -2102,114 +2056,114 @@ msgstr "Visualizza un archivio dei tuoi articoli per data."
 msgid "(Home link, opens in a new tab)"
 msgstr "(link a Home, si apre in una nuova scheda)"
 
-#: lib/compat/wordpress-6.5/class-wp-navigation-block-renderer.php:428
-#: build/block-library/index.js:32394
+#: build/block-library/blocks/navigation.php:452
+#: build/block-library/index.js:32657
 msgid "Close menu"
 msgstr "Chiudi menu"
 
-#: lib/compat/wordpress-6.5/class-wp-navigation-block-renderer.php:427
-#: build/block-library/index.js:32378
+#: build/block-library/blocks/navigation.php:451
+#: build/block-library/index.js:32641
 msgid "Open menu"
 msgstr "Apri menu"
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:158
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:156
 msgid "Styles consolidated from core, theme, and user origins."
 msgstr "Stili consolidati da core, tema e origini utente."
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:152
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:150
 msgid "Settings consolidated from core, theme, and user origins."
 msgstr "Impostazioni consolidate da core, tema e origini utente."
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:296
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:294
 msgid "Active theme gradients."
 msgstr "Gradienti del tema attivo."
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:290
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:288
 msgid "Active theme font sizes."
 msgstr "Dimensioni font del tema attivo."
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:284
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:282
 msgid "Active theme color palette."
 msgstr "Tavolozza di colori del tema attivo."
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:278
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:276
 msgid "Maximum upload size in bytes allowed for the site."
 msgstr "Dimensione massima consentita per l'upload sul sito in byte."
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:272
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:270
 msgid "Available image sizes."
 msgstr "Dimensioni delle immagini disponibili."
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:266
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:264
 msgid "Determines whether the image editing feature is enabled."
 msgstr "Determina se la funzionalità di modifica delle immagini è abilitata."
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:260
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:258
 msgid "Available image dimensions."
 msgstr "Dimensioni disponibili per un'immagine."
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:254
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:252
 msgid "Default size for images."
 msgstr "Dimensione predefinita per le immagini."
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:248
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:246
 msgid "Determines whether the current locale is right-to-left (RTL)."
 msgstr "Determina se la scrittura del locale corrente è da destra a sinistra (RTL)."
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:242
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:240
 msgid "Enables custom units."
 msgstr "Abilita unità personalizzate."
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:236
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:234
 msgid "Enables custom spacing."
 msgstr "Abilita spaziatura personalizzata."
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:230
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:228
 msgid "Enables custom line height."
 msgstr "Abilita altezza della riga personalizzata."
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:212
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:218
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:210
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:216
 msgid "Disables custom font size."
 msgstr "Disabilita dimensione del font personalizzata."
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:206
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:204
 msgid "Disables custom colors."
 msgstr "Disabilita colori personalizzati."
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:194
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:192
 msgid "Returns all the categories for block types that will be shown in the block editor."
 msgstr "Restituisce tutte le categorie per i tipi di blocco che saranno mostrate nell'editor a blocchi."
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:188
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:186
 msgid "List of allowed mime types and file extensions."
 msgstr "Elenco dei tipi mime e delle estensioni dei file permessi."
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:182
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:180
 msgid "List of allowed block types."
 msgstr "Elenco dei tipi di blocco permessi."
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:176
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:174
 msgid "Enable/Disable Wide/Full Alignments."
 msgstr "Abilita/disabilita gli allineamenti A larghezza ampia/A larghezza piena."
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:146
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:144
 msgid "Widget types to hide from Legacy Widget block."
 msgstr "Tipi di widget da nascondere nel blocco Widget legacy."
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:140
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:138
 msgid "Enable/disable layouts support in container blocks."
 msgstr "Abilita/disabilita il supporto ai layout nei blocchi contenitore."
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:128
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:126
 msgid "Editor styles"
 msgstr "Stili dell'editor"
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:122
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:120
 msgid "Enables experimental Site Editor blocks"
 msgstr "Abilita i blocchi sperimentali dell'editor del sito"
 
-#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:67
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:65
 msgid "Sorry, you are not allowed to read the block editor settings."
 msgstr "Non sei autorizzato a leggere le impostazioni dell'editor a blocchi."
 
@@ -2239,27 +2193,27 @@ msgid "Custom Link"
 msgstr "Link personalizzato"
 
 #. translators: %s: filename.
-#: build/block-library/blocks/file.php:56 build/block-library/index.js:16785
-#: build/block-library/index.js:16889 build/block-library/index.js:16985
+#: build/block-library/blocks/file.php:29 build/block-library/index.js:16876
+#: build/block-library/index.js:16980 build/block-library/index.js:17076
 msgid "Embed of %s."
 msgstr "Incorporamento di %s."
 
-#: build/block-library/blocks/file.php:59 build/block-library/index.js:16784
-#: build/block-library/index.js:16888 build/block-library/index.js:16984
+#: build/block-library/blocks/file.php:32 build/block-library/index.js:16875
+#: build/block-library/index.js:16979 build/block-library/index.js:17075
 msgid "PDF embed"
 msgstr "Incorporamento PDF"
 
-#: build/block-library/blocks/navigation-link.php:307
+#: build/block-library/blocks/navigation-link.php:311
 msgid "A link to a post format"
 msgstr "Un link a un formato articolo"
 
-#: build/block-library/blocks/navigation-link.php:306
+#: build/block-library/blocks/navigation-link.php:310
 msgid "Post Format Link"
 msgstr "Link al formato dell'articolo"
 
 #: build/block-library/blocks/latest-posts.php:164
 #: build/block-library/blocks/latest-posts.php:179
-#: build/block-library/index.js:40138
+#: build/block-library/index.js:40542
 msgid "This content is password protected."
 msgstr "Questo contenuto è protetto da password."
 
@@ -2296,7 +2250,7 @@ msgid "Next"
 msgstr "Successivo"
 
 #: build/block-library/blocks/query-pagination-previous.php:24
-#: build/block-library/index.js:47115
+#: build/block-library/index.js:47613
 msgid "Previous Page"
 msgstr "Pagina precedente"
 
@@ -2306,14 +2260,14 @@ msgid "Comments Page Numbers"
 msgstr "Numeri di pagina dei commenti"
 
 #: build/block-library/blocks/query-pagination-next.php:25
-#: build/block-library/index.js:46876
+#: build/block-library/index.js:47368
 msgid "Next Page"
 msgstr "Pagina successiva"
 
 #. translators: %s: Template part slug.
 #. translators: %s: Template part slug
-#: build/block-library/blocks/template-part.php:119
-#: build/block-library/index.js:57725
+#: build/block-library/blocks/template-part.php:116
+#: build/block-library/index.js:58301
 msgid "Template part has been deleted or is unavailable: %s"
 msgstr "La parte del template è stata eliminata o non è disponibile: %s"
 
@@ -2345,13 +2299,13 @@ msgctxt "block title"
 msgid "Comments Count"
 msgstr "Conteggio dei commenti"
 
-#: build/block-library/index.js:9502
+#: build/block-library/index.js:9534
 #: build/block-library/blocks/comment-date/block.json
 msgctxt "block title"
 msgid "Comment Date"
 msgstr "Data commento"
 
-#: build/block-library/index.js:9350
+#: build/block-library/index.js:9382
 #: build/block-library/blocks/comment-content/block.json
 msgctxt "block title"
 msgid "Comment Content"
@@ -2577,24 +2531,26 @@ msgctxt "block title"
 msgid "Paragraph"
 msgstr "Paragrafo"
 
-#: lib/class-wp-rest-global-styles-controller-gutenberg.php:103
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:99
 msgid "The id of a template"
 msgstr "L'ID di un template"
+
+#: lib/compat/wordpress-6.5/fonts/fonts.php:27
+msgid "Font Family"
+msgstr "Famiglia di font"
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:100
+msgid "Whether to bypass Trash and force deletion."
+msgstr "Se saltare il cestino ed eliminare definitivamente."
 
 #: build/block-library/blocks/site-logo.php:73
 msgid "Site logo."
 msgstr "Logo del sito."
 
-#. Translators: This is a translation from WordPress Core (default). No need to
-#. translate.
-#: lib/experimental/modules/class-gutenberg-modules.php:391
-msgid "The asset file (%1$s) for the \"%2$s\" defined in \"%3$s\" block definition is missing."
-msgstr "Manca il file di risorse (%1$s) per \"%2$s\" definito nella definizione di blocco \"%3$s\"."
-
 #. translators: byline. %s: current author.
 #. translators: %s: the author.
 #: build/block-library/blocks/latest-posts.php:123
-#: build/block-library/blocks/rss.php:64 build/block-library/index.js:27647
+#: build/block-library/blocks/rss.php:64 build/block-library/index.js:27880
 msgid "by %s"
 msgstr "di %s"
 
@@ -2603,28 +2559,43 @@ msgid "No pattern categories"
 msgstr "Nessuna categoria di pattern"
 
 #: build/block-library/blocks/query-title.php:39
-#: build/block-library/index.js:47286
+#: build/block-library/index.js:47787
 msgid "Search results"
 msgstr "Risultati della ricerca"
 
 #. translators: accessibility text for the content landmark region.
 #: lib/experimental/navigation-theme-opt-in.php:349
-#: build/edit-post/index.js:1486 build/edit-site/index.js:9323
-#: build/edit-site/index.js:30799 build/edit-widgets/index.js:1342
-#: build/patterns/index.js:111 build/edit-post/index.min.js:1483
-#: build/edit-widgets/index.min.js:1327 build/patterns/index.min.js:70
+#: build/block-editor/index.js:23700 build/block-editor/index.js:34123
+#: build/block-editor/index.js:69862 build/edit-post/index.js:1509
+#: build/edit-site/index.js:9422 build/edit-site/index.js:33868
+#: build/edit-widgets/index.js:1344 build/patterns/index.js:111
+#: build/patterns/index.js:114 build/edit-post/index.min.js:1510
+#: build/edit-widgets/index.min.js:1329 build/patterns/index.min.js:70
+#: build/patterns/index.min.js:71
 msgid "Content"
 msgstr "Contenuto"
 
-#: lib/compat/wordpress-6.5/class-wp-navigation-block-renderer.php:424
-#: lib/compat/wordpress-6.5/class-wp-navigation-block-renderer.php:535
-#: build/block-library/index.js:32373 build/block-library/index.js:32383
-#: build/block-library/index.js:34081 build/block-library/index.js:34474
-#: build/core-data/index.js:19676
+#: build/block-library/blocks/navigation.php:448
+#: build/block-library/blocks/navigation.php:560
+#: build/block-library/index.js:32636 build/block-library/index.js:32646
+#: build/block-library/index.js:34429 build/block-library/index.js:34818
+#: build/core-data/index.js:19678
 msgid "Menu"
 msgstr "Menu"
 
-#: lib/experimental/class-wp-rest-customizer-nonces.php:55
+#. translators: 'Home' as in a website's home page.
+#: build/block-library/blocks/home-link.php:135
+#: build/block-library/index.js:24096 build/block-library/index.js:35795
+msgid "Home"
+msgstr "Home"
+
+#. translators: %s: force=true
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:429
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-families-controller.php:216
+msgid "Font faces do not support trashing. Set \"%s\" to delete."
+msgstr "I font non possono essere cestinati. Imposta \"%s\" per eliminarli."
+
+#: lib/experimental/class-wp-rest-customizer-nonces.php:53
 msgid "Sorry, you are not allowed to edit posts in this post type."
 msgstr "Non hai i permessi per modificare gli articoli in questo post type."
 
@@ -2634,7 +2605,7 @@ msgctxt "block keyword"
 msgid "links"
 msgstr "link"
 
-#: lib/experiments-page.php:186
+#: lib/experiments-page.php:149
 msgid "The block editor includes experimental features that are useable while they're in development. Select the ones you'd like to enable. These features are likely to change, so avoid using them in production."
 msgstr "L'editor a blocchi include funzionalità sperimentali utilizzabili mentre sono in fase di sviluppo. Seleziona quelli che desideri abilitare. È probabile che queste funzioni cambino, quindi evita di usarle in produzione."
 
@@ -2656,12 +2627,15 @@ msgstr "Errore RSS:"
 
 #: build/block-library/blocks/search.php:27
 #: build/block-library/blocks/search.php:28
-#: build/block-library/blocks/search.php:52 build/block-library/index.js:45735
-#: build/block-library/index.js:49325 build/block-library/index.js:49501
-#: build/block-library/index.js:49502 build/block-library/index.js:49621
-#: build/block-library/index.js:49622 build/block-library/index.js:57270
-#: build/components/index.js:64859 build/edit-site/index.js:22359
-#: build/edit-site/index.js:24453
+#: build/block-library/blocks/search.php:52 build/block-editor/index.js:49742
+#: build/block-editor/index.js:51327 build/block-editor/index.js:51808
+#: build/block-editor/index.js:51950 build/block-library/index.js:46216
+#: build/block-library/index.js:49866 build/block-library/index.js:50042
+#: build/block-library/index.js:50043 build/block-library/index.js:50161
+#: build/block-library/index.js:50162 build/block-library/index.js:57834
+#: build/components/index.js:61237 build/components/index.js:61238
+#: build/edit-site/index.js:25277 build/edit-site/index.js:27509
+#: build/edit-site/index.js:41201 build/edit-site/index.js:41630
 msgid "Search"
 msgstr "Cerca"
 
@@ -2669,15 +2643,15 @@ msgstr "Cerca"
 #. Asian characters), enter 'characters_excluding_spaces' or
 #. 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate
 #. into your own language.
-#: lib/experimental/l10n.php:23 build/block-library/index.js:40691
-#: build/block-library/index.js:42544 build/edit-site/index.js:21511
-#: build/editor/index.js:13945 build/editor/index.js:13982
-#: build/editor/index.min.js:15052 build/editor/index.min.js:15094
+#: lib/experimental/l10n.php:23 build/block-library/index.js:41098
+#: build/block-library/index.js:43011 build/edit-site/index.js:21738
+#: build/editor/index.js:14234 build/editor/index.js:14271
+#: build/editor/index.min.js:15423 build/editor/index.min.js:15465
 msgctxt "Word count type. Do not translate!"
 msgid "words"
 msgstr "words"
 
-#: build/block-library/index.js:15745
+#: build/block-library/index.js:15826
 #: build/block-library/blocks/embed/block.json
 msgctxt "block title"
 msgid "Embed"
@@ -2700,11 +2674,12 @@ msgstr "Introduci nuove sezioni e organizza i contenuti per aiutare i visitatori
 
 #. translators: Abbreviated date/time format, see
 #. https://www.php.net/manual/datetime.format.php
-#: lib/compat/wordpress-6.4/script-loader.php:83
+#: lib/compat/wordpress-6.5/script-loader.php:87
 msgid "M j, Y g:i a"
 msgstr "j M Y H:i"
 
-#: lib/class-wp-theme-json-gutenberg.php:3556 build/components/index.js:62968
+#: lib/class-wp-theme-json-gutenberg.php:3563 build/block-editor/index.js:12730
+#: build/components/index.js:58574
 msgid "Medium"
 msgstr "Medio"
 
@@ -2715,11 +2690,6 @@ msgstr "Nessun archivio da mostrare."
 #: post-content.php:41
 msgid "Beautiful landscape"
 msgstr "Panorama stupendo"
-
-#: build/block-library/blocks/block/block.json
-msgctxt "block description"
-msgid "Create and save content to reuse across your site. Update the pattern, and the changes apply everywhere it’s used."
-msgstr "Crea contenuto e salvalo per riutilizzarlo nel tuo sito. Aggiorna il pattern e le modifiche saranno applicate in ogni parte del sito in cui è utilizzato."
 
 #: post-content.php:185
 msgid "Thanks for testing Gutenberg!"
@@ -2738,7 +2708,7 @@ msgstr "Se vuoi imparare di più su come sviluppare blocchi aggiuntivi o sei int
 msgid "The WordPress community"
 msgstr "La comunità di WordPress"
 
-#: post-content.php:159 build/block-library/index.js:23895
+#: post-content.php:159 build/block-library/index.js:23984
 msgid "Code is Poetry"
 msgstr "Il codice è poesia"
 
@@ -2874,9 +2844,17 @@ msgstr "Di montagne e macchine da stampa"
 msgid "Welcome to the Gutenberg Editor"
 msgstr "Ti diamo il benvenuto nell'editor Gutenberg"
 
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:79
+msgid "Unique identifier for the font face."
+msgstr "Identificatore univoco per il font face."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-collections-controller.php:87
+msgid "The page number requested is larger than the number of pages available."
+msgstr "Il numero di pagina chiesto è più grande del numero di pagine disponibili."
+
 #. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Small.
-#: lib/class-wp-theme-json-gutenberg.php:3537
-#: build/block-library/index.js:52765 build/components/index.js:62968
+#: lib/class-wp-theme-json-gutenberg.php:3544
+#: build/block-library/index.js:53311 build/components/index.js:58574
 msgid "Small"
 msgstr "piccolo"
 
@@ -2923,8 +2901,8 @@ msgid "Archives"
 msgstr "Archivi"
 
 #. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Large.
-#: lib/class-wp-theme-json-gutenberg.php:3574
-#: build/block-library/index.js:52771 build/components/index.js:62968
+#: lib/class-wp-theme-json-gutenberg.php:3581 build/block-editor/index.js:12733
+#: build/block-library/index.js:53317 build/components/index.js:58574
 msgid "Large"
 msgstr "Grande"
 
@@ -2937,48 +2915,47 @@ msgstr "Aggiungi un blocco che visualizza il contenuto estratto da altri siti, c
 msgid "Pagination"
 msgstr "Paginazione"
 
-#. translators: ARIA label for the Block Settings Sidebar tab, not selected.
 #: lib/experimental/navigation-theme-opt-in.php:91
 #: lib/experimental/navigation-theme-opt-in.php:96
-#: build/edit-post/index.js:5624 build/edit-site/index.js:30445
-#: build/edit-site/index.js:30446 build/edit-site/index.js:30447
-#: build/edit-widgets/index.js:3326 build/edit-post/index.min.js:6277
-#: build/edit-widgets/index.min.js:3699
+#: build/edit-post/index.js:4843 build/edit-site/index.js:33516
+#: build/edit-widgets/index.js:3248 build/edit-post/index.min.js:5239
+#: build/edit-widgets/index.min.js:3597
 msgid "Block"
 msgstr "Blocco"
 
 #. translators: displayed when a page has an empty title.
 #: build/block-library/blocks/latest-comments.php:31
 #: build/block-library/blocks/latest-posts.php:72
-#: build/block-library/blocks/rss.php:35 build/block-library/index.js:27615
-#: build/block-library/index.js:27644 build/block-library/index.js:37658
-#: build/core-commands/index.js:343 build/core-commands/index.js:436
-#: build/core-data/index.js:24058 build/edit-post/index.js:6271
-#: build/edit-site/index.js:18497 build/edit-site/index.js:19970
-#: build/edit-site/index.js:19979 build/edit-site/index.js:19990
-#: build/edit-site/index.js:21384 build/edit-site/index.js:21502
-#: build/edit-site/index.js:21725 build/edit-site/index.js:38924
-#: build/edit-site/index.js:38937 build/edit-site/index.js:39415
-#: build/editor/index.js:12101 build/core-commands/index.min.js:303
-#: build/core-commands/index.min.js:419 build/edit-post/index.min.js:7014
-#: build/editor/index.min.js:13088
+#: build/block-library/blocks/rss.php:35 build/block-library/index.js:27848
+#: build/block-library/index.js:27877 build/block-library/index.js:38034
+#: build/core-commands/index.js:358 build/core-commands/index.js:451
+#: build/core-data/index.js:22688 build/edit-post/index.js:5495
+#: build/edit-site/index.js:18536 build/edit-site/index.js:21150
+#: build/edit-site/index.js:21159 build/edit-site/index.js:21170
+#: build/edit-site/index.js:21729 build/edit-site/index.js:21952
+#: build/edit-site/index.js:42465 build/edit-site/index.js:42556
+#: build/edit-site/index.js:43994 build/edit-site/index.js:44010
+#: build/editor/index.js:12420 build/core-commands/index.min.js:327
+#: build/core-commands/index.min.js:443 build/edit-post/index.min.js:5983
+#: build/editor/index.min.js:13484
 msgid "(no title)"
 msgstr "(senza titolo)"
 
-#: build/block-library/blocks/image.php:301
-#: lib/compat/wordpress-6.5/class-wp-navigation-block-renderer.php:426
-#: build/block-library/index.js:32398 build/block-library/index.js:34474
-#: build/block-library/index.js:59065 build/components/index.js:50633
-#: build/components/index.js:67245 build/edit-post/index.js:2081
-#: build/edit-site/index.js:12805 build/edit-widgets/index.js:4304
-#: build/editor/index.js:15678 build/editor/index.js:15966
-#: build/edit-post/index.min.js:2196 build/edit-widgets/index.min.js:4876
-#: build/editor/index.min.js:17372 build/editor/index.min.js:17801
+#: build/block-library/blocks/image.php:223
+#: build/block-library/blocks/navigation.php:450
+#: build/block-editor/index.js:68796 build/block-editor/index.js:70531
+#: build/block-library/index.js:32661 build/block-library/index.js:34818
+#: build/block-library/index.js:59658 build/components/index.js:47113
+#: build/components/index.js:62857 build/edit-post/index.js:1872
+#: build/edit-site/index.js:12710 build/edit-widgets/index.js:4347
+#: build/editor/index.js:16354 build/editor/index.js:16640
+#: build/edit-post/index.min.js:1952 build/edit-widgets/index.min.js:4930
+#: build/editor/index.min.js:18196 build/editor/index.min.js:18469
 msgid "Close"
 msgstr "Chiudi"
 
 #: build/block-library/blocks/read-more.php:37
-#: build/block-library/index.js:31636 build/block-library/index.js:48608
+#: build/block-library/index.js:31894 build/block-library/index.js:49143
 msgid "Read more"
 msgstr "Leggi tutto"
 
@@ -2987,22 +2964,22 @@ msgid "Experiments"
 msgstr "Esperimenti"
 
 #: build/block-library/blocks/categories.php:35
-#: build/block-library/index.js:6082 build/block-library/index.js:6139
-#: build/components/index.js:67958 build/edit-site/index.js:18708
-#: build/edit-site/index.js:18717 build/patterns/index.js:332
-#: build/patterns/index.min.js:333
+#: build/block-library/index.js:6112 build/block-library/index.js:6169
+#: build/components/index.js:63570 build/edit-site/index.js:18747
+#: build/edit-site/index.js:18756 build/patterns/index.js:360
+#: build/patterns/index.min.js:358
 msgid "Categories"
 msgstr "Categorie"
 
 #: build/block-library/blocks/comment-edit-link.php:45
-#: build/block-library/index.js:6362 build/block-library/index.js:8602
-#: build/block-library/index.js:9710 build/block-library/index.js:37480
-#: build/block-library/index.js:37737 build/block-library/index.js:37740
-#: build/block-library/index.js:37742 build/block-library/index.js:58974
-#: build/edit-site/index.js:10336 build/edit-site/index.js:10412
-#: build/edit-site/index.js:16386 build/edit-site/index.js:18823
-#: build/edit-site/index.js:19040 build/edit-site/index.js:21736
-#: build/edit-site/index.js:38733
+#: build/block-editor/index.js:66021 build/block-editor/index.js:68687
+#: build/block-library/index.js:6395 build/block-library/index.js:8628
+#: build/block-library/index.js:9745 build/block-library/index.js:37856
+#: build/block-library/index.js:38112 build/block-library/index.js:38115
+#: build/block-library/index.js:38117 build/block-library/index.js:59567
+#: build/edit-site/index.js:10214 build/edit-site/index.js:16352
+#: build/edit-site/index.js:18862 build/edit-site/index.js:19079
+#: build/edit-site/index.js:21963 build/edit-site/index.js:42234
 msgid "Edit"
 msgstr "Modifica"
 
@@ -3015,41 +2992,43 @@ msgid "Gutenberg development mode requires files to be built. Run <code>npm inst
 msgstr "La modalità di sviluppo Gutenberg richiede la creazione di file. Esegui <code>npm install</code> per installare le dipendenze, <code>npm run build</code> per creare i file e <code>npm run dev</code> per creare i file e visualizzare i cambiamenti. Leggi il file <a href=\"https://github.com/WordPress/gutenberg/blob/HEAD/docs/contributors/code/getting-started-with-code-contribution.md\">contributo</a> per maggiori informazioni."
 
 #. Author of the plugin
+#: gutenberg.php
 msgid "Gutenberg Team"
 msgstr "Team Gutenberg"
 
 #. Plugin URI of the plugin
+#: gutenberg.php
 msgid "https://github.com/WordPress/gutenberg"
 msgstr "https://github.com/WordPress/gutenberg"
 
 #. Plugin Name of the plugin
-#: lib/init.php:17 lib/init.php:18
+#: gutenberg.php lib/init.php:17 lib/init.php:18
 msgid "Gutenberg"
 msgstr "Gutenberg"
 
 #. translators: Date/Time format, see
 #. https://www.php.net/manual/datetime.format.php
-#: lib/compat/wordpress-6.4/script-loader.php:81
+#: lib/compat/wordpress-6.5/script-loader.php:85
 msgid "F j, Y g:i a"
 msgstr "j F Y G:i"
 
 #. translators: Date format, see https://www.php.net/manual/datetime.format.php
-#: lib/compat/wordpress-6.4/script-loader.php:79
+#: lib/compat/wordpress-6.5/script-loader.php:83
 msgid "F j, Y"
 msgstr "j F Y"
 
 #. translators: Time format, see https://www.php.net/manual/datetime.format.php
-#: lib/compat/wordpress-6.4/script-loader.php:77
+#: lib/compat/wordpress-6.5/script-loader.php:81
 msgid "g:i a"
 msgstr "G:i"
 
 #. translators: %s: Duration.
-#: lib/compat/wordpress-6.4/script-loader.php:47
+#: lib/compat/wordpress-6.5/script-loader.php:51
 msgid "%s ago"
 msgstr "%s fa"
 
 #. translators: %s: Duration.
-#: lib/compat/wordpress-6.4/script-loader.php:45
+#: lib/compat/wordpress-6.5/script-loader.php:49
 msgid "%s from now"
 msgstr "%s da ora"
 
@@ -3067,6 +3046,6 @@ msgid "Demo"
 msgstr "Demo"
 
 #: build/block-library/blocks/categories.php:34
-#: build/block-library/index.js:6084
+#: build/block-library/index.js:6114
 msgid "Select Category"
 msgstr "Seleziona una categoria"

@@ -64,15 +64,15 @@ function ub_render_styled_list_block($attributes, $contents){
             $listItems = ub_makeList($key, $item, $iconColor, $iconSize);
         }
     }
-
+    $list_alignment_class = !empty($listAlignment) ? "ub-list-alignment-" . $listAlignment : "";
     if($list === ''){
         return '<ul class="' . ($isRootList ?
-                            ('ub_styled_list' . (
+                            ('wp-block-ub-styled-list ub_styled_list ' . $list_alignment_class . (
                                     isset($className) ? ' ' . esc_attr($className)
                                     : '') .'"'
                          . ($blockID === '' ? '' : ' id="ub_styled_list-' . $blockID . '"'))
                          : 'ub_styled_list_sublist"').
-        '>' . $contents . '</ul>';
+        '><div class="ub-block-list__layout">' . $contents . '</div></ul>';
 
     }
     else{
@@ -84,9 +84,9 @@ function ub_render_styled_list_block($attributes, $contents){
 }
 
 function ub_register_styled_list_block() {
-	if ( function_exists( 'register_block_type' ) ) {
+	if ( function_exists( 'register_block_type_from_metadata' ) ) {
         require dirname(dirname(__DIR__)) . '/defaults.php';
-        register_block_type( dirname(dirname(dirname(__DIR__))) . '/dist/blocks/styled-list/block.json', array(
+        register_block_type_from_metadata( dirname(dirname(dirname(__DIR__))) . '/dist/blocks/styled-list/block.json', array(
             'attributes' => $defaultValues['ub/styled-list']['attributes'],
             'render_callback' => 'ub_render_styled_list_block'));
 	}
@@ -119,9 +119,9 @@ function ub_render_styled_list_item_block($attributes, $contents, $block){
 }
 
 function ub_register_styled_list_item_block(){
-    if ( function_exists( 'register_block_type' ) ) {
+    if ( function_exists( 'register_block_type_from_metadata' ) ) {
         require dirname(dirname(__DIR__)) . '/defaults.php';
-        register_block_type( dirname(dirname(dirname(__DIR__))) . '/dist/blocks/styled-list/style-list-item/block.json', array(
+        register_block_type_from_metadata( dirname(dirname(dirname(__DIR__))) . '/dist/blocks/styled-list/style-list-item/block.json', array(
             'attributes' => $defaultValues['ub/styled-list-item']['attributes'],
             'render_callback' => 'ub_render_styled_list_item_block'));
 	}

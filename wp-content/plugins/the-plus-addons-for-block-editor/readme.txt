@@ -4,7 +4,7 @@ Donate link: https://theplusblocks.com/
 Tags: blocks, block editor, Gutenberg, Gutenberg blocks, WordPress blocks, Gutenberg addons,
 Requires at least: 4.0
 Tested up to: 6.4
-Stable tag: 3.2.3
+Stable tag: 3.2.7
 Requires PHP: 5.6
 License: GPLv3
 License URI: https://opensource.org/licenses/GPL-3.0
@@ -334,6 +334,25 @@ Thank you so much for showing interesting in shaping the feature of The Plus Add
 11. Facebook & Google Reviews with 1 Click API Generation
 
 == Changelog ==
+= 3.2.7 = 28 February 2024
+- Update : Post Listing : Display Post Option Increase Maximum limit
+- Fix : Accordion Inner : Gutenberg Class Name Bug Fix
+- Fix : Display Rules : Compatibility of Advanced iFrame block attributes Bug Fix
+
+= 3.2.6 = 26 February 2024
+- Security : Minor Security Improvements
+
+= 3.2.5 = 07 February 2024
+- Fix : Display Rules : Attribute Other Blocks Plugin Bug Fix
+- Fix : Core Image : CSS Bug Fix.
+- Fix : Interactive Circle Info : CSS Bug Fix.
+
+= 3.2.4 = 31 January 2024
+- Added : Plus Extra All Global Option Added.
+- Fix : Carousel : Slider Responsive Arrow Bug Fix
+- Fix : Plus Blocks Settings : Scan Unused Blocks For White Label Bug Fix
+- Fix : Accordion : Popup Builder block conflict CSS Bug Fix
+
 = 3.2.3 = 10 January 2024
 - Compatibility : Gutenberg V17.4.1 : Responsive Preview Device CSS bug fix
 - Fix : Container : Mobile Device Flex Direction bug fix

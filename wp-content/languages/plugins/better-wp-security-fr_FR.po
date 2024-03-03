@@ -2,14 +2,253 @@
 # This file is distributed under the same license as the Plugins - Solid Security – Password, Two Factor Authentication, and Brute Force Protection - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-12-13 10:31:57+0000\n"
+"PO-Revision-Date: 2024-02-02 11:28:08+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"X-Generator: GlotPress/4.0.0-beta.2\n"
 "Language: fr\n"
 "Project-Id-Version: Plugins - Solid Security – Password, Two Factor Authentication, and Brute Force Protection - Stable (latest release)\n"
+
+#: vendor-prod/stellarwp/telemetry/src/views/optin.php:62
+msgid "Allow & Continue"
+msgstr "Autoriser et continuer"
+
+#: vendor-prod/stellarwp/telemetry/src/views/optin.php:41
+msgid "Other plugins you have opted in:"
+msgstr "Autres extensions pour lesquelles vous avez opté :"
+
+#: vendor-prod/stellarwp/telemetry/src/views/optin.php:29
+msgid "Terms of Service"
+msgstr "Conditions d’utilisation"
+
+#: vendor-prod/stellarwp/telemetry/src/views/optin.php:24
+msgid "What permissions are being granted?"
+msgstr "Quelles autorisations sont accordées ?"
+
+#: vendor-prod/stellarwp/telemetry/src/views/exit-interview.php:33
+msgid "Please select a reason"
+msgstr "Veuillez sélectionner une raison"
+
+#: vendor-prod/stellarwp/telemetry/src/views/exit-interview.php:26
+msgid "Tell us more..."
+msgstr "Dites-nous en plus…"
+
+#. Translators: The user name and the plugin name.
+#: vendor-prod/stellarwp/telemetry/src/Telemetry/Opt_In/Opt_In_Template.php:230
+msgid ""
+"Hi, %1$s! This is an invitation to help our StellarWP community.\n"
+"\t\t\t\tIf you opt-in, some data about your usage of %2$s and future StellarWP Products will be shared with our teams (so they can work their butts off to improve).\n"
+"\t\t\t\tWe will also share some helpful info on WordPress, and our products from time to time.\n"
+"\t\t\t\tAnd if you skip this, that’s okay! Our products still work just fine."
+msgstr ""
+"Bonjour, %1$s ! Ceci est une invitation à aider notre communauté StellarWP.\n"
+"\t\t\t\tSi vous acceptez, certaines données concernant votre utilisation de %2$s et des futurs produits StellarWP seront partagées avec nos équipes (afin qu’elles puissent travailler à l’amélioration de nos produits).\n"
+"\t\t\t\tNous partagerons également des informations utiles sur WordPress et nos produits de temps en temps.\n"
+"\t\t\t\tEt si vous passez outre, ce n’est pas grave ! Nos produits fonctionnent toujours très bien."
+
+#. Translators: The plugin name.
+#: vendor-prod/stellarwp/telemetry/src/Telemetry/Opt_In/Opt_In_Template.php:80
+msgid "We hope you love %s."
+msgstr "Nous espérons que vous aimerez %s."
+
+#: vendor-prod/stellarwp/telemetry/src/Telemetry/Opt_In/Opt_In_Template.php:73
+msgid "See which plugins you have opted in to tracking for"
+msgstr "Voir quels sont les extensions pour lesquels vous avez accepté le suivi"
+
+#: vendor-prod/stellarwp/telemetry/src/Telemetry/Exit_Interview/Template.php:85
+msgid "The plugin doesn’t work."
+msgstr "L’extension ne fonctionne pas."
+
+#: vendor-prod/stellarwp/telemetry/src/Telemetry/Exit_Interview/Template.php:81
+msgid "I need a specific feature it doesn’t provide."
+msgstr "J’ai besoin d’une fonction spécifique qui n’est pas fournie."
+
+#: vendor-prod/stellarwp/telemetry/src/Telemetry/Exit_Interview/Template.php:77
+msgid "I found a better plugin."
+msgstr "J’ai trouvé une meilleure extension."
+
+#: vendor-prod/stellarwp/telemetry/src/Telemetry/Exit_Interview/Template.php:73
+msgid "I couldn’t understand how to make it work."
+msgstr "Je n’arrivais pas à comprendre comment la faire fonctionner."
+
+#: vendor-prod/stellarwp/telemetry/src/Telemetry/Exit_Interview/Template.php:69
+msgid "We’d love to know why you’re leaving so we can improve our plugin."
+msgstr "Nous aimerions savoir pourquoi vous nous quittez afin d’améliorer notre extension."
+
+#: vendor-prod/stellarwp/telemetry/src/Telemetry/Exit_Interview/Template.php:68
+msgid "We’re sorry to see you go."
+msgstr "Nous sommes désolés de vous voir partir."
+
+#: module-strings.php:209
+msgid "If you opt-in, some data about your usage of this plugin and future StellarWP Products will be shared with our teams (so they can work their butts off to improve). We will also share some helpful info on WordPress, and our products from time to time. If you don't opt in, that's okay! Our products still work just fine.<br>[Read more about usage sharing](https://go.solidwp.com/opt-in-usage-sharing)."
+msgstr "Si vous acceptez, certaines données concernant votre utilisation de cette extension et des futurs produits StellarWP seront partagées avec nos équipes (afin qu’elles puissent travailler à l’amélioration de nos produits). Nous partagerons également des informations utiles sur WordPress et nos produits de temps en temps. Si vous n’acceptez pas, ce n’est pas grave ! Nos produits fonctionnent toujours très bien.<br>[En savoir plus sur le partage d’utilisation](https://go.solidwp.com/opt-in-usage-sharing)."
+
+#: module-strings.php:208
+msgid "Allow Data Sharing"
+msgstr "Autoriser le partage de données"
+
+#: core/modules/two-factor/class-itsec-two-factor.php:979
+msgid "Two-Factor Users"
+msgstr "Utilisateurs à deux facteurs"
+
+#: core/modules/core/class-itsec-core-admin.php:154
+msgid "Configured Settings"
+msgstr "Réglages configurés"
+
+#: core/modules/core/class-itsec-core-admin.php:147
+msgid "Active Features"
+msgstr "Fonctionnalités actives"
+
+#: core/modules/core/class-itsec-core-admin.php:137
+msgid "Activated"
+msgstr "Activée"
+
+#: core/modules/core/class-itsec-core-admin.php:132
+msgid "Initial Build"
+msgstr "Construction initiale"
+
+#: core/modules/core/class-itsec-core-admin.php:128
+msgid "Basic"
+msgstr "Basique"
+
+#: core/modules/core/class-itsec-core-admin.php:127
+msgid "Install Type"
+msgstr "Type d’installation"
+
+#: core/modules/core/class-itsec-core-admin.php:87
+msgid "Help us improve Solid Security."
+msgstr "Aidez-nous à améliorer Solid Security."
+
+#: core/modules/core/class-itsec-core-admin.php:82
+msgid "Solid Security Logo"
+msgstr "Logo Solid Security"
+
+#: core/lockout.php:1487
+msgid "Release lockouts from the Active Lockouts section of the Security -> Dashboard page."
+msgstr "Libérez les verrouillages à partir de la section Verrouillages actifs de la page Sécurité -> Tableau de bord."
+
+#: core/modules/core/class-itsec-core-admin.php:167
+msgid ""
+"Hi %s! At Solid, we’re committed to delivering top-notch services, and your valuable insights play a crucial role in helping us achieve that goal.\n"
+"\t\t\t\tWe’re excited to invite you to participate in our opt-in program, designed to enhance your experience with Solid Security and contribute to the continuous improvement of StellarWP Products.\n"
+"\t\t\t\tBy opting in, you allow our teams to access certain data related to your website data. This information will be used responsibly to gain insights into your preferences and patterns, enabling us to tailor our services and products to better meet your needs.\n"
+"\t\t\t\tRest assured, we take data privacy seriously, and our usage of your information will adhere to the highest standards, respecting all relevant regulations and guidelines. Your trust means the world to us, and we are committed to maintaining the confidentiality and security of your data.\n"
+"\t\t\t\tTo join this initiative and be part of shaping the future of Solid Security and StellarWP, simply click “Allow & Continue” below."
+msgstr ""
+"Bonjour %s ! Chez Solid, nous nous engageons à fournir des services de premier ordre, et vos précieux commentaires jouent un rôle crucial pour nous aider à atteindre cet objectif.\n"
+"\t\t\t\tNous sommes ravis de vous inviter à participer à notre programme de participation, conçu pour améliorer votre expérience avec Solid Security et contribuer à l’amélioration continue des produits StellarWP.\n"
+"\t\t\t\tEn participant à ce programme, vous permettez à nos équipes d’accéder à certaines données relatives à votre site. Ces informations seront utilisées de manière responsable pour mieux connaître vos préférences et vos habitudes, ce qui nous permettra d’adapter nos services et nos produits pour mieux répondre à vos besoins.\n"
+"\t\t\t\tSoyez assuré que nous prenons au sérieux la confidentialité des données et que l’utilisation que nous ferons de vos informations sera conforme aux normes les plus strictes, dans le respect de toutes les réglementations et lignes directrices pertinentes. Votre confiance nous est précieuse et nous nous engageons à préserver la confidentialité et la sécurité de vos données.\n"
+"\t\t\t\tPour vous joindre à cette initiative et contribuer à façonner l’avenir de Solid Security et de StellarWP, cliquez simplement sur « Autoriser et continuer » ci-dessous."
+
+#: core/lib/rest/Trusted_Devices_Controller.php:255
+msgid "Denied"
+msgstr "Refusé"
+
+#: core/lib/rest/Trusted_Devices_Controller.php:253
+msgid "Pending"
+msgstr "En attente"
+
+#: core/lib/rest/Trusted_Devices_Controller.php:251
+msgid "Pending-Auto-Approve"
+msgstr "En attente d’auto-approbation"
+
+#: core/lib/rest/Trusted_Devices_Controller.php:249
+msgid "Auto-Approved"
+msgstr "Aprouvé automatiquement"
+
+#: core/lib/rest/Trusted_Devices_Controller.php:247
+msgid "Approved"
+msgstr "Approuvé"
+
+#: core/lib/rest/Trusted_Devices_Controller.php:238
+msgid "Cannot update trusted device status"
+msgstr "Impossible de mettre à jour l’état du périphérique de confiance"
+
+#: core/lib/rest/Trusted_Devices_Controller.php:220
+msgid "Sorry, this device cannot be updated"
+msgstr "Désolé, ce périphérique ne peut pas être mis à jour"
+
+#: core/lib/rest/Trusted_Devices_Controller.php:180
+msgid "Sorry, you are not allowed to update other trusted devices"
+msgstr "Désolé, vous n’êtes pas autorisé à mettre à jour d’autres périphériques de confiance"
+
+#: core/lib/rest/Trusted_Devices_Controller.php:168
+msgid "Sorry you are not allowed to view that trusted device"
+msgstr "Désolé, vous n’êtes pas autorisé à visualiser ce périphérique de confiance"
+
+#: core/lib/rest/Trusted_Devices_Controller.php:160
+#: core/lib/rest/Trusted_Devices_Controller.php:212
+msgid "Sorry, that device does not exist"
+msgstr "Désolé, ce périphérique n’existe pas"
+
+#: core/lib/rest/Trusted_Devices_Controller.php:93
+#: core/lib/rest/Trusted_Devices_Controller.php:150
+#: core/lib/rest/Trusted_Devices_Controller.php:202
+msgid "Sorry, that user does not exist"
+msgstr "Désolé, cet utilisateur n’existe pas"
+
+#: core/lib/rest/Trusted_Devices_Controller.php:78
+#: core/lib/rest/Trusted_Devices_Controller.php:136
+#: core/lib/rest/Trusted_Devices_Controller.php:188
+msgid "Sorry, you cannot manage trusted devices from an unknown device."
+msgstr "Désolé, vous ne pouvez pas gérer les périphériques de confiance à partir d’un périphérique inconnu."
+
+#: core/lib/rest/Trusted_Devices_Controller.php:70
+#: core/lib/rest/Trusted_Devices_Controller.php:128
+msgid "Sorry, you are not allowed to view other trusted devices"
+msgstr "Désolé, vous n’êtes pas autorisé à voir d’autres périphériques de confiance"
+
+#: core/lib/rest/Lockouts_Controller.php:337
+msgid "Sorry, releasing that lockout has failed"
+msgstr "Désolé, la libération de ce verrouillage a échoué"
+
+#: core/lib/rest/Lockouts_Controller.php:327
+msgid "Sorry, that lockout was not found"
+msgstr "Désolé, ce verrouillage n’a pas été trouvé"
+
+#: core/lib/rest/Lockouts_Controller.php:312
+msgid "Sorry, banning that lockout has failed"
+msgstr "Désolé, l’interdiction de ce verrouillage a échoué"
+
+#: core/lib/rest/Lockouts_Controller.php:302
+msgid "Sorry, this lockout could not be banned"
+msgstr "Désolé, ce verrouillage n’a pas pu être interdit"
+
+#: core/lib/rest/Lockouts_Controller.php:294
+msgid "Sorry, banning lockouts is not available"
+msgstr "Désolé, l’interdiction des verrouillages n’est pas disponible"
+
+#: core/lib/rest/Lockouts_Controller.php:286
+msgid "Sorry, that lockout was not found."
+msgstr "Désolé, ce verrouillage n’a pas été trouvé."
+
+#: core/modules/core/entries/profile-block/block.json
+msgctxt "block title"
+msgid "Solid Security User Security Settings"
+msgstr "Réglages Solid Security de sécurité de l’utilisateur"
+
+#: core/modules/two-factor/REST/Scan.php:153
+msgid "Email sent"
+msgstr "E-mail envoyé"
+
+#: core/modules/site-scanner/mail.php:175
+msgid "View in Patchstack"
+msgstr "Voir dans Patchstack"
+
+#: core/modules/site-scanner/mail.php:170
+msgid "Manage Vulnerability"
+msgstr "Gérer la vulnérabilité"
+
+#: core/lib/rest/Users_Controller_Extension.php:297
+msgid "Two-Factor Not Available"
+msgstr "Deux facteurs non disponibles"
+
+#: core/admin-pages/init.php:160
+msgid "You must enable JavaScript to manage Solid Security Settings."
+msgstr "Vous devez activer JavaScript pour gérer les réglages de sécurité de Solid."
 
 #: core/modules/hide-backend/class-itsec-hide-backend.php:405
 msgid "You must be logged in to post a comment."
@@ -842,13 +1081,6 @@ msgstr "Journaux de Solid Security"
 msgid "Solid Security Settings"
 msgstr "Réglages de Solid Security"
 
-#: core/admin-pages/init.php:45
-#: core/admin-pages/entries/user-security/components/user-security-header/index.js:22
-#: core/admin-pages/entries/user-security/components/user-security-table-header/index.js:37
-#: dist/pages/user-security.js:2
-msgid "User Security"
-msgstr "Sécurité des utilisateurs"
-
 #: core/admin-pages/init.php:43
 #: core/admin-pages/entries/firewall/components/header/index.js:30
 #: core/admin-pages/entries/settings/utils.js:151 dist/pages/firewall.js:2
@@ -863,6 +1095,13 @@ msgstr "Solid Security Basic nécessite PHP 7.3 ou une version plus récente."
 #: better-wp-security.php:29
 msgid "Solid Security Basic requires WordPress 6.3 or later."
 msgstr "Solid Security Basic nécessite WordPress 6.3 ou une version plus récente."
+
+#: core/admin-pages/init.php:45
+#: core/admin-pages/entries/user-security/components/user-security-header/index.js:22
+#: core/admin-pages/entries/user-security/components/user-security-table-header/index.js:37
+#: dist/pages/user-security.js:2
+msgid "User Security"
+msgstr "Comptes utilisateurs"
 
 #: core/modules/core/notices.php:326
 #: core/modules/site-scanner/entries/site-scan/app.js:121
@@ -1642,6 +1881,10 @@ msgstr "liste autorisée"
 msgid "The number of lockouts Solid Security must remember before permanently banning the attacker."
 msgstr "Nombre de verrouillages dont Solid Security doit se souvenir avant de bannir définitivement l’attaquant."
 
+#: module-strings.php:186
+msgid "Automatically Temporarily Authorize IPs"
+msgstr "Automatiquement autoriser temporairement les IP"
+
 #: module-strings.php:175
 msgid "How many days should Solid Security remember a lockout? This does not affect the logs generated when creating a lockout."
 msgstr "Combien de jours Solid Security devrait se souvernir des blocages ? Cela n’affectera pas les journaux pour générer les blocages."
@@ -1677,6 +1920,10 @@ msgstr "Écriture de fichier"
 #: module-strings.php:148
 msgid "View or flush the generated Server Config rules."
 msgstr "Consulter ou purger les règles de configuration serveur générées."
+
+#: module-strings.php:134
+msgid "When any WordPress core file or file in a SolidWP plugin has been changed on your system, this feature will compare it with the version on WordPress.org or SolidWP (as appropriate) to determine if the change was malicious. Currently this feature only works with WordPress core files, plugins on the WordPress.org directory and SolidWP plugins (plugins and themes from other sources will be added as available)."
+msgstr "Lorsque des fichiers du cœur de WordPress, d’extensions ou de thèmes iThemes sont modifiés sur votre système, cette fonctionnalité les compareront aux versions officielles pour déterminer si les modifications sont malicieuses. Actuellement, cette fonctionnalité ne fonctionne qu’avec les fichiers du cœur de WordPress, des extensions présentes dans le répertoire WordPress.org ainsi que les extensions et thèmes d’iThemes (d’autres sources seront ajoutées lorsqu’elles seront disponibles)."
 
 #: module-strings.php:129
 msgid "Excluded Files and Folders"

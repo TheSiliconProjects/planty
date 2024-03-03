@@ -49,7 +49,7 @@ $defaultValues = array(
 			),
 			'fontWeight'       => array(
 				'type'    => 'string',
-				'default' => 'Bold',
+				'default' => 'Normal',
 			),
 			'lineHeight'       => array(
 				'type'    => 'number',
@@ -2104,6 +2104,10 @@ $defaultValues = array(
 				'type'    => 'string',
 				'default' => ''
 			),
+			'isShowReviewText' => array(
+				'type'    => 'boolean',
+				'default' => true
+			),
 			'starAlign'       => array(
 				'type'    => 'string',
 				'default' => 'left'
@@ -2210,6 +2214,10 @@ $defaultValues = array(
     ),
     'ub/styled-list' => array(
         'attributes' => array(
+            'listAlignment' => array(
+                'type' => 'string',
+                'default' => ''
+            ),
             'alignment' => array(
                 'type' => 'string',
                 'default' => 'left'

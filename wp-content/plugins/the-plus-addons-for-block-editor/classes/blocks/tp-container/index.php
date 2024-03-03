@@ -152,13 +152,22 @@ function tpgb_tp_container_row() {
 				],
 				'style' => [
 					(object) [
-						'condition' => [ (object) ['key' => 'height', 'relation' => '==', 'value' => 'min-height']],
-						'selector' => '{{PLUS_WRAP}} > .block-editor-inner-blocks > .block-editor-block-list__layout, {{PLUS_WRAP}} > .tpgb-cont-in > .block-editor-inner-blocks > .block-editor-block-list__layout{ min-height: {{minHeight}};}',
-						'backend' => true
+						'condition' => [ (object) ['key' => 'height', 'relation' => '==', 'value' => 'min-height'],(object) ['key' => 'contentWidth', 'relation' => '==', 'value' => 'wide']],
+						'selector' => '{{PLUS_WRAP}} > .tpgb-cont-in { min-height: {{minHeight}};}',
 					],
 					(object) [
-						'condition' => [ (object) ['key' => 'height', 'relation' => '==', 'value' => 'min-height']],
+						'condition' => [ (object) ['key' => 'height', 'relation' => '==', 'value' => 'min-height'],(object) ['key' => 'contentWidth', 'relation' => '==', 'value' => 'full']],
 						'selector' => '{{PLUS_WRAP}}{ min-height: {{minHeight}};}',
+					],
+					(object) [
+						'condition' => [ (object) ['key' => 'height', 'relation' => '==', 'value' => 'min-height'] , (object) ['key' => 'contentWidth', 'relation' => '==', 'value' => 'wide']],
+						'selector' => ' {{PLUS_WRAP}} > .tpgb-cont-in > .block-editor-inner-blocks > .block-editor-block-list__layout{ min-height: {{minHeight}};}',
+						'backend' => true,
+					],
+					(object) [
+						'condition' => [ (object) ['key' => 'height', 'relation' => '==', 'value' => 'min-height'] , (object) ['key' => 'contentWidth', 'relation' => '==', 'value' => 'full']],
+						'selector' => '{{PLUS_WRAP}} > .block-editor-inner-blocks > .block-editor-block-list__layout { min-height: {{minHeight}}; }',
+						'backend' => false,
 					],
 				],
 			],

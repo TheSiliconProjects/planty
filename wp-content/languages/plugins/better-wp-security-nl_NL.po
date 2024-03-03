@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Solid Security – Password, Two Factor Authentication, and Brute Force Protection - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-01-26 19:27:45+0000\n"
+"PO-Revision-Date: 2024-02-14 13:29:30+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,10 @@ msgstr ""
 "X-Generator: GlotPress/4.0.0-beta.2\n"
 "Language: nl\n"
 "Project-Id-Version: Plugins - Solid Security – Password, Two Factor Authentication, and Brute Force Protection - Stable (latest release)\n"
+
+#: core/modules/global/privacy.php:49
+msgid "A cookie named “itsec_interstitial_browser” is created to track a user’s login process to implement enhanced security features."
+msgstr "Een cookie met de naam \"itsec_interstitial_browser\" wordt aangemaakt om het inlogproces van een gebruiker te volgen en zo verbeterde beveiligingsfuncties te implementeren."
 
 #: vendor-prod/stellarwp/telemetry/src/views/exit-interview.php:26
 msgid "Tell us more..."
@@ -398,6 +402,14 @@ msgstr "%s heeft rechten als beheerder, maar heeft geen twee-factor ingeschakeld
 msgid "Remind User"
 msgstr "Gebruiker herinneren"
 
+#: core/modules/two-factor/class-itsec-two-factor.php:956
+msgid "The requester’s WordPress username."
+msgstr "De WordPress gebruiker naam van de aanvrager."
+
+#: core/modules/two-factor/class-itsec-two-factor.php:957
+msgid "The requester’s WordPress display name."
+msgstr "De WordPress weergavenaam van de aanvrager."
+
 #: core/modules/two-factor/class-itsec-two-factor.php:960
 msgid ""
 "Hi {{ $display_name }},\n"
@@ -406,15 +418,7 @@ msgid ""
 msgstr ""
 "Hallo {{ $display_name }},\t \t \t \n"
 "\t\t\t\n"
-"{{ $requester_display_name }} van {{ $site_title }} heeft gevraagd of je twee-factor authenticatie wil instellen."
-
-#: core/modules/two-factor/class-itsec-two-factor.php:956
-msgid "The requester’s WordPress username."
-msgstr "De WordPress gebruiker naam van de aanvrager."
-
-#: core/modules/two-factor/class-itsec-two-factor.php:957
-msgid "The requester’s WordPress display name."
-msgstr "De WordPress weergavenaam van de aanvrager."
+"{{ $requester_display_name }} van {{ $site_title }} heeft gevraagd om Twee-factor authenticatie in te stellen."
 
 #: core/modules/two-factor/class-itsec-two-factor.php:814
 msgid "Setup now"
@@ -1537,7 +1541,7 @@ msgstr "%1$sBekijk het site scan rapport%2$s dat nu beschikbaar is via je WordPr
 
 #: core/modules/dashboard/class-itsec-dashboard.php:424
 msgid "Security dashboards and cards."
-msgstr "Beveiliging dashboards en kaarten."
+msgstr "Beveiligingsdashboards en kaarten."
 
 #: core/modules.php:1018
 msgid "List of active modules."
@@ -2275,7 +2279,7 @@ msgstr "Er wordt een QR code afbeelding gegenereerd voor gebruikers die twee-fac
 
 #: core/modules/two-factor/notices.php:12
 msgid "The %1$sITSEC_DISABLE_TWO_FACTOR%2$s define is present. As long as the define is present, two-factor authentication is disabled for all users which makes your site more vulnerable. Please make any necessary changes and remove the define as soon as possible."
-msgstr "De definitie van %1$sITSEC_DISABLE_TWO_FACTOR%2$s is aanwezig. Zolang de definitie aanwezig is, is twee-factor authenticatie uitgeschakeld voor alle gebruikers, wat je site kwetsbaarder maakt. Breng de nodige wijzigingen aan en verwijder de definitie zo snel mogelijk."
+msgstr "De %1$sITSEC_DISABLE_TWO_FACTOR%2$s constante is aanwezig. Zolang de constante aanwezig is, is twee-factor authenticatie uitgeschakeld voor alle gebruikers, wat je site kwetsbaarder maakt. Breng de nodige wijzigingen aan en verwijder de constante zo snel mogelijk."
 
 #: core/modules/two-factor/logs.php:38
 msgid "Unknown User"
@@ -2524,6 +2528,14 @@ msgstr "De onderstaande instellingen geven je de mogelijkheid om te configureren
 msgid "Login Authentication Code"
 msgstr "Login authenticatie code"
 
+#: core/modules/two-factor/class-itsec-two-factor.php:157
+msgid "Two-factor authentication codes can come from an app that runs on your mobile device, an email that is sent to you after you log in with your username and password, or from a pre-generated list of codes."
+msgstr "Twee-factor authenticatie codes kunnen afkomstig zijn van een app die op je mobiele apparaat draait, een e-mail die naar je wordt verzonden nadat je hebt ingelogd met je gebruikersnaam en wachtwoord of van een vooraf gegenereerde lijst met codes."
+
+#: core/modules/two-factor/class-itsec-two-factor.php:156
+msgid "Enabling two-factor authentication greatly increases the security of your user account on this site. With two-factor authentication enabled, after you submit your username and password, you will be asked for an additional authentication code to complete your login."
+msgstr "Het inschakelen van twee-factor authenticatie verhoogt de beveiliging van je gebruikersaccount op deze site aanzienlijk. Met twee-factor authenticatie ingeschakeld, wordt je, nadat je je hebt aangemeld met je gebruikersnaam en wachtwoord, om een extra authenticatie code gevraagd teneinde je login te voltooien."
+
 #. translators: Do not translate the curly brackets or their contents, those
 #. are placeholders.
 #: core/modules/two-factor/class-itsec-two-factor.php:891
@@ -2534,15 +2546,7 @@ msgid ""
 msgstr ""
 "Hallo {{ $display_name }},\n"
 "\n"
-"Klik op de knop om door te gaan of voer handmatig de onderstaande authenticatie code in om de login te voltooien."
-
-#: core/modules/two-factor/class-itsec-two-factor.php:157
-msgid "Two-factor authentication codes can come from an app that runs on your mobile device, an email that is sent to you after you log in with your username and password, or from a pre-generated list of codes."
-msgstr "Twee-factor authenticatie codes kunnen afkomstig zijn van een app die op je mobiele apparaat draait, een e-mail die naar je wordt verzonden nadat je hebt ingelogd met je gebruikersnaam en wachtwoord of van een vooraf gegenereerde lijst met codes."
-
-#: core/modules/two-factor/class-itsec-two-factor.php:156
-msgid "Enabling two-factor authentication greatly increases the security of your user account on this site. With two-factor authentication enabled, after you submit your username and password, you will be asked for an additional authentication code to complete your login."
-msgstr "Het inschakelen van twee-factor authenticatie verhoogt de beveiliging van je gebruikersaccount op deze site aanzienlijk. Met twee-factor authenticatie ingeschakeld, wordt je, nadat je je hebt aangemeld met je gebruikersnaam en wachtwoord, om een extra authenticatie code gevraagd teneinde je login te voltooien."
+"Klik op de knop om door te gaan of voer handmatig de onderstaande authenticatie code in om het inloggen te voltooien."
 
 #: core/modules/two-factor/class-itsec-two-factor-on-board.php:288
 #: core/modules/two-factor/includes/template.php:19
@@ -3322,7 +3326,7 @@ msgstr "Solid Security Pro zal client gebruikers groeperen, zodat je hun toegang
 
 #: core/lib/site-types/Question/Client_Question_Pack.php:30
 msgid "If you are setting up Solid Security for a client, next you‘ll select which users are theirs. Identifying your clients allows you to control their access to things like the security settings or if they are allowed to view the Security Dashboard."
-msgstr "Als je Solid Security instelt voor een klant, selecteer je vervolgens welke gebruikers van hun zijn. Het identificeren van je klanten stelt je in staat om hun toegang te controleren tot zaken als de beveiligingsinstellingen en of ze het Security dashboard mogen bekijken"
+msgstr "Als je Solid Security instelt voor een klant, selecteer je vervolgens welke gebruikers van hun zijn. Het identificeren van je klanten stelt je in staat om hun toegang te controleren tot zaken als de beveiligingsinstellingen en of ze het beveiligingsdashboard mogen bekijken"
 
 #: core/lib/rest/Tools_Controller.php:88 core/lib/rest/Tools_Controller.php:108
 #: core/lib/rest/Tools_Controller.php:136
@@ -3972,8 +3976,8 @@ msgstr "Bij het scannen van de Solid Security site is een fout opgetreden."
 
 #. Translators: 1: Link to Sucuri's privacy policy
 #: core/modules/site-scanner/privacy.php:12
-msgid "This site is scanned for potential malware and vulnerabilities by the iThemes Site Scanner. We do not send personal information to the scanner; however, the scanner could find personal information posted publicly (such as in comments) during the scan."
-msgstr "Deze site wordt gescand op potentiële malware en kwetsbaarheden door de SolidWP Site scanner. Wij sturen geen persoonlijke informatie naar de scanner; echter, de scanner zou persoonlijke informatie geplaatst in het openbaar (zoals in reacties) kunnen vinden tijdens de scan."
+msgid "This site is scanned for potential malware and vulnerabilities by the SolidWP Site Scanner. We do not send personal information to the scanner; however, the scanner could find personal information posted publicly (such as in comments) during the scan."
+msgstr "Deze site wordt gescand op potentiële malware en kwetsbaarheden door de SolidWP Site scanner. Wij sturen geen persoonlijke informatie naar de scanner; De scanner kan echter persoonlijke informatie die openbaar is geplaatst (zoals in reacties) tijdens de scan vinden."
 
 #: core/modules/site-scanner/Model/Blacklist_Issue.php:15
 msgid "Domain blocked by %s"
@@ -4184,10 +4188,6 @@ msgstr "Account is niet geautoriseerd"
 msgid "Or"
 msgstr "Of"
 
-#: core/modules/user-groups/REST/User_Groups.php:300
-msgid "A user group must have a minimum role, list of roles, or list of users to be created."
-msgstr "Een gebruikersgroep moet een minimum rol, lijst met rollen of lijst met gebruikers hebben om te worden gemaakt."
-
 #: core/modules/sync-connect/class-itsec-sync-connect-interstitial.php:98
 msgid "Missing sync connect token."
 msgstr "Sync verbindingstoken ontbreekt."
@@ -4234,6 +4234,10 @@ msgid "Backup"
 msgid_plural "Backups"
 msgstr[0] "Back-up"
 msgstr[1] "Back-ups"
+
+#: core/modules/user-groups/REST/User_Groups.php:300
+msgid "A user group must have a minimum role, list of roles, or list of users to be created."
+msgstr "Een gebruikersgroep moet minimaal een rol, lijst met rollen of lijst met gebruikers hebben om aangemaakt te worden."
 
 #: core/modules/user-groups/Everybody_Else.php:36
 msgid "Everybody Else"
@@ -5119,7 +5123,7 @@ msgid "Visiting the login page sets a temporary cookie that aids compatibility w
 msgstr "Bij het bezoeken van de inlogpagina wordt een tijdelijke cookie ingesteld die de compatibiliteit met enkele alternatieve inlogmethoden bevordert. Deze cookie bevat geen persoonlijke gegevens en verloopt na 1 uur."
 
 #. Translators: 1: Number of days that data is retained for
-#: core/modules/global/privacy.php:19
+#: core/modules/global/privacy.php:20
 msgid "The IP address of visitors, user ID of logged in users, and username of login attempts are conditionally logged to check for malicious activity and to protect the site from specific kinds of attacks. Examples of conditions when logging occurs include login attempts, log out requests, requests for suspicious URLs, changes to site content, and password updates. This information is retained for %1$d days."
 msgstr "Het IP-adres van bezoekers, gebruikers-ID van ingelogde gebruikers en gebruikersnaam van inlogpogingen worden voorwaardelijk vastgelegd om te controleren op kwaadwillige activiteit en om de site te beschermen tegen specifieke soorten aanvallen. Voorbeelden van voorwaarden bij het loggen zijn onder meer inlogpogingen, uitlog aanvragen, aanvragen om verdachte URL's, wijzigingen in de site-inhoud en wachtwoordupdates. Deze informatie wordt %1$d dagen bewaard."
 
@@ -5128,7 +5132,7 @@ msgid "The number of days database logs should be kept."
 msgstr "Het aantal dagen dat database logs bewaard moeten worden."
 
 #. Translators: 1: Number of days that data is retained for
-#: core/modules/global/privacy.php:30
+#: core/modules/global/privacy.php:31
 msgid "Security logs are retained for %1$d days."
 msgstr "Beveiligingslogs worden %1$d dagen bewaard."
 
@@ -5285,8 +5289,9 @@ msgstr "Ongeldige interstitiële actie"
 msgid "Please enter your new password."
 msgstr "Voer je nieuwe wachtwoord in."
 
-#: core/modules/backup/privacy.php:14 core/modules/global/privacy.php:14
-#: core/modules/global/privacy.php:25 core/modules/hide-backend/privacy.php:17
+#: core/modules/backup/privacy.php:14 core/modules/global/privacy.php:15
+#: core/modules/global/privacy.php:26 core/modules/global/privacy.php:47
+#: core/modules/hide-backend/privacy.php:17
 #: core/modules/network-brute-force/privacy.php:17
 #: core/modules/site-scanner/privacy.php:9
 #: core/modules/two-factor/privacy.php:9
@@ -5979,13 +5984,6 @@ msgstr "De nieuwe inlog link."
 msgid "To unsubscribe from these notifications, please %1$scontact the site administrator%2$s."
 msgstr "Om je af te melden voor deze berichten, %1$sneem contact op met de sitebeheerder%2$s."
 
-#: core/modules/hide-backend/class-itsec-hide-backend.php:483
-#: core/modules/two-factor/class-itsec-two-factor.php:907
-#: core/modules/two-factor/class-itsec-two-factor.php:938
-#: core/modules/two-factor/class-itsec-two-factor.php:958
-msgid "The WordPress Site Title. Can be changed under Settings → General → Site Title"
-msgstr "Titel van de WordPress site. Kan worden gewijzigd onder Instellingen -> Algemeen -> Sitetitel"
-
 #: core/modules/file-change/class-itsec-file-change.php:151
 msgid "The %1$sFile Change Detection%2$s module will email a file scan report after changes have been detected."
 msgstr "De %1$sBestandswijziging detectie%2$s module zal een bestandsscanrapport e-mailen nadat er wijzigingen zijn gedetecteerd."
@@ -6017,6 +6015,13 @@ msgstr "Verschillende modules sturen e-mails om je te informeren als een gebruik
 #: core/modules/backup/class-itsec-backup.php:342
 msgid "The %1$sDatabase Backup%2$s module will send a copy of any backups to the email addresses listed below."
 msgstr "De %1$sDatabase back-up%2$s module zal een kopie van alle back-ups naar de onderstaande e-mailadressen verzenden."
+
+#: core/modules/hide-backend/class-itsec-hide-backend.php:483
+#: core/modules/two-factor/class-itsec-two-factor.php:907
+#: core/modules/two-factor/class-itsec-two-factor.php:938
+#: core/modules/two-factor/class-itsec-two-factor.php:958
+msgid "The WordPress Site Title. Can be changed under Settings → General → Site Title"
+msgstr "Titel van de WordPress site. Kan worden gewijzigd onder Instellingen -> Algemeen -> Site titel"
 
 #: module-strings.php:405
 msgid "Username Only"
@@ -7289,10 +7294,6 @@ msgstr "Minuten om foute inlogpogingen te onthouden (controleperiode)"
 msgid "The number of minutes in which bad logins should be remembered."
 msgstr "Het aantal minuten waarin foutieve inlogpogingen moeten worden onthouden."
 
-#: core/modules/hide-backend/class-itsec-hide-backend.php:479
-msgid "WordPress Login Address Changed"
-msgstr "WordPress inlogadres gewijzigd"
-
 #: module-strings.php:236
 msgid "Login Slug"
 msgstr "Login slug"
@@ -7350,6 +7351,10 @@ msgstr "De login URL slug kan niet \"login\", \"admin\", \"dashboard\" of \"wp-l
 #: core/modules/core/class-itsec-core-admin.php:72
 msgid "Get Support"
 msgstr "Ontvang ondersteuning"
+
+#: core/modules/hide-backend/class-itsec-hide-backend.php:479
+msgid "WordPress Login Address Changed"
+msgstr "WordPress inlogadres is gewijzigd"
 
 #: core/admin-pages/logs-list-table.php:160
 #: core/modules/core/entries/ban-hosts/components/list/index.js:128

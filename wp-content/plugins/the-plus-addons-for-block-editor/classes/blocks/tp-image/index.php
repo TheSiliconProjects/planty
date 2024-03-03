@@ -111,7 +111,7 @@ function tpgb_tp_image_render() {
             'default' => [ 'md' => '', 'sm' =>  '', 'xs' =>  '' ],
             'style' => [
                 (object) [
-                    'selector' => '{{PLUS_WRAP}}{ text-align: {{tiAlign}}; }',
+                    'selector' => '{{PLUS_WRAP}}{ text-align: {{tiAlign}}; }{{PLUS_WRAP}} .tpgb-figure{ justify-content: {{tiAlign}}; }',
                 ],
             ],
             'scopy' => true,

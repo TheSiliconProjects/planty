@@ -148,6 +148,8 @@
 }
 /* btn space added */
 .tpgb-infobox .infobox-btn-block {
+    position: relative;
+    z-index: 2;
     margin-top: 10px;
 }
 .infobox-btn-block .tpgb-adv-button.button-style-7 .button-link-wrap {

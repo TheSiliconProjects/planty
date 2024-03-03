@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Plugins - Custom Post Type UI - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-01-12 23:04:04+0000\n"
+"PO-Revision-Date: 2024-02-28 17:43:43+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"X-Generator: GlotPress/4.0.0-beta.3\n"
 "Language: de\n"
 "Project-Id-Version: Plugins - Custom Post Type UI - Stable (latest release)\n"
 
@@ -1007,7 +1007,7 @@ msgstr "*Ersetze „term_slug“ mit der Titelform des eigentlichen Taxonomie-Be
 
 #: inc/post-types.php:690
 msgid "Archives"
-msgstr "Archiv"
+msgstr "Archive"
 
 #. translators: 1st %s: Link to manage post types section 2nd %s Link text
 #: inc/listings.php:496

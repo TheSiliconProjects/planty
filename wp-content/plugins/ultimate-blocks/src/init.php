@@ -344,18 +344,21 @@ function ub_include_block_attribute_css() {
 					}
 
 					if ( array_key_exists( 'shadow', $attributes ) && $attributes['shadow'][0]['radius'] > 0 ) {
-						$blockStylesheets .= $prefix = '#ub-advanced-video-' . $attributes['blockID'] . ' .ub-advanced-video-embed{' . PHP_EOL .
-													   'box-shadow: ' . ( $attributes['shadow'][0]['radius'] * cos( deg2rad( 450 - $attributes['shadow'][0]['angle'] ) % 360 ) ) . 'px ' .
-													   ( - $attributes['shadow'][0]['radius'] * sin( deg2rad( 450 - $attributes['shadow'][0]['angle'] ) % 360 ) ) . 'px ' .
-													   $attributes['shadow'][0]['blur'] . 'px ' . $attributes['shadow'][0]['spread'] . 'px ' .
-													   'rgba(' . ( hexdec( substr( $attributes['shadow'][0]['color'], 1,
-										2 ) ) ) .
-													   ', ' . hexdec( substr( $attributes['shadow'][0]['color'], 3,
-										2 ) ) .
-													   ', ' . hexdec( substr( $attributes['shadow'][0]['color'], 5,
-										2 ) ) .
-													   ', ' . ( ( 100 - $attributes['shadow'][0]['transparency'] ) / 100 ) . ')' . ';' . PHP_EOL .
-													   '}';
+					$blockStylesheets .= $prefix = '#ub-advanced-video-' . $attributes['blockID'] . ' .ub-advanced-video-embed{' . PHP_EOL .
+										'box-shadow: ' . (
+											$attributes['shadow'][0]['radius'] * cos(deg2rad((450 - $attributes['shadow'][0]['angle']) % 360))
+										) . 'px ' .
+										(
+											-($attributes['shadow'][0]['radius'] * sin(deg2rad((450 - $attributes['shadow'][0]['angle']) % 360)))
+										) . 'px ' .
+										$attributes['shadow'][0]['blur'] . 'px ' . $attributes['shadow'][0]['spread'] . 'px ' .
+										'rgba(' .
+										hexdec(substr($attributes['shadow'][0]['color'], 1, 2)) . ', ' .
+										hexdec(substr($attributes['shadow'][0]['color'], 3, 2)) . ', ' .
+										hexdec(substr($attributes['shadow'][0]['color'], 5, 2)) . ', ' .
+										((100 - $attributes['shadow'][0]['transparency']) / 100) .
+										')' . ';' . PHP_EOL .
+										'}';
 					}
 					$blockStylesheets .= $prefix .  '{' . $styles . '}';
 
@@ -542,13 +545,14 @@ function ub_include_block_attribute_css() {
 				case 'ub/content-toggle-block':
 					$styles = ub_get_spacing_styles($attributes);
 
+					$prefix           = '#ub-content-toggle-' . $attributes['blockID'];
 					if ( $block['innerBlocks'] ) {
 						$attributes       = array_merge( $attributes,
 								array_map( function ( $attribute ) {
 									return $attribute['default'];
 								}, $defaultValues['ub/content-toggle-panel-block']['attributes'] ),
 								$block['innerBlocks'][0]['attrs'] );
-						$prefix           = '#ub-content-toggle-' . $attributes['blockID'];
+
 						$blockStylesheets .= $prefix . '{' . PHP_EOL . $styles . PHP_EOL . "}"; 
 
 						$blockStylesheets .= $prefix . ' .wp-block-ub-content-toggle-accordion{' . PHP_EOL .
@@ -737,6 +741,9 @@ function ub_include_block_attribute_css() {
 					$prefix           = '#ub_image_slider_' . $attributes['blockID'];
 					$styles = ub_get_spacing_styles($attributes);
 					$blockStylesheets .= $prefix . '{' . PHP_EOL . $styles . PHP_EOL . "}"; 
+					$blockStylesheets .= $prefix . '{'  . PHP_EOL .
+										 'min-height: ' . (35 + $attributes['sliderHeight']) . 'px;' . PHP_EOL .
+										 '}' . PHP_EOL;
 					$blockStylesheets .= $prefix . ' .swiper-slide img{' . PHP_EOL .
 										 'max-height: ' . $attributes['sliderHeight'] . 'px;' . PHP_EOL .
 										 '}' . PHP_EOL;
@@ -1060,7 +1067,21 @@ function ub_include_block_attribute_css() {
 												 'top: 3px;' . PHP_EOL .
 												 '}' . PHP_EOL;
 						}
-
+						$blockStylesheets .= $prefix . '.ub-list-alignment-left > .ub-block-list__layout{
+							width: fit-content;
+							margin-right: auto;
+							margin-left: 0;
+						}';
+						$blockStylesheets .= $prefix . '.ub-list-alignment-center > .ub-block-list__layout{
+							width: fit-content;
+							margin-right: auto;
+							margin-left: auto;
+						}';
+						$blockStylesheets .= $prefix . '.ub-list-alignment-right > .ub-block-list__layout{
+							width: fit-content;
+							margin-right: 0;
+							margin-left: auto;
+						}';
 						$iconData = Ultimate_Blocks_IconSet::generate_fontawesome_icon( $attributes['selectedIcon'] );
 
 						$blockStylesheets .= $prefix . '{' . PHP_EOL .
@@ -1092,7 +1113,7 @@ function ub_include_block_attribute_css() {
 													 $prefix . ' .ub_styled_list_item:not(:first-child){' .
 													 'margin-top: ' . $attributes['itemSpacing'] . 'px;' .
 													 '}' .
-													 $prefix . ' .ub_styled_list_sublist > .ub_styled_list_item:first-child{' .
+													 $prefix . ' .ub_styled_list_sublist > .ub-block-list__layout > .ub_styled_list_item:first-child{' .
 													 'margin-top: ' . $attributes['itemSpacing'] . 'px;';
 							}
 						}

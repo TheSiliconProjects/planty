@@ -7,7 +7,7 @@
  * Author: Gambit Technologies, Inc
  * Author URI: http://gambit.ph
  * Text Domain: stackable-ultimate-gutenberg-blocks
- * Version: 3.12.8
+ * Version: 3.12.11
  *
  * @package Stackable
  */
@@ -24,7 +24,7 @@ if ( function_exists( 'sugb_fs' ) ) {
 
 defined( 'STACKABLE_SHOW_PRO_NOTICES' ) || define( 'STACKABLE_SHOW_PRO_NOTICES', true );
 defined( 'STACKABLE_BUILD' ) || define( 'STACKABLE_BUILD', 'free' );
-defined( 'STACKABLE_VERSION' ) || define( 'STACKABLE_VERSION', '3.12.8' );
+defined( 'STACKABLE_VERSION' ) || define( 'STACKABLE_VERSION', '3.12.11' );
 defined( 'STACKABLE_FILE' ) || define( 'STACKABLE_FILE', __FILE__ );
 defined( 'STACKABLE_I18N' ) || define( 'STACKABLE_I18N', 'stackable-ultimate-gutenberg-blocks' );
 // Plugin slug.
@@ -137,13 +137,7 @@ if ( !function_exists( 'stackable_notice_gutenberg_plugin_activated' ) ) {
         if ( is_plugin_active( 'gutenberg/gutenberg.php' ) ) {
             $ignore = get_option( 'stackable_notice_gutenberg_plugin_ignore' );
             if ( !$ignore ) {
-                printf( '<div class="notice notice-error is-dismissible stackable_notice_gutenberg_plugin"><p>%s</p>%s</div>', sprintf(
-                    __( '%sStackable Notice%s: We noticed that the Gutenberg plugin is active! Just a heads up, you don\'t need the Gutenberg plugin anymore to use the Block Editor. The Gutenberg plugin may contain non-final features which may not be compatible with some block plugins. %sPlease deactivate the Gutenberg plugin%s unless you really need it. Click the close button on the side to dismiss this notice.', STACKABLE_I18N ),
-                    '<strong>',
-                    '</strong>',
-                    '<strong>',
-                    '</strong>'
-                ), '<script>( function() {
+                printf( '<div class="notice notice-warning is-dismissible stackable_notice_gutenberg_plugin"><p>%s</p>%s</div>', sprintf( __( '%sStackable Notice%s: We noticed that the Gutenberg plugin is active! Please be aware the Gutenberg plugin is used to try out the new Block Editor features, and Stackable might not be compatible with it. Click the close button on the side to dismiss this notice.', STACKABLE_I18N ), '<strong>', '</strong>' ), '<script>( function() {
 						document.body.addEventListener( "click", function( event ) {
 							if( event.target.matches( ".notice.stackable_notice_gutenberg_plugin button.notice-dismiss" ) ) {
 								wp.ajax.post( "stackable_notice_gutenberg_plugin_ignore" );

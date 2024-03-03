@@ -9,7 +9,15 @@
 main img[src$=".svg"] {
 width: 100% !important; height: auto !important; }
 
-/* Formatting header */
+/* login form */
+
+ #loginform, .login #language-switcher-locales, .login .language-switcher .button, .login #login-message {
+
+	border-radius: 5%;
+   
+   }
+   
+ /* Formatting header */
 
 header nav .wp-block-button__link { 
 	border-radius: 0px;
@@ -22,12 +30,15 @@ header nav .wp-block-button__link:hover {
 	border-radius: 0px; 
 }
 
+/* non logged user can't see this menu item */
 header .hide_admin_menu {
 
 	display: none !important;
 }
 
 
+
+/* logged user can see this menu item */
 .logged-in header .hide_admin_menu {
 
 	display: inline !important;
@@ -37,6 +48,9 @@ header .hide_admin_menu {
 
 /* Formatting Home page */
 
+
+
+/* Formatting Meet-us page */
 
 .contact-form  {
 
@@ -95,7 +109,10 @@ header .hide_admin_menu {
 		padding-left : 6rem;
 		padding-right: 6rem;
 	}
+
+
 }
+
 
 /* Remove or resize background image on any smaller sized screen */
 
@@ -139,6 +156,7 @@ header .hide_admin_menu {
 		padding-right: 0rem !important;
 	
 	}
+	
 }
 
 

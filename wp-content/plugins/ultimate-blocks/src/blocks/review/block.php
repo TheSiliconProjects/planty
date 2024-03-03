@@ -139,7 +139,7 @@ function ub_render_review_block($attributes, $block_content, $block_instance){
         break;
     }
 
-	$schema_json_content = '{
+    $schema_json_content = '{
         "@context": "http://schema.org/",
         "@type": "Review",' .
         ($useSummary ? '"reviewBody": "' . ub_filterJsonldString($summaryDescription) . '",' : '') .
@@ -153,7 +153,7 @@ function ub_render_review_block($attributes, $block_content, $block_instance){
         '},
         "reviewRating":{
             "@type": "Rating",
-            "ratingValue": "' . ($average % 1 === 0 ? $average : number_format($average, 1, '.', '')) . '",
+            "ratingValue": "' . ((int)$average % 1 === 0 ? $average : number_format($average, 1, '.', '')) . '",
             "bestRating": "' . ($valueType === 'star' ? $starCount : '100') . '"
         },
         "author":{
@@ -197,9 +197,9 @@ function ub_render_review_block($attributes, $block_content, $block_instance){
 }
 
 function ub_register_review_block() {
-	if( function_exists( 'register_block_type' ) ) {
+	if( function_exists( 'register_block_type_from_metadata' ) ) {
         require dirname(dirname(__DIR__)) . '/defaults.php';
-		register_block_type( dirname(dirname(dirname(__DIR__))) . '/dist/blocks/review/block.json', array(
+		register_block_type_from_metadata( dirname(dirname(dirname(__DIR__))) . '/dist/blocks/review/block.json', array(
             'attributes' => $defaultValues['ub/review']['attributes'],
             'render_callback' => 'ub_render_review_block'));
     }

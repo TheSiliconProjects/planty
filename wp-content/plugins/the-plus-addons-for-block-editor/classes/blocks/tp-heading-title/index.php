@@ -135,19 +135,19 @@ function tpgb_tp_heading_title_render_callback( $attributes, $content) {
 				if($style=='style-6'){
 					$styleMD = '.tpgb-block-'.esc_attr($block_id).'.heading-style-6 .head-title:after { margin-left: 0; left:15px; right: auto; }';
 				}else{
-					$styleMD = '.tpgb-block-'.esc_attr($block_id).' .seprator { margin-left: 0; margin-right: auto; }';
+					$styleMD = '.tpgb-block-'.esc_attr($block_id).'.tpgb-heading-title .seprator { margin-left: 0; margin-right: auto; }';
 				}
 			}else if($Alignment['md'] == 'center'){
 				if($style=='style-6'){
 					$styleMD = '.tpgb-block-'.esc_attr($block_id).'.heading-style-6 .head-title:after { margin-left: -30px; left:auto; right: auto; }';
 				}else{
-					$styleMD = '.tpgb-block-'.esc_attr($block_id).' .seprator { margin: 0 auto; }';
+					$styleMD = '.tpgb-block-'.esc_attr($block_id).'.tpgb-heading-title .seprator { margin: 0 auto; }';
 				}
 			}else if($Alignment['md'] == 'right'){
 				if($style=='style-6'){
 					$styleMD = '.tpgb-block-'.esc_attr($block_id).'.heading-style-6 .head-title:after { margin-left: 0; left:auto; right: 15px; }';
 				}else{
-					$styleMD = '.tpgb-block-'.esc_attr($block_id).' .seprator { margin-right: 0; margin-left: auto; }';
+					$styleMD = '.tpgb-block-'.esc_attr($block_id).'.tpgb-heading-title .seprator { margin-right: 0; margin-left: auto; }';
 				}
 			}
 		}
@@ -156,19 +156,19 @@ function tpgb_tp_heading_title_render_callback( $attributes, $content) {
 				if($style=='style-6'){
 					$styleSM = '.tpgb-block-'.esc_attr($block_id).'.heading-style-6 .head-title:after { margin-left: 0; left:15px; right: auto; }';
 				}else{
-					$styleSM = '.tpgb-block-'.esc_attr($block_id).' .seprator { margin-left: 0; margin-right: auto; }';
+					$styleSM = '.tpgb-block-'.esc_attr($block_id).'.tpgb-heading-title .seprator { margin-left: 0; margin-right: auto; }';
 				}
 			}else if($Alignment['sm'] == 'center'){
 				if($style=='style-6'){
 					$styleSM = '.tpgb-block-'.esc_attr($block_id).'.heading-style-6 .head-title:after { margin-left: -30px; left:auto; right: auto; }';
 				}else{
-					$styleSM = '.tpgb-block-'.esc_attr($block_id).' .seprator { margin: 0 auto; }';
+					$styleSM = '.tpgb-block-'.esc_attr($block_id).'.tpgb-heading-title .seprator { margin: 0 auto; }';
 				}
 			}else if($Alignment['sm'] == 'right'){
 				if($style=='style-6'){
 					$styleSM = '.tpgb-block-'.esc_attr($block_id).'.heading-style-6 .head-title:after { margin-left: 0; left:auto; right: 15px; }';
 				}else{
-					$styleSM = '.tpgb-block-'.esc_attr($block_id).' .seprator { margin-right: 0; margin-left: auto; }';
+					$styleSM = '.tpgb-block-'.esc_attr($block_id).'.tpgb-heading-title .seprator { margin-right: 0; margin-left: auto; }';
 				}
 			}
 		}
@@ -177,19 +177,19 @@ function tpgb_tp_heading_title_render_callback( $attributes, $content) {
 				if($style=='style-6'){
 					$styleXS = '.tpgb-block-'.esc_attr($block_id).'.heading-style-6 .head-title:after { margin-left: 0; left:15px; right: auto; }';
 				}else{
-					$styleXS = '.tpgb-block-'.esc_attr($block_id).' .seprator { margin-left: 0; margin-right: auto; }';
+					$styleXS = '.tpgb-block-'.esc_attr($block_id).'.tpgb-heading-title .seprator { margin-left: 0; margin-right: auto; }';
 				}
 			}else if($Alignment['xs'] == 'center'){
 				if($style=='style-6'){
 					$styleXS = '.tpgb-block-'.esc_attr($block_id).'.heading-style-6 .head-title:after { margin-left: -30px; left:auto; right: auto; }';
 				}else{
-					$styleXS = '.tpgb-block-'.esc_attr($block_id).' .seprator { margin: 0 auto; }';
+					$styleXS = '.tpgb-block-'.esc_attr($block_id).'.tpgb-heading-title .seprator { margin: 0 auto; }';
 				}
 			}else if($Alignment['xs'] == 'right'){
 				if($style=='style-6'){
 					$styleXS = '.tpgb-block-'.esc_attr($block_id).'.heading-style-6 .head-title:after { margin-left: 0; left:auto; right: 15px; }';
 				}else{
-					$styleXS = '.tpgb-block-'.esc_attr($block_id).' .seprator { margin-right: 0; margin-left: auto; }';
+					$styleXS = '.tpgb-block-'.esc_attr($block_id).'.tpgb-heading-title .seprator { margin-right: 0; margin-left: auto; }';
 				}
 			}
 		}

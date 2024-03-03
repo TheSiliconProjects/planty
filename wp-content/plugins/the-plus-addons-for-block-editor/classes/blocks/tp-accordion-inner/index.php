@@ -21,7 +21,7 @@ function tpgb_tp_accr_inner_render_callback( $attributes, $content) {
 	$titleAlign = (!empty($attributes['titleAlign'])) ? $attributes['titleAlign'] : '';
 	$hrefLink = (!empty($attributes['hrefLink'])) ? $attributes['hrefLink'] : '';
 	$index = (!empty($attributes['index'])) ? $attributes['index'] : '';
-	
+	$blockClass = Tp_Blocks_Helper::block_wrapper_classes( $attributes );
 	//Get Toogle icon
 	$tgicon = '';
 	if(!empty($toggleIcon)){	
@@ -39,7 +39,7 @@ function tpgb_tp_accr_inner_render_callback( $attributes, $content) {
 		$tgicon .= '</div>';
 	}
 
-	$output .= '<div class="tpgb-accor-item tpgb-relative-block" >';
+	$output .= '<div class="tpgb-accor-item tpgb-relative-block '.esc_attr($blockClass).'">';
 		$output .= '<div id="'.esc_attr($hrefLink).'" class="tpgb-accordion-header tpgb-trans-linear-before '.esc_attr($titleAlign).'" role="tab" data-tab="'.esc_attr($index).'" >';
 			if($iconAlign == 'start'){
 				$output .= $tgicon;

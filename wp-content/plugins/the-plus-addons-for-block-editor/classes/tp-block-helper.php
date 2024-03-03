@@ -1062,7 +1062,7 @@ class Tp_Blocks_Helper {
 			'wheel'   => isset( $attr['slidewheel'] ) ? $attr['slidewheel'] : false,
 			'releaseWheel' => isset( $attr['slidewheel'] ) ? $attr['slidewheel'] : false,
 			'waitForTransition' => isset( $attr['waitfortras'] ) ? $attr['waitfortras'] : false,
-			'keyboard' => isset( $attr['slidekeyNav'] ) ? $attr['slidekeyNav'] : false,
+			'keyboard' => (isset( $attr['slidekeyNav'] ) && !empty( $attr['slidekeyNav'] )) ? 'global' : false,
 			'breakpoints' => [
 				'1024' => [
 					'pagination' => ( !isset($attr['showDots']['sm']) ) ? $attr['showDots']['md'] : ( isset($attr['showDots']['sm'])  ? $attr['showDots']['sm'] : false ) ,
@@ -1598,7 +1598,10 @@ class Tp_Blocks_Helper {
 	public function Tp_f_delete_transient() {
 		$result = [];
 		check_ajax_referer('tpgb-addons', 'tpgb_nonce');
-		
+		if ( ! current_user_can( 'edit_posts' ) ) {
+			wp_die( 'You can not edit this post.' );
+		}
+		$transient = [];
 		global $wpdb;
 			$table_name = $wpdb->prefix . "options";
 			$DataBash = $wpdb->get_results( "SELECT * FROM $table_name" );
@@ -1638,10 +1641,12 @@ class Tp_Blocks_Helper {
 				);
 			}
 			foreach ($DataBash as $First) {
-				foreach ($transient as $second) {
-					$Find_Transient = !empty($First->option_name) ? strpos( $First->option_name, $second ) : '';
-					if(!empty($Find_Transient)){
-						$wpdb->delete( $table_name, array( 'option_name' => $First->option_name ) );
+				if(!empty($transient)){
+					foreach ($transient as $second) {
+						$Find_Transient = !empty($First->option_name) ? strpos( $First->option_name, $second ) : '';
+						if(!empty($Find_Transient)){
+							$wpdb->delete( $table_name, array( 'option_name' => $First->option_name ) );
+						}
 					}
 				}
 			}
@@ -1649,6 +1654,20 @@ class Tp_Blocks_Helper {
 		$result['success'] = 1;
 		$result['blockName'] = $blockName;
 		echo wp_send_json($result);
+	}
+
+	/*
+	 * Get load activate extra Option for tpgb
+	 *	@Array
+	 */
+	public static function get_extra_opt_enabled(){
+		$load_enable_extra = get_option('tpgb_normal_blocks_opts');
+		
+		if( !empty($load_enable_extra) && isset($load_enable_extra['tp_extra_option']) && !empty($load_enable_extra['tp_extra_option'])){
+			return $load_enable_extra['tp_extra_option'];
+		}else{
+			return;
+		}
 	}
 
 }

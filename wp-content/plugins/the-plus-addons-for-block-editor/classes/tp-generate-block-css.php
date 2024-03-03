@@ -364,7 +364,15 @@ class Tp_Generate_Blocks_Css {
 															}
 														}
 													}
-													$sm = array_merge($sm, $SelectorData);
+													//$sm = array_merge($sm, $SelectorData);
+													$myRegex = '/@media/m';
+													foreach ($SelectorData as $rule) {
+														if (gettype($rule) == 'string' && preg_match($myRegex, $rule)) {
+															$md = array_merge($md, [$rule]);
+														} else {
+															$sm = array_merge($sm, [$rule]);
+														}
+													}
 												}
 											}
 											// Mobile
@@ -396,7 +404,15 @@ class Tp_Generate_Blocks_Css {
 															}
 														}
 													}
-													$xs = array_merge($xs, $SelectorData);
+													//$xs = array_merge($xs, $SelectorData);
+													$myRegex = '/@media/m';
+													foreach ($SelectorData as $rule) {
+														if (gettype($rule) == 'string' && preg_match($myRegex, $rule)) {
+															$md = array_merge($md, [$rule]);
+														} else {
+															$xs = array_merge($xs, [$rule]);
+														}
+													}
 												}
 											}
 											
